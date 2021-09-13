@@ -1,0 +1,6 @@
+module SLL(out,a,shiftamt);
+	input[31:0] a;
+	input[4:0] shiftamt;
+	output[31:0] out;
+	
+endmodule
