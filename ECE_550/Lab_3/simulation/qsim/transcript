@@ -1,0 +1,32 @@
+# do Wallace_tree_multiplier_5.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 12:46:59 on Sep 10,2021
+# vlog -work work Wallace_tree_multiplier_5.vo 
+# -- Compiling module Wallace_tree_multiplier_5
+# 
+# Top level modules:
+# 	Wallace_tree_multiplier_5
+# End time: 12:46:59 on Sep 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 12:46:59 on Sep 10,2021
+# vlog -work work Wallace_tree_multiplier_5_Waveform.vwf.vt 
+# -- Compiling module Wallace_tree_multiplier_5_vlg_vec_tst
+# 
+# Top level modules:
+# 	Wallace_tree_multiplier_5_vlg_vec_tst
+# End time: 12:46:59 on Sep 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.Wallace_tree_multiplier_5_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 12:46:59 on Sep 10,2021
+# Loading work.Wallace_tree_multiplier_5_vlg_vec_tst
+# Loading work.Wallace_tree_multiplier_5
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# ** Note: $finish    : Wallace_tree_multiplier_5_Waveform.vwf.vt(47)
+#    Time: 1 us  Iteration: 0  Instance: /Wallace_tree_multiplier_5_vlg_vec_tst
+# End time: 12:47:00 on Sep 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

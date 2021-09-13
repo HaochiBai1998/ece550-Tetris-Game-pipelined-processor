@@ -1,0 +1,5 @@
+module isequal(result,a,b);
+	input[4:0] a,b;
+	wire[4:0] w1;
+	and_5 a1(w1,a,b);
+	and_1_5 a2(result,w1[0],w1[1],w1[2],w1[3],w1[4]);

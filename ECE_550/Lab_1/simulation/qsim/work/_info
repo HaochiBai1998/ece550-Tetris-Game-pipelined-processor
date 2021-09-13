@@ -1,0 +1,170 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/altera_lite/16.0/ECE_550/Lab_1/simulation/qsim
+vmux_2
+!s110 1630149762
+!i10b 1
+!s100 OVLV=h<?<0Q@_D6YHO3Q@2
+ICcF1dHASeMi9BgK<^GWij3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1630149762
+8mux_2.vo
+Fmux_2.vo
+Z2 L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1630149762.000000
+!s107 mux_2.vo|
+!s90 -work|work|mux_2.vo|
+!i113 1
+Z5 o-work work
+vmux_2_vlg_vec_tst
+!s110 1630149763
+!i10b 1
+!s100 T7H^`gT8hAhzQPaVhGLA73
+INXBTKL59F[@<LQoWmG`>T2
+R1
+R0
+w1630149761
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+Z6 L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R5
+vmux_32
+Z7 !s110 1631346798
+!i10b 1
+!s100 nTVAhBnVP]n`1A7gc4`]_3
+ISLnOA94alam5<0FJNc>0E2
+R1
+R0
+w1631346796
+8mux_32.vo
+Fmux_32.vo
+R2
+R3
+r1
+!s85 0
+31
+Z8 !s108 1631346798.000000
+!s107 mux_32.vo|
+!s90 -work|work|mux_32.vo|
+!i113 1
+R5
+vmux_32_vlg_vec_tst
+R7
+!i10b 1
+!s100 f]Ac<;APd=`Dz3]m9?_kF1
+INj51AYc3@nbj@d0UjIhS;1
+R1
+R0
+w1631346795
+8mux_32.vwf.vt
+Fmux_32.vwf.vt
+R6
+R3
+r1
+!s85 0
+31
+R8
+!s107 mux_32.vwf.vt|
+!s90 -work|work|mux_32.vwf.vt|
+!i113 1
+R5
+vnand_gate
+Z9 !s110 1630146731
+!i10b 1
+!s100 d0QYMEn33N5ZW>i>:XoHm0
+I7bClGUPczgZ4CoQJa:RXU1
+R1
+R0
+w1630146730
+8nand_gate.vo
+Fnand_gate.vo
+R2
+R3
+r1
+!s85 0
+31
+Z10 !s108 1630146731.000000
+!s107 nand_gate.vo|
+!s90 -work|work|nand_gate.vo|
+!i113 1
+R5
+vnand_gate_vlg_vec_tst
+R9
+!i10b 1
+!s100 ]Y>H<CMDBa=R89VcaQ:DU1
+Ij=V1BRC]fXN?`hjOdZl8V0
+R1
+R0
+w1630146729
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R6
+R3
+r1
+!s85 0
+31
+R10
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R5
+vtwo_bit_adder
+Z11 !s110 1630569731
+!i10b 1
+!s100 @>nd>AG@Fc4aIFU;C3=LU0
+I;>GAELLifnzG_UZPb0DRK3
+R1
+R0
+w1630569729
+8two_bit_adder.vo
+Ftwo_bit_adder.vo
+R2
+R3
+r1
+!s85 0
+31
+Z12 !s108 1630569731.000000
+!s107 two_bit_adder.vo|
+!s90 -work|work|two_bit_adder.vo|
+!i113 1
+R5
+vtwo_bit_adder_vlg_vec_tst
+R11
+!i10b 1
+!s100 Q>J7_ek9goLBL]VC:C8nF2
+I?I9Z>IbE^^dHDXofMmL4o1
+R1
+R0
+w1630569727
+8two_bit_adder_Waveform.vwf.vt
+Ftwo_bit_adder_Waveform.vwf.vt
+R6
+R3
+r1
+!s85 0
+31
+R12
+!s107 two_bit_adder_Waveform.vwf.vt|
+!s90 -work|work|two_bit_adder_Waveform.vwf.vt|
+!i113 1
+R5

@@ -1,0 +1,7 @@
+module or_4(out,in1,in2);
+	input[3:0] in1,in2;
+	output[3:0] out;
+	or_16 or1(out[0],in1[0],in2[0]);
+	or_16 or2(out[1],in1[1],in2[1]);
+endmodule
+	

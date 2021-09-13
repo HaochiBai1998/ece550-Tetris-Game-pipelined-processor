@@ -1,0 +1,70 @@
+# Reading C:/altera_lite/16.0/modelsim_ase/tcl/vsim/pref.tcl
+# do two_bit_adder_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying C:/altera_lite/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Lab_1 {C:/altera_lite/16.0/ECE_550/Lab_1/two_bit_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 14:24:20 on Aug 31,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Lab_1" C:/altera_lite/16.0/ECE_550/Lab_1/two_bit_adder.v 
+# -- Compiling module two_bit_adder
+# 
+# Top level modules:
+# 	two_bit_adder
+# End time: 14:24:20 on Aug 31,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Lab_1 {C:/altera_lite/16.0/ECE_550/Lab_1/full_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 14:24:20 on Aug 31,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Lab_1" C:/altera_lite/16.0/ECE_550/Lab_1/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 14:24:20 on Aug 31,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Lab_1 {C:/altera_lite/16.0/ECE_550/Lab_1/two_bit_adder_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 14:24:20 on Aug 31,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Lab_1" C:/altera_lite/16.0/ECE_550/Lab_1/two_bit_adder_tb.v 
+# -- Compiling module two_bit_adder_tb
+# ** Warning: C:/altera_lite/16.0/ECE_550/Lab_1/two_bit_adder_tb.v(114): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: C:/altera_lite/16.0/ECE_550/Lab_1/two_bit_adder_tb.v(124): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: C:/altera_lite/16.0/ECE_550/Lab_1/two_bit_adder_tb.v(327): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	two_bit_adder_tb
+# End time: 14:24:20 on Aug 31,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  two_bit_adder_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" two_bit_adder_tb 
+# Start time: 14:24:20 on Aug 31,2021
+# Loading work.two_bit_adder_tb
+# Loading work.two_bit_adder
+# Loading work.full_adder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0
+# simulation start
+# succeeded
+# Break key hit
+# Break in Module two_bit_adder_tb at C:/altera_lite/16.0/ECE_550/Lab_1/two_bit_adder_tb.v line 344
+# End time: 12:18:52 on Sep 01,2021, Elapsed time: 21:54:32
+# Errors: 0, Warnings: 0

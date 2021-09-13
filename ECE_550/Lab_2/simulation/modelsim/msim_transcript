@@ -1,0 +1,52 @@
+# Reading C:/altera_lite/16.0/modelsim_ase/tcl/vsim/pref.tcl
+# do One_bit_adder_NAND_imple_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying C:/altera_lite/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Lab_2 {C:/altera_lite/16.0/ECE_550/Lab_2/One_bit_adder_NAND_imple.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:33:08 on Sep 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Lab_2" C:/altera_lite/16.0/ECE_550/Lab_2/One_bit_adder_NAND_imple.v 
+# -- Compiling module One_bit_adder_NAND_imple
+# 
+# Top level modules:
+# 	One_bit_adder_NAND_imple
+# End time: 15:33:08 on Sep 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Lab_2 {C:/altera_lite/16.0/ECE_550/Lab_2/One_bit_adder_NAND_imple_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:33:08 on Sep 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Lab_2" C:/altera_lite/16.0/ECE_550/Lab_2/One_bit_adder_NAND_imple_tb.v 
+# -- Compiling module One_bit_adder_NAND_imple_tb
+# 
+# Top level modules:
+# 	One_bit_adder_NAND_imple_tb
+# End time: 15:33:09 on Sep 02,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  One_bit_adder_NAND_imple_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" One_bit_adder_NAND_imple_tb 
+# Start time: 15:33:09 on Sep 02,2021
+# Loading work.One_bit_adder_NAND_imple_tb
+# Loading work.One_bit_adder_NAND_imple
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0simulation start
+# succeeded
+# Break key hit
+# Break in Module One_bit_adder_NAND_imple_tb at C:/altera_lite/16.0/ECE_550/Lab_2/One_bit_adder_NAND_imple_tb.v line 131
+# End time: 15:33:31 on Sep 02,2021, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0

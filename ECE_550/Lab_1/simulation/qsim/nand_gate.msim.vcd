@@ -1,0 +1,78 @@
+$comment
+	File created using the following command:
+		vcd file nand_gate.msim.vcd -direction
+$end
+$date
+	Sat Aug 28 18:32:11 2021
+$end
+$version
+	ModelSim Version 10.4d
+$end
+$timescale
+	1ps
+$end
+
+$scope module nand_gate_vlg_vec_tst $end
+$var reg 1 ! in1 $end
+$var reg 1 " in2 $end
+$var wire 1 # out $end
+
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * out~output_o $end
+$var wire 1 + in1~input_o $end
+$var wire 1 , in2~input_o $end
+$var wire 1 - my_nand~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+1#
+0$
+1%
+x&
+1'
+1(
+1)
+1*
+0+
+0,
+0-
+$end
+#40000
+1!
+1"
+1+
+1,
+1-
+0*
+0#
+#100000
+0!
+0"
+0+
+0,
+0-
+1*
+1#
+#170000
+1!
+1+
+#250000
+0!
+0+
+#320000
+1"
+1,
+#440000
+0"
+0,
+#1000000

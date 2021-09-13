@@ -1,0 +1,30 @@
+# do One_bit_adder_NAND_imple.do
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:26:14 on Sep 02,2021
+# vlog -work work One_bit_adder_NAND_imple.vo 
+# -- Compiling module One_bit_adder_NAND_imple
+# 
+# Top level modules:
+# 	One_bit_adder_NAND_imple
+# End time: 15:26:14 on Sep 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:26:14 on Sep 02,2021
+# vlog -work work One_bit_adder_NAND_imple_Waveform.vwf.vt 
+# -- Compiling module One_bit_adder_NAND_imple_vlg_vec_tst
+# 
+# Top level modules:
+# 	One_bit_adder_NAND_imple_vlg_vec_tst
+# End time: 15:26:14 on Sep 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.One_bit_adder_NAND_imple_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 15:26:14 on Sep 02,2021
+# Loading work.One_bit_adder_NAND_imple_vlg_vec_tst
+# Loading work.One_bit_adder_NAND_imple
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# ** Note: $finish    : One_bit_adder_NAND_imple_Waveform.vwf.vt(51)
+#    Time: 1 us  Iteration: 0  Instance: /One_bit_adder_NAND_imple_vlg_vec_tst
+# End time: 15:26:15 on Sep 02,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

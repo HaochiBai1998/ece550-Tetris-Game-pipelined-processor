@@ -1,0 +1,16 @@
+module SRA(out,a,shiftamt);
+	input[31:0] a;
+	input[4:0] shiftamt;
+	output[31:0] out;
+	wire[31:0] w1,w2,w3,w4,w5,w6,w7,w8,w9,w10;
+	SLL_16_32bit(w1,a[31],cout,a);
+	assign w2=shiftamt[4]?w1:a;
+	SLL_8_32bit(w3,16'b0,cout,w2);
+	assign w4=shiftamt[3]?w3:w2;
+	SLL_4_32bit(w5,16'b0,cout,w4);
+	assign w6=shiftamt[2]?w5:w4;
+	SLL_2_32bit(w7,16'b0,cout,w6);
+	assign w8=shiftamt[1]?w7:w6;
+	SLL_1_32bit(w9,16'b0,cout,w8);
+	assign out=shiftamt[0]?w9:w8;
+endmodule

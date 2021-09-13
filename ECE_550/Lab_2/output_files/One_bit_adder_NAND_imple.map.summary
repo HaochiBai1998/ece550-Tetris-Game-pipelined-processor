@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Sep 03 10:47:14 2021
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : One_bit_adder_NAND_imple
+Top-level Entity Name : One_bit_adder_NAND_imple
+Family : Cyclone IV E
+Total logic elements : 2
+    Total combinational functions : 2
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

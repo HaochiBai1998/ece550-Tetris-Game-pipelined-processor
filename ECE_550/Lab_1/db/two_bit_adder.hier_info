@@ -1,0 +1,33 @@
+|two_bit_adder
+a[1] => a[1].IN1
+a[0] => a[0].IN1
+b[1] => b[1].IN1
+b[0] => b[0].IN1
+cin => cin.IN1
+out[1] <= full_adder:fa2.sum
+out[0] <= full_adder:fa1.sum
+cout <= full_adder:fa2.cout
+
+
+|two_bit_adder|full_adder:fa1
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|two_bit_adder|full_adder:fa2
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+

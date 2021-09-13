@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/altera_lite/16.0/ECE_550/Lab_1/simulation/modelsim
+vmux_2
+!s110 1630149004
+!i10b 1
+!s100 HA>>d6gEBLXIimkb:nNTo0
+Ib^<VI?3BHPnzSGT]z0d>j3
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1630147206
+8mux_2_7_1200mv_85c_slow.vo
+Fmux_2_7_1200mv_85c_slow.vo
+L0 32
+OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1630149004.000000
+!s107 mux_2_7_1200mv_85c_slow.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|mux_2_7_1200mv_85c_slow.vo|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.

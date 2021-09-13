@@ -1,0 +1,16 @@
+module AddSub(a,b,AddOrSub,cout,sum,ovf);
+	input[31:0] a,b;
+	input AddOrSub;
+	output cout,ovf;
+	output[31:0] sum;
+	wire cin;
+	wire [31:0] NotSum,Nota,Notb,bin,w1,w2;
+	not_32 not1(Notb,b);
+	not_32 not2(Nota,a);
+	mux_2_32bit mux_2_32bit_1(AddOrSub,b,Notb,bin);
+	CSA_32 CSA_32_1(a,bin,AddOrSub,cout,sum);
+	not_32 not3(NotSum,sum);
+	and_32_3 and1(w1,a,b,NotSum);
+	and_32_3 and2(w2,Nota,Notb,sum);
+	or or1(ovf,w1[31],w2[31]);//ovf=a[31]*b[31]*Notsum[31]+Nota[31]*Notb[31]*sum[31]
+endmodule

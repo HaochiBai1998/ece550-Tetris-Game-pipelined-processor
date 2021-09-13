@@ -1,0 +1,5 @@
+module mux_5_32(select,in0,in1,in2,in3,in4,out);
+	input[31:0] in0,in1,in2,in3,in4;
+	input[4:0] select;
+	output[31:0] out;
+	

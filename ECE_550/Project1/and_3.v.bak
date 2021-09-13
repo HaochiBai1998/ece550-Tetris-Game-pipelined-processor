@@ -1,0 +1,6 @@
+module and_3(a,b,c,out);
+	input a,b,c;
+	output out;
+	wire w1;
+	and and1(a,b,w1),and2(w1,c,out);
+endmodule

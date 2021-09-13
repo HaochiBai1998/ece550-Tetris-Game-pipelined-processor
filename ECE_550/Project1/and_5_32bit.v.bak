@@ -1,0 +1,10 @@
+module and_5_32bit(out,a,b,c,d,e);
+	input[31:0] a,b,c,d,e;
+	output[31:0] a,b,c,d,e;
+	wire[31:0] w1,w2,w3,w4;
+	and and1(w1,a,b);
+	and and2(w2,w1,c);
+	and and3(w3,w2,d);
+	and and4(w4,w3,e);
+endmodule
+	

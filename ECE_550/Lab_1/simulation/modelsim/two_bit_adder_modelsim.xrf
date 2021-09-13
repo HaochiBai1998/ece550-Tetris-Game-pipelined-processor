@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_1/two_bit_adder.v
+source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_1/two_bit_adder_Waveform5.vwf
+source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_1/two_bit_adder_tb.v
+source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_1/db/two_bit_adder.cbx.xml
+design_name = two_bit_adder
+instance = comp, \cout~output , cout~output, two_bit_adder, 1
+instance = comp, \sum~output , sum~output, two_bit_adder, 1
+instance = comp, \cin~input , cin~input, two_bit_adder, 1
+instance = comp, \b~input , b~input, two_bit_adder, 1
+instance = comp, \a~input , a~input, two_bit_adder, 1
+instance = comp, \or1~0 , or1~0, two_bit_adder, 1
+instance = comp, \xor2~0 , xor2~0, two_bit_adder, 1

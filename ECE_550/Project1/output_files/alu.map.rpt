@@ -1,0 +1,867 @@
+Analysis & Synthesis report for alu
+Mon Sep 13 19:22:04 2021
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Port Connectivity Checks: "isequal_5:ie2"
+ 11. Port Connectivity Checks: "isequal_5:ie1"
+ 12. Port Connectivity Checks: "mux_ALU_selector:mAs1|mux_32:m1"
+ 13. Port Connectivity Checks: "or_32:O1|or_16:or2"
+ 14. Port Connectivity Checks: "or_32:O1|or_16:or1"
+ 15. Port Connectivity Checks: "AddSub:AS1|mux_2_1bit:m2"
+ 16. Port Connectivity Checks: "AddSub:AS1|mux_2_1bit:m1"
+ 17. Port Connectivity Checks: "AddSub:AS1|or_1_32:o1|or_1_16:o2"
+ 18. Port Connectivity Checks: "AddSub:AS1|not_32:not3"
+ 19. Port Connectivity Checks: "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_3"
+ 20. Port Connectivity Checks: "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2"
+ 21. Port Connectivity Checks: "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_3"
+ 22. Port Connectivity Checks: "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2"
+ 23. Port Connectivity Checks: "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_3"
+ 24. Port Connectivity Checks: "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_2"
+ 25. Port Connectivity Checks: "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_3"
+ 26. Port Connectivity Checks: "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_2"
+ 27. Port Connectivity Checks: "AddSub:AS1|not_32:not2"
+ 28. Port Connectivity Checks: "AddSub:AS1"
+ 29. Post-Synthesis Netlist Statistics for Top Partition
+ 30. Elapsed Time Per Partition
+ 31. Analysis & Synthesis Messages
+ 32. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Mon Sep 13 19:22:04 2021       ;
+; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
+; Revision Name                      ; alu                                         ;
+; Top-level Entity Name              ; alu                                         ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 568                                         ;
+;     Total combinational functions  ; 568                                         ;
+;     Dedicated logic registers      ; 0                                           ;
+; Total registers                    ; 0                                           ;
+; Total pins                         ; 109                                         ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP4CE115F29C7      ;                    ;
+; Top-level entity name                                                      ; alu                ; alu                ;
+; Family name                                                                ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 12          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                ;
++----------------------------------+-----------------+------------------------------+---------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                            ; Library ;
++----------------------------------+-----------------+------------------------------+---------------------------------------------------------+---------+
+; RCA_2.v                          ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/RCA_2.v            ;         ;
+; mux_2_2bit.v                     ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/mux_2_2bit.v       ;         ;
+; CSA_4.v                          ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v            ;         ;
+; mux_2_4bit.v                     ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/mux_2_4bit.v       ;         ;
+; CSA_8.v                          ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v            ;         ;
+; mux_2_8bit.v                     ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/mux_2_8bit.v       ;         ;
+; CSA_16.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v           ;         ;
+; mux_2_16bit.v                    ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/mux_2_16bit.v      ;         ;
+; CSA_32.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v           ;         ;
+; alu.v                            ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/alu.v              ;         ;
+; mux_2_32bit.v                    ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/mux_2_32bit.v      ;         ;
+; not_8.v                          ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/not_8.v            ;         ;
+; not_16.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/not_16.v           ;         ;
+; not_32.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/not_32.v           ;         ;
+; and_4.v                          ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/and_4.v            ;         ;
+; and_16.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/and_16.v           ;         ;
+; and_32.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/and_32.v           ;         ;
+; and_8.v                          ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/and_8.v            ;         ;
+; SLL.v                            ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/SLL.v              ;         ;
+; SRA.v                            ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/SRA.v              ;         ;
+; and_1_5.v                        ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/and_1_5.v          ;         ;
+; isequal_5.v                      ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v        ;         ;
+; or_1_4.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/or_1_4.v           ;         ;
+; or_1_8.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/or_1_8.v           ;         ;
+; or_1_16.v                        ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v          ;         ;
+; or_1_32.v                        ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v          ;         ;
+; xnor_5.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/xnor_5.v           ;         ;
+; addsub.v                         ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/addsub.v           ;         ;
+; not_4.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/not_4.v            ;         ;
+; full_adder.v                     ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/full_adder.v       ;         ;
+; mux_2_1bit.v                     ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/mux_2_1bit.v       ;         ;
+; or_32.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/or_32.v            ;         ;
+; or_16.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/or_16.v            ;         ;
+; or_8.v                           ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/or_8.v             ;         ;
+; or_4.v                           ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/or_4.v             ;         ;
+; mux_alu_selector.v               ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/mux_alu_selector.v ;         ;
+; mux_32.v                         ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/mux_32.v           ;         ;
+; mux_16.v                         ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/mux_16.v           ;         ;
+; mux_8.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/mux_8.v            ;         ;
+; mux_4.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/mux_4.v            ;         ;
+; mux_2.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/mux_2.v            ;         ;
++----------------------------------+-----------------+------------------------------+---------------------------------------------------------+---------+
+
+
++-----------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                           ;
++---------------------------------------------+-------------------------+
+; Resource                                    ; Usage                   ;
++---------------------------------------------+-------------------------+
+; Estimated Total logic elements              ; 568                     ;
+;                                             ;                         ;
+; Total combinational functions               ; 568                     ;
+; Logic element usage by number of LUT inputs ;                         ;
+;     -- 4 input functions                    ; 290                     ;
+;     -- 3 input functions                    ; 236                     ;
+;     -- <=2 input functions                  ; 42                      ;
+;                                             ;                         ;
+; Logic elements by mode                      ;                         ;
+;     -- normal mode                          ; 568                     ;
+;     -- arithmetic mode                      ; 0                       ;
+;                                             ;                         ;
+; Total registers                             ; 0                       ;
+;     -- Dedicated logic registers            ; 0                       ;
+;     -- I/O registers                        ; 0                       ;
+;                                             ;                         ;
+; I/O pins                                    ; 109                     ;
+;                                             ;                         ;
+; Embedded Multiplier 9-bit elements          ; 0                       ;
+;                                             ;                         ;
+; Maximum fan-out node                        ; ctrl_ALUopcode[0]~input ;
+; Maximum fan-out                             ; 113                     ;
+; Total fan-out                               ; 2096                    ;
+; Average fan-out                             ; 2.67                    ;
++---------------------------------------------+-------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                            ;
++-----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+------------------+--------------+
+; Compilation Hierarchy Node                    ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                              ; Entity Name      ; Library Name ;
++-----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+------------------+--------------+
+; |alu                                          ; 568 (6)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 109  ; 0            ; |alu                                                                                                             ; alu              ; work         ;
+;    |AddSub:AS1|                               ; 167 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1                                                                                                  ; AddSub           ; work         ;
+;       |CSA_32:CSA_32_1|                       ; 129 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1                                                                                  ; CSA_32           ; work         ;
+;          |CSA_16:CSA_16_1|                    ; 60 (2)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1                                                                  ; CSA_16           ; work         ;
+;             |CSA_8:CSA_8_1|                   ; 28 (3)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1                                                    ; CSA_8            ; work         ;
+;                |CSA_4:CSA_4_1|                ; 11 (1)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1                                      ; CSA_4            ; work         ;
+;                   |RCA_2:RCA_2_1|             ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_1                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder1| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_1|full_adder:full_adder1 ; full_adder       ; work         ;
+;                      |full_adder:full_adder2| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_1|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |RCA_2:RCA_2_2|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_2                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder1| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_2|full_adder:full_adder1 ; full_adder       ; work         ;
+;                      |full_adder:full_adder2| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_2|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |RCA_2:RCA_2_3|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_3                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder2| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_3|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |mux_2_2bit:mux_2_2bit_1|   ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|mux_2_2bit:mux_2_2bit_1              ; mux_2_2bit       ; work         ;
+;                |CSA_4:CSA_4_2|                ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_2                                      ; CSA_4            ; work         ;
+;                   |RCA_2:RCA_2_1|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_2|RCA_2:RCA_2_1                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder1| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_2|RCA_2:RCA_2_1|full_adder:full_adder1 ; full_adder       ; work         ;
+;                      |full_adder:full_adder2| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_2|RCA_2:RCA_2_1|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |RCA_2:RCA_2_2|             ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_2|RCA_2:RCA_2_2                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder1| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_2|RCA_2:RCA_2_2|full_adder:full_adder1 ; full_adder       ; work         ;
+;                      |full_adder:full_adder2| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_2|RCA_2:RCA_2_2|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |RCA_2:RCA_2_3|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_2|RCA_2:RCA_2_3                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder2| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_2|RCA_2:RCA_2_3|full_adder:full_adder2 ; full_adder       ; work         ;
+;                |CSA_4:CSA_4_3|                ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_3                                      ; CSA_4            ; work         ;
+;                   |RCA_2:RCA_2_1|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_3|RCA_2:RCA_2_1                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder2| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_3|RCA_2:RCA_2_1|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |mux_2_2bit:mux_2_2bit_1|   ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_3|mux_2_2bit:mux_2_2bit_1              ; mux_2_2bit       ; work         ;
+;                |mux_2_4bit:mux_2_4bit_1|      ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|mux_2_4bit:mux_2_4bit_1                            ; mux_2_4bit       ; work         ;
+;             |CSA_8:CSA_8_2|                   ; 12 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2                                                    ; CSA_8            ; work         ;
+;                |CSA_4:CSA_4_1|                ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_1                                      ; CSA_4            ; work         ;
+;                   |RCA_2:RCA_2_1|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_1|RCA_2:RCA_2_1                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder1| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_1|RCA_2:RCA_2_1|full_adder:full_adder1 ; full_adder       ; work         ;
+;                      |full_adder:full_adder2| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_1|RCA_2:RCA_2_1|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |RCA_2:RCA_2_2|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_1|RCA_2:RCA_2_2                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder1| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_1|RCA_2:RCA_2_2|full_adder:full_adder1 ; full_adder       ; work         ;
+;                      |full_adder:full_adder2| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_1|RCA_2:RCA_2_2|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |RCA_2:RCA_2_3|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_1|RCA_2:RCA_2_3                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder2| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_1|RCA_2:RCA_2_3|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |mux_2_2bit:mux_2_2bit_1|   ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_1|mux_2_2bit:mux_2_2bit_1              ; mux_2_2bit       ; work         ;
+;                |CSA_4:CSA_4_2|                ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_2                                      ; CSA_4            ; work         ;
+;                   |RCA_2:RCA_2_1|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_2|RCA_2:RCA_2_1                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder1| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_2|RCA_2:RCA_2_1|full_adder:full_adder1 ; full_adder       ; work         ;
+;                      |full_adder:full_adder2| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_2|RCA_2:RCA_2_1|full_adder:full_adder2 ; full_adder       ; work         ;
+;                |CSA_4:CSA_4_3|                ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_3                                      ; CSA_4            ; work         ;
+;                   |RCA_2:RCA_2_1|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_3|RCA_2:RCA_2_1                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder2| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_3|RCA_2:RCA_2_1|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |mux_2_2bit:mux_2_2bit_1|   ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2|CSA_4:CSA_4_3|mux_2_2bit:mux_2_2bit_1              ; mux_2_2bit       ; work         ;
+;             |CSA_8:CSA_8_3|                   ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_3                                                    ; CSA_8            ; work         ;
+;                |CSA_4:CSA_4_1|                ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_3|CSA_4:CSA_4_1                                      ; CSA_4            ; work         ;
+;                   |RCA_2:RCA_2_1|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_3|CSA_4:CSA_4_1|RCA_2:RCA_2_1                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder2| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_3|CSA_4:CSA_4_1|RCA_2:RCA_2_1|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |mux_2_2bit:mux_2_2bit_1|   ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_3|CSA_4:CSA_4_1|mux_2_2bit:mux_2_2bit_1              ; mux_2_2bit       ; work         ;
+;             |mux_2_8bit:mux_2_8bit_1|         ; 15 (15)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|mux_2_8bit:mux_2_8bit_1                                          ; mux_2_8bit       ; work         ;
+;          |CSA_16:CSA_16_2|                    ; 35 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2                                                                  ; CSA_16           ; work         ;
+;             |CSA_8:CSA_8_1|                   ; 20 (2)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1                                                    ; CSA_8            ; work         ;
+;                |CSA_4:CSA_4_1|                ; 8 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_1                                      ; CSA_4            ; work         ;
+;                   |RCA_2:RCA_2_1|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_1                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder1| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_1|full_adder:full_adder1 ; full_adder       ; work         ;
+;                      |full_adder:full_adder2| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_1|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |RCA_2:RCA_2_2|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_2                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder1| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_2|full_adder:full_adder1 ; full_adder       ; work         ;
+;                      |full_adder:full_adder2| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_2|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |RCA_2:RCA_2_3|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_3                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder2| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_3|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |mux_2_2bit:mux_2_2bit_1|   ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_1|mux_2_2bit:mux_2_2bit_1              ; mux_2_2bit       ; work         ;
+;                |CSA_4:CSA_4_2|                ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_2                                      ; CSA_4            ; work         ;
+;                   |RCA_2:RCA_2_1|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_2|RCA_2:RCA_2_1                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder1| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_2|RCA_2:RCA_2_1|full_adder:full_adder1 ; full_adder       ; work         ;
+;                      |full_adder:full_adder2| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_2|RCA_2:RCA_2_1|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |RCA_2:RCA_2_2|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_2|RCA_2:RCA_2_2                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder1| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_2|RCA_2:RCA_2_2|full_adder:full_adder1 ; full_adder       ; work         ;
+;                      |full_adder:full_adder2| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_2|RCA_2:RCA_2_2|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |RCA_2:RCA_2_3|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_2|RCA_2:RCA_2_3                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder2| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_2|RCA_2:RCA_2_3|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |mux_2_2bit:mux_2_2bit_1|   ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_2|mux_2_2bit:mux_2_2bit_1              ; mux_2_2bit       ; work         ;
+;                |CSA_4:CSA_4_3|                ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_3                                      ; CSA_4            ; work         ;
+;                   |RCA_2:RCA_2_1|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_3|RCA_2:RCA_2_1                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder2| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_3|RCA_2:RCA_2_1|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |mux_2_2bit:mux_2_2bit_1|   ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_1|CSA_4:CSA_4_3|mux_2_2bit:mux_2_2bit_1              ; mux_2_2bit       ; work         ;
+;             |CSA_8:CSA_8_2|                   ; 12 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2                                                    ; CSA_8            ; work         ;
+;                |CSA_4:CSA_4_1|                ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_1                                      ; CSA_4            ; work         ;
+;                   |RCA_2:RCA_2_1|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_1|RCA_2:RCA_2_1                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder1| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_1|RCA_2:RCA_2_1|full_adder:full_adder1 ; full_adder       ; work         ;
+;                      |full_adder:full_adder2| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_1|RCA_2:RCA_2_1|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |RCA_2:RCA_2_2|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_1|RCA_2:RCA_2_2                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder1| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_1|RCA_2:RCA_2_2|full_adder:full_adder1 ; full_adder       ; work         ;
+;                      |full_adder:full_adder2| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_1|RCA_2:RCA_2_2|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |RCA_2:RCA_2_3|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_1|RCA_2:RCA_2_3                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder2| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_1|RCA_2:RCA_2_3|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |mux_2_2bit:mux_2_2bit_1|   ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_1|mux_2_2bit:mux_2_2bit_1              ; mux_2_2bit       ; work         ;
+;                |CSA_4:CSA_4_2|                ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_2                                      ; CSA_4            ; work         ;
+;                   |RCA_2:RCA_2_1|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_2|RCA_2:RCA_2_1                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder1| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_2|RCA_2:RCA_2_1|full_adder:full_adder1 ; full_adder       ; work         ;
+;                      |full_adder:full_adder2| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_2|RCA_2:RCA_2_1|full_adder:full_adder2 ; full_adder       ; work         ;
+;                |CSA_4:CSA_4_3|                ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_3                                      ; CSA_4            ; work         ;
+;                   |RCA_2:RCA_2_1|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_3|RCA_2:RCA_2_1                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder2| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_3|RCA_2:RCA_2_1|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |mux_2_2bit:mux_2_2bit_1|   ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_2|CSA_4:CSA_4_3|mux_2_2bit:mux_2_2bit_1              ; mux_2_2bit       ; work         ;
+;             |CSA_8:CSA_8_3|                   ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_3                                                    ; CSA_8            ; work         ;
+;                |CSA_4:CSA_4_1|                ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_3|CSA_4:CSA_4_1                                      ; CSA_4            ; work         ;
+;                   |RCA_2:RCA_2_1|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_3|CSA_4:CSA_4_1|RCA_2:RCA_2_1                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder2| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_3|CSA_4:CSA_4_1|RCA_2:RCA_2_1|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |mux_2_2bit:mux_2_2bit_1|   ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2|CSA_8:CSA_8_3|CSA_4:CSA_4_1|mux_2_2bit:mux_2_2bit_1              ; mux_2_2bit       ; work         ;
+;          |CSA_16:CSA_16_3|                    ; 8 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_3                                                                  ; CSA_16           ; work         ;
+;             |CSA_8:CSA_8_1|                   ; 7 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_3|CSA_8:CSA_8_1                                                    ; CSA_8            ; work         ;
+;                |CSA_4:CSA_4_1|                ; 4 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_3|CSA_8:CSA_8_1|CSA_4:CSA_4_1                                      ; CSA_4            ; work         ;
+;                   |RCA_2:RCA_2_1|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_3|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_1                        ; RCA_2            ; work         ;
+;                      |full_adder:full_adder2| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_3|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_1|full_adder:full_adder2 ; full_adder       ; work         ;
+;                   |mux_2_2bit:mux_2_2bit_1|   ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_3|CSA_8:CSA_8_1|CSA_4:CSA_4_1|mux_2_2bit:mux_2_2bit_1              ; mux_2_2bit       ; work         ;
+;                |mux_2_4bit:mux_2_4bit_1|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_3|CSA_8:CSA_8_1|mux_2_4bit:mux_2_4bit_1                            ; mux_2_4bit       ; work         ;
+;             |mux_2_8bit:mux_2_8bit_1|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_3|mux_2_8bit:mux_2_8bit_1                                          ; mux_2_8bit       ; work         ;
+;          |mux_2_16bit:mux_2_16bit_1|          ; 26 (26)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|CSA_32:CSA_32_1|mux_2_16bit:mux_2_16bit_1                                                        ; mux_2_16bit      ; work         ;
+;       |mux_2_32bit:mux_2_32bit_1|             ; 27 (27)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|mux_2_32bit:mux_2_32bit_1                                                                        ; mux_2_32bit      ; work         ;
+;       |or_1_32:o1|                            ; 11 (11)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|AddSub:AS1|or_1_32:o1                                                                                       ; or_1_32          ; work         ;
+;    |SLL:SLL1|                                 ; 99 (99)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|SLL:SLL1                                                                                                    ; SLL              ; work         ;
+;    |SRA:SRA1|                                 ; 96 (96)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|SRA:SRA1                                                                                                    ; SRA              ; work         ;
+;    |mux_ALU_selector:mAs1|                    ; 200 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|mux_ALU_selector:mAs1                                                                                       ; mux_ALU_selector ; work         ;
+;       |mux_32:m1|                             ; 200 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|mux_ALU_selector:mAs1|mux_32:m1                                                                             ; mux_32           ; work         ;
+;          |mux_16:first_top|                   ; 17 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|mux_ALU_selector:mAs1|mux_32:m1|mux_16:first_top                                                            ; mux_16           ; work         ;
+;             |mux_8:first_top|                 ; 17 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|mux_ALU_selector:mAs1|mux_32:m1|mux_16:first_top|mux_8:first_top                                            ; mux_8            ; work         ;
+;                |mux_2:second|                 ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|mux_ALU_selector:mAs1|mux_32:m1|mux_16:first_top|mux_8:first_top|mux_2:second                               ; mux_2            ; work         ;
+;                |mux_4:first_bottom|           ; 9 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|mux_ALU_selector:mAs1|mux_32:m1|mux_16:first_top|mux_8:first_top|mux_4:first_bottom                         ; mux_4            ; work         ;
+;                   |mux_2:first_top|           ; 9 (9)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|mux_ALU_selector:mAs1|mux_32:m1|mux_16:first_top|mux_8:first_top|mux_4:first_bottom|mux_2:first_top         ; mux_2            ; work         ;
+;          |mux_2:second|                       ; 183 (183)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|mux_ALU_selector:mAs1|mux_32:m1|mux_2:second                                                                ; mux_2            ; work         ;
++-----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                               ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                     ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------+
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|cout             ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|mux_2_8bit:mux_2_8bit_1|out[5] ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |alu|AddSub:AS1|CSA_32:CSA_32_1|mux_2_16bit:mux_2_16bit_1|out[5]               ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; No         ; |alu|AddSub:AS1|CSA_32:CSA_32_1|mux_2_16bit:mux_2_16bit_1|out[9]               ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |alu|AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|mux_2_8bit:mux_2_8bit_1|out[7] ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |alu|AddSub:AS1|CSA_32:CSA_32_1|mux_2_16bit:mux_2_16bit_1|out[14]              ;
+; 11:1               ; 8 bits    ; 56 LEs        ; 40 LEs               ; 16 LEs                 ; No         ; |alu|mux_ALU_selector:mAs1|mux_32:m1|mux_2:second|out[9]                       ;
+; 11:1               ; 8 bits    ; 56 LEs        ; 48 LEs               ; 8 LEs                  ; No         ; |alu|mux_ALU_selector:mAs1|mux_32:m1|mux_2:second|out[23]                      ;
+; 12:1               ; 4 bits    ; 32 LEs        ; 24 LEs               ; 8 LEs                  ; No         ; |alu|mux_ALU_selector:mAs1|mux_32:m1|mux_2:second|out[5]                       ;
+; 12:1               ; 4 bits    ; 32 LEs        ; 24 LEs               ; 8 LEs                  ; No         ; |alu|mux_ALU_selector:mAs1|mux_32:m1|mux_2:second|out[25]                      ;
+; 13:1               ; 2 bits    ; 16 LEs        ; 12 LEs               ; 4 LEs                  ; No         ; |alu|mux_ALU_selector:mAs1|mux_32:m1|mux_2:second|out[3]                       ;
+; 13:1               ; 2 bits    ; 16 LEs        ; 14 LEs               ; 2 LEs                  ; No         ; |alu|mux_ALU_selector:mAs1|mux_32:m1|mux_2:second|out[28]                      ;
+; 14:1               ; 2 bits    ; 18 LEs        ; 14 LEs               ; 4 LEs                  ; No         ; |alu|mux_ALU_selector:mAs1|mux_32:m1|mux_2:second|out[0]                       ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------+
+
+
++-------------------------------------------+
+; Port Connectivity Checks: "isequal_5:ie2" ;
++---------+-------+----------+--------------+
+; Port    ; Type  ; Severity ; Details      ;
++---------+-------+----------+--------------+
+; b[4..1] ; Input ; Info     ; Stuck at GND ;
+; b[0]    ; Input ; Info     ; Stuck at VCC ;
++---------+-------+----------+--------------+
+
+
++-------------------------------------------+
+; Port Connectivity Checks: "isequal_5:ie1" ;
++------+-------+----------+-----------------+
+; Port ; Type  ; Severity ; Details         ;
++------+-------+----------+-----------------+
+; b    ; Input ; Info     ; Stuck at GND    ;
++------+-------+----------+-----------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "mux_ALU_selector:mAs1|mux_32:m1" ;
++------+-------+----------+-----------------------------------+
+; Port ; Type  ; Severity ; Details                           ;
++------+-------+----------+-----------------------------------+
+; in6  ; Input ; Info     ; Stuck at GND                      ;
+; in7  ; Input ; Info     ; Stuck at GND                      ;
+; in8  ; Input ; Info     ; Stuck at GND                      ;
+; in9  ; Input ; Info     ; Stuck at GND                      ;
+; in10 ; Input ; Info     ; Stuck at GND                      ;
+; in11 ; Input ; Info     ; Stuck at GND                      ;
+; in12 ; Input ; Info     ; Stuck at GND                      ;
+; in13 ; Input ; Info     ; Stuck at GND                      ;
+; in14 ; Input ; Info     ; Stuck at GND                      ;
+; in15 ; Input ; Info     ; Stuck at GND                      ;
+; in16 ; Input ; Info     ; Stuck at GND                      ;
+; in17 ; Input ; Info     ; Stuck at GND                      ;
+; in18 ; Input ; Info     ; Stuck at GND                      ;
+; in19 ; Input ; Info     ; Stuck at GND                      ;
+; in20 ; Input ; Info     ; Stuck at GND                      ;
+; in21 ; Input ; Info     ; Stuck at GND                      ;
+; in22 ; Input ; Info     ; Stuck at GND                      ;
+; in23 ; Input ; Info     ; Stuck at GND                      ;
+; in24 ; Input ; Info     ; Stuck at GND                      ;
+; in25 ; Input ; Info     ; Stuck at GND                      ;
+; in26 ; Input ; Info     ; Stuck at GND                      ;
+; in27 ; Input ; Info     ; Stuck at GND                      ;
+; in28 ; Input ; Info     ; Stuck at GND                      ;
+; in29 ; Input ; Info     ; Stuck at GND                      ;
+; in30 ; Input ; Info     ; Stuck at GND                      ;
+; in31 ; Input ; Info     ; Stuck at GND                      ;
++------+-------+----------+-----------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "or_32:O1|or_16:or2"                                                                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                                                         ;
++------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+; out  ; Output ; Warning  ; Output or bidir port (17 bits) is wider than the port expression (16 bits) it drives; bit(s) "out[16..16]" have no fanouts                      ;
+; in1  ; Input  ; Warning  ; Input port expression (16 bits) is smaller than the input port (17 bits) it drives.  Extra input bit(s) "in1[16..16]" will be connected to GND. ;
+; in2  ; Input  ; Warning  ; Input port expression (16 bits) is smaller than the input port (17 bits) it drives.  Extra input bit(s) "in2[16..16]" will be connected to GND. ;
++------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "or_32:O1|or_16:or1"                                                                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                                                         ;
++------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+; out  ; Output ; Warning  ; Output or bidir port (17 bits) is wider than the port expression (16 bits) it drives; bit(s) "out[16..16]" have no fanouts                      ;
+; in1  ; Input  ; Warning  ; Input port expression (16 bits) is smaller than the input port (17 bits) it drives.  Extra input bit(s) "in1[16..16]" will be connected to GND. ;
+; in2  ; Input  ; Warning  ; Input port expression (16 bits) is smaller than the input port (17 bits) it drives.  Extra input bit(s) "in2[16..16]" will be connected to GND. ;
++------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; Port Connectivity Checks: "AddSub:AS1|mux_2_1bit:m2" ;
++------+-------+----------+----------------------------+
+; Port ; Type  ; Severity ; Details                    ;
++------+-------+----------+----------------------------+
+; in0  ; Input ; Info     ; Stuck at GND               ;
++------+-------+----------+----------------------------+
+
+
++------------------------------------------------------+
+; Port Connectivity Checks: "AddSub:AS1|mux_2_1bit:m1" ;
++------+-------+----------+----------------------------+
+; Port ; Type  ; Severity ; Details                    ;
++------+-------+----------+----------------------------+
+; in0  ; Input ; Info     ; Stuck at GND               ;
++------+-------+----------+----------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "AddSub:AS1|or_1_32:o1|or_1_16:o2"                                                                                                                                                 ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; in   ; Input ; Warning  ; Input port expression (17 bits) is wider than the input port (16 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "AddSub:AS1|not_32:not3"                                                                   ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; out[30..0] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------+
+; Port Connectivity Checks: "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_3" ;
++------+-------+----------+----------------------------------------------+
+; Port ; Type  ; Severity ; Details                                      ;
++------+-------+----------+----------------------------------------------+
+; cin  ; Input ; Info     ; Stuck at VCC                                 ;
++------+-------+----------+----------------------------------------------+
+
+
++------------------------------------------------------------------------+
+; Port Connectivity Checks: "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_2" ;
++------+-------+----------+----------------------------------------------+
+; Port ; Type  ; Severity ; Details                                      ;
++------+-------+----------+----------------------------------------------+
+; cin  ; Input ; Info     ; Stuck at GND                                 ;
++------+-------+----------+----------------------------------------------+
+
+
++--------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_3" ;
++------+-------+----------+------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                    ;
++------+-------+----------+------------------------------------------------------------+
+; cin  ; Input ; Info     ; Stuck at VCC                                               ;
++------+-------+----------+------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_2" ;
++------+-------+----------+------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                    ;
++------+-------+----------+------------------------------------------------------------+
+; cin  ; Input ; Info     ; Stuck at GND                                               ;
++------+-------+----------+------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_3" ;
++------+-------+----------+--------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                  ;
++------+-------+----------+--------------------------------------------------------------------------+
+; cin  ; Input ; Info     ; Stuck at VCC                                                             ;
++------+-------+----------+--------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_2" ;
++------+-------+----------+--------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                  ;
++------+-------+----------+--------------------------------------------------------------------------+
+; cin  ; Input ; Info     ; Stuck at GND                                                             ;
++------+-------+----------+--------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_3" ;
++------+-------+----------+----------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                ;
++------+-------+----------+----------------------------------------------------------------------------------------+
+; cin  ; Input ; Info     ; Stuck at VCC                                                                           ;
++------+-------+----------+----------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_2" ;
++------+-------+----------+----------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                ;
++------+-------+----------+----------------------------------------------------------------------------------------+
+; cin  ; Input ; Info     ; Stuck at GND                                                                           ;
++------+-------+----------+----------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "AddSub:AS1|not_32:not2"                                                                   ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; out[30..0] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "AddSub:AS1"                                                                         ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; cout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 109                         ;
+; cycloneiii_lcell_comb ; 568                         ;
+;     normal            ; 568                         ;
+;         2 data inputs ; 42                          ;
+;         3 data inputs ; 236                         ;
+;         4 data inputs ; 290                         ;
+;                       ;                             ;
+; Max LUT depth         ; 15.00                       ;
+; Average LUT depth     ; 9.33                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+    Info: Processing started: Mon Sep 13 19:21:51 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off alu -c alu
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file rca_2.v
+    Info (12023): Found entity 1: RCA_2 File: C:/altera_lite/16.0/ECE_550/Project1/RCA_2.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mux_2_2bit.v
+    Info (12023): Found entity 1: mux_2_2bit File: C:/altera_lite/16.0/ECE_550/Project1/mux_2_2bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file csa_4.v
+    Info (12023): Found entity 1: CSA_4 File: C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mux_2_4bit.v
+    Info (12023): Found entity 1: mux_2_4bit File: C:/altera_lite/16.0/ECE_550/Project1/mux_2_4bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file csa_8.v
+    Info (12023): Found entity 1: CSA_8 File: C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mux_2_8bit.v
+    Info (12023): Found entity 1: mux_2_8bit File: C:/altera_lite/16.0/ECE_550/Project1/mux_2_8bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file csa_16.v
+    Info (12023): Found entity 1: CSA_16 File: C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mux_2_16bit.v
+    Info (12023): Found entity 1: mux_2_16bit File: C:/altera_lite/16.0/ECE_550/Project1/mux_2_16bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu_buf.v
+    Info (12023): Found entity 1: alu_buf File: C:/altera_lite/16.0/ECE_550/Project1/alu_buf.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file csa_32.v
+    Info (12023): Found entity 1: CSA_32 File: C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu.v
+    Info (12023): Found entity 1: alu File: C:/altera_lite/16.0/ECE_550/Project1/alu.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mux_2_32bit.v
+    Info (12023): Found entity 1: mux_2_32bit File: C:/altera_lite/16.0/ECE_550/Project1/mux_2_32bit.v Line: 1
+Warning (12019): Can't analyze file -- file and_3.v is missing
+Warning (12019): Can't analyze file -- file not4.v is missing
+Info (12021): Found 1 design units, including 1 entities, in source file not_8.v
+    Info (12023): Found entity 1: not_8 File: C:/altera_lite/16.0/ECE_550/Project1/not_8.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file not_16.v
+    Info (12023): Found entity 1: not_16 File: C:/altera_lite/16.0/ECE_550/Project1/not_16.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file not_32.v
+    Info (12023): Found entity 1: not_32 File: C:/altera_lite/16.0/ECE_550/Project1/not_32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file and_4.v
+    Info (12023): Found entity 1: and_4 File: C:/altera_lite/16.0/ECE_550/Project1/and_4.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file and_16.v
+    Info (12023): Found entity 1: and_16 File: C:/altera_lite/16.0/ECE_550/Project1/and_16.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file and_32.v
+    Info (12023): Found entity 1: and_32 File: C:/altera_lite/16.0/ECE_550/Project1/and_32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file and_8.v
+    Info (12023): Found entity 1: and_8 File: C:/altera_lite/16.0/ECE_550/Project1/and_8.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sll_1_4bit.v
+    Info (12023): Found entity 1: SLL_1_4bit File: C:/altera_lite/16.0/ECE_550/Project1/SLL_1_4bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sra_1_4bit.v
+    Info (12023): Found entity 1: SRA_1_4bit File: C:/altera_lite/16.0/ECE_550/Project1/SRA_1_4bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sll_1_8bit.v
+    Info (12023): Found entity 1: SLL_1_8bit File: C:/altera_lite/16.0/ECE_550/Project1/SLL_1_8bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sll_1_16bit.v
+    Info (12023): Found entity 1: SLL_1_16bit File: C:/altera_lite/16.0/ECE_550/Project1/SLL_1_16bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sll_1_32bit.v
+    Info (12023): Found entity 1: SLL_1_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SLL_1_32bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sra_1_8bit.v
+    Info (12023): Found entity 1: SRA_1_8bit File: C:/altera_lite/16.0/ECE_550/Project1/SRA_1_8bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sra_1_16bit.v
+    Info (12023): Found entity 1: SRA_1_16bit File: C:/altera_lite/16.0/ECE_550/Project1/SRA_1_16bit.v Line: 1
+Warning (12019): Can't analyze file -- file SRA_1_32.v is missing
+Info (12021): Found 1 design units, including 1 entities, in source file sll_2_32bit.v
+    Info (12023): Found entity 1: SLL_2_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SLL_2_32bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sll_4_32bit.v
+    Info (12023): Found entity 1: SLL_4_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SLL_4_32bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sll_8_32bit.v
+    Info (12023): Found entity 1: SLL_8_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SLL_8_32bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sll_16_32bit.v
+    Info (12023): Found entity 1: SLL_16_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SLL_16_32bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sra_2_32bit.v
+    Info (12023): Found entity 1: SRA_2_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SRA_2_32bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sra_4_32bit.v
+    Info (12023): Found entity 1: SRA_4_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SRA_4_32bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sra_8_32bit.v
+    Info (12023): Found entity 1: SRA_8_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SRA_8_32bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sra_16_32bit.v
+    Info (12023): Found entity 1: SRA_16_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SRA_16_32bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sll.v
+    Info (12023): Found entity 1: SLL File: C:/altera_lite/16.0/ECE_550/Project1/SLL.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sra.v
+    Info (12023): Found entity 1: SRA File: C:/altera_lite/16.0/ECE_550/Project1/SRA.v Line: 1
+Warning (12019): Can't analyze file -- file and_5_32bit.v is missing
+Info (12021): Found 1 design units, including 1 entities, in source file and_1_5.v
+    Info (12023): Found entity 1: and_1_5 File: C:/altera_lite/16.0/ECE_550/Project1/and_1_5.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file isequal_5.v
+    Info (12023): Found entity 1: isequal_5 File: C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v Line: 1
+Warning (12019): Can't analyze file -- file mux_5_32.v is missing
+Info (12021): Found 0 design units, including 0 entities, in source file alu_info_signals_cal.v
+Info (12021): Found 1 design units, including 1 entities, in source file and_1_4.v
+    Info (12023): Found entity 1: and_1_4 File: C:/altera_lite/16.0/ECE_550/Project1/and_1_4.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file and_1_8.v
+    Info (12023): Found entity 1: and_1_8 File: C:/altera_lite/16.0/ECE_550/Project1/and_1_8.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file and_1_16.v
+    Info (12023): Found entity 1: and_1_16 File: C:/altera_lite/16.0/ECE_550/Project1/and_1_16.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file and_1_32.v
+    Info (12023): Found entity 1: and_1_32 File: C:/altera_lite/16.0/ECE_550/Project1/and_1_32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file or_1_4.v
+    Info (12023): Found entity 1: or_1_4 File: C:/altera_lite/16.0/ECE_550/Project1/or_1_4.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file or_1_8.v
+    Info (12023): Found entity 1: or_1_8 File: C:/altera_lite/16.0/ECE_550/Project1/or_1_8.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file or_1_16.v
+    Info (12023): Found entity 1: or_1_16 File: C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file or_1_32.v
+    Info (12023): Found entity 1: or_1_32 File: C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file xnor_5.v
+    Info (12023): Found entity 1: xnor_5 File: C:/altera_lite/16.0/ECE_550/Project1/xnor_5.v Line: 1
+Info (12127): Elaborating entity "alu" for the top level hierarchy
+Warning (12125): Using design file addsub.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: AddSub File: C:/altera_lite/16.0/ECE_550/Project1/addsub.v Line: 1
+Info (12128): Elaborating entity "AddSub" for hierarchy "AddSub:AS1" File: C:/altera_lite/16.0/ECE_550/Project1/alu.v Line: 11
+Warning (10230): Verilog HDL assignment warning at addsub.v(24): truncated value with size 32 to match size of target (1) File: C:/altera_lite/16.0/ECE_550/Project1/addsub.v Line: 24
+Info (12128): Elaborating entity "not_32" for hierarchy "AddSub:AS1|not_32:not1" File: C:/altera_lite/16.0/ECE_550/Project1/addsub.v Line: 9
+Info (12128): Elaborating entity "not_16" for hierarchy "AddSub:AS1|not_32:not1|not_16:not_16_1" File: C:/altera_lite/16.0/ECE_550/Project1/not_32.v Line: 4
+Info (12128): Elaborating entity "not_8" for hierarchy "AddSub:AS1|not_32:not1|not_16:not_16_1|not_8:not_8_1" File: C:/altera_lite/16.0/ECE_550/Project1/not_16.v Line: 4
+Warning (12125): Using design file not_4.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: not_4 File: C:/altera_lite/16.0/ECE_550/Project1/not_4.v Line: 1
+Info (12128): Elaborating entity "not_4" for hierarchy "AddSub:AS1|not_32:not1|not_16:not_16_1|not_8:not_8_1|not_4:not_4_1" File: C:/altera_lite/16.0/ECE_550/Project1/not_8.v Line: 4
+Info (12128): Elaborating entity "mux_2_32bit" for hierarchy "AddSub:AS1|mux_2_32bit:mux_2_32bit_1" File: C:/altera_lite/16.0/ECE_550/Project1/addsub.v Line: 11
+Info (12128): Elaborating entity "CSA_32" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1" File: C:/altera_lite/16.0/ECE_550/Project1/addsub.v Line: 12
+Info (12128): Elaborating entity "CSA_16" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1" File: C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v Line: 8
+Info (12128): Elaborating entity "CSA_8" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1" File: C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v Line: 8
+Info (12128): Elaborating entity "CSA_4" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1" File: C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v Line: 8
+Info (12128): Elaborating entity "RCA_2" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_1" File: C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v Line: 8
+Warning (12125): Using design file full_adder.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: full_adder File: C:/altera_lite/16.0/ECE_550/Project1/full_adder.v Line: 1
+Info (12128): Elaborating entity "full_adder" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_1|full_adder:full_adder1" File: C:/altera_lite/16.0/ECE_550/Project1/RCA_2.v Line: 7
+Info (12128): Elaborating entity "mux_2_2bit" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|mux_2_2bit:mux_2_2bit_1" File: C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v Line: 11
+Info (12128): Elaborating entity "mux_2_4bit" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|mux_2_4bit:mux_2_4bit_1" File: C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v Line: 11
+Info (12128): Elaborating entity "mux_2_8bit" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|mux_2_8bit:mux_2_8bit_1" File: C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v Line: 11
+Info (12128): Elaborating entity "mux_2_16bit" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|mux_2_16bit:mux_2_16bit_1" File: C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v Line: 11
+Info (12128): Elaborating entity "or_1_32" for hierarchy "AddSub:AS1|or_1_32:o1" File: C:/altera_lite/16.0/ECE_550/Project1/addsub.v Line: 27
+Info (12128): Elaborating entity "or_1_16" for hierarchy "AddSub:AS1|or_1_32:o1|or_1_16:o1" File: C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v Line: 5
+Info (12128): Elaborating entity "or_1_8" for hierarchy "AddSub:AS1|or_1_32:o1|or_1_16:o1|or_1_8:o1" File: C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v Line: 5
+Info (12128): Elaborating entity "or_1_4" for hierarchy "AddSub:AS1|or_1_32:o1|or_1_16:o1|or_1_8:o1|or_1_4:a1" File: C:/altera_lite/16.0/ECE_550/Project1/or_1_8.v Line: 5
+Warning (12125): Using design file mux_2_1bit.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: mux_2_1bit File: C:/altera_lite/16.0/ECE_550/Project1/mux_2_1bit.v Line: 1
+Info (12128): Elaborating entity "mux_2_1bit" for hierarchy "AddSub:AS1|mux_2_1bit:m1" File: C:/altera_lite/16.0/ECE_550/Project1/addsub.v Line: 28
+Info (12128): Elaborating entity "and_32" for hierarchy "and_32:A1" File: C:/altera_lite/16.0/ECE_550/Project1/alu.v Line: 12
+Info (12128): Elaborating entity "and_16" for hierarchy "and_32:A1|and_16:and1" File: C:/altera_lite/16.0/ECE_550/Project1/and_32.v Line: 4
+Info (12128): Elaborating entity "and_8" for hierarchy "and_32:A1|and_16:and1|and_8:and1" File: C:/altera_lite/16.0/ECE_550/Project1/and_16.v Line: 4
+Info (12128): Elaborating entity "and_4" for hierarchy "and_32:A1|and_16:and1|and_8:and1|and_4:and1" File: C:/altera_lite/16.0/ECE_550/Project1/and_8.v Line: 4
+Warning (12125): Using design file or_32.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: or_32 File: C:/altera_lite/16.0/ECE_550/Project1/or_32.v Line: 1
+Info (12128): Elaborating entity "or_32" for hierarchy "or_32:O1" File: C:/altera_lite/16.0/ECE_550/Project1/alu.v Line: 13
+Warning (12125): Using design file or_16.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: or_16 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v Line: 1
+Info (12128): Elaborating entity "or_16" for hierarchy "or_32:O1|or_16:or1" File: C:/altera_lite/16.0/ECE_550/Project1/or_32.v Line: 4
+Warning (10034): Output port "out[16]" at or_16.v(3) has no driver File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v Line: 3
+Warning (12125): Using design file or_8.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: or_8 File: C:/altera_lite/16.0/ECE_550/Project1/or_8.v Line: 1
+Info (12128): Elaborating entity "or_8" for hierarchy "or_32:O1|or_16:or1|or_8:or1" File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v Line: 4
+Warning (12125): Using design file or_4.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: or_4 File: C:/altera_lite/16.0/ECE_550/Project1/or_4.v Line: 1
+Info (12128): Elaborating entity "or_4" for hierarchy "or_32:O1|or_16:or1|or_8:or1|or_4:or1" File: C:/altera_lite/16.0/ECE_550/Project1/or_8.v Line: 4
+Info (12128): Elaborating entity "SRA" for hierarchy "SRA:SRA1" File: C:/altera_lite/16.0/ECE_550/Project1/alu.v Line: 14
+Info (12128): Elaborating entity "SLL" for hierarchy "SLL:SLL1" File: C:/altera_lite/16.0/ECE_550/Project1/alu.v Line: 15
+Warning (12125): Using design file mux_alu_selector.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: mux_ALU_selector File: C:/altera_lite/16.0/ECE_550/Project1/mux_alu_selector.v Line: 1
+Info (12128): Elaborating entity "mux_ALU_selector" for hierarchy "mux_ALU_selector:mAs1" File: C:/altera_lite/16.0/ECE_550/Project1/alu.v Line: 16
+Warning (12125): Using design file mux_32.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: mux_32 File: C:/altera_lite/16.0/ECE_550/Project1/mux_32.v Line: 1
+Info (12128): Elaborating entity "mux_32" for hierarchy "mux_ALU_selector:mAs1|mux_32:m1" File: C:/altera_lite/16.0/ECE_550/Project1/mux_alu_selector.v Line: 6
+Warning (12125): Using design file mux_16.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: mux_16 File: C:/altera_lite/16.0/ECE_550/Project1/mux_16.v Line: 1
+Info (12128): Elaborating entity "mux_16" for hierarchy "mux_ALU_selector:mAs1|mux_32:m1|mux_16:first_top" File: C:/altera_lite/16.0/ECE_550/Project1/mux_32.v Line: 9
+Warning (12125): Using design file mux_8.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: mux_8 File: C:/altera_lite/16.0/ECE_550/Project1/mux_8.v Line: 1
+Info (12128): Elaborating entity "mux_8" for hierarchy "mux_ALU_selector:mAs1|mux_32:m1|mux_16:first_top|mux_8:first_top" File: C:/altera_lite/16.0/ECE_550/Project1/mux_16.v Line: 6
+Warning (12125): Using design file mux_4.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: mux_4 File: C:/altera_lite/16.0/ECE_550/Project1/mux_4.v Line: 1
+Info (12128): Elaborating entity "mux_4" for hierarchy "mux_ALU_selector:mAs1|mux_32:m1|mux_16:first_top|mux_8:first_top|mux_4:first_top" File: C:/altera_lite/16.0/ECE_550/Project1/mux_8.v Line: 6
+Warning (12125): Using design file mux_2.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: mux_2 File: C:/altera_lite/16.0/ECE_550/Project1/mux_2.v Line: 1
+Info (12128): Elaborating entity "mux_2" for hierarchy "mux_ALU_selector:mAs1|mux_32:m1|mux_16:first_top|mux_8:first_top|mux_4:first_top|mux_2:first_top" File: C:/altera_lite/16.0/ECE_550/Project1/mux_4.v Line: 6
+Info (12128): Elaborating entity "isequal_5" for hierarchy "isequal_5:ie1" File: C:/altera_lite/16.0/ECE_550/Project1/alu.v Line: 19
+Info (12128): Elaborating entity "xnor_5" for hierarchy "isequal_5:ie1|xnor_5:xn" File: C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v Line: 5
+Info (12128): Elaborating entity "and_1_5" for hierarchy "isequal_5:ie1|and_1_5:a2" File: C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v Line: 6
+Warning (12241): 3 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (286030): Timing-Driven Synthesis is running
+Info (144001): Generated suppressed messages file C:/altera_lite/16.0/ECE_550/Project1/output_files/alu.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 677 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 74 input pins
+    Info (21059): Implemented 35 output pins
+    Info (21061): Implemented 568 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 23 warnings
+    Info: Peak virtual memory: 5011 megabytes
+    Info: Processing ended: Mon Sep 13 19:22:04 2021
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:26
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/altera_lite/16.0/ECE_550/Project1/output_files/alu.map.smsg.
+
+

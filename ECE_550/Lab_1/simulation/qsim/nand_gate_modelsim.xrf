@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_1/nand_gate.v
+source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_1/Waveform_nand.vwf
+source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_1/nand_gate_tb.v
+source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_1/dec2to4.v
+source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_1/Waveform.vwf
+source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_1/mux_2.v
+source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_1/mux_4.v
+source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_1/mux_2_tb.v
+source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_1/Waveform1.vwf
+source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_1/db/nand_gate.cbx.xml
+design_name = nand_gate
+instance = comp, \out~output , out~output, nand_gate, 1
+instance = comp, \in1~input , in1~input, nand_gate, 1
+instance = comp, \in2~input , in2~input, nand_gate, 1

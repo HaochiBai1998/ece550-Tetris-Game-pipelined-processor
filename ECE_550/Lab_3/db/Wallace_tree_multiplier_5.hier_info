@@ -1,0 +1,311 @@
+|Wallace_tree_multiplier_5
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+x[3] => x[3].IN1
+x[4] => x[4].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+y[3] => y[3].IN1
+y[4] => y[4].IN1
+out[0] <= And_combination_5:And_combination_5_1.port14
+out[1] <= half_adder:half_adder5.port3
+out[2] <= full_adder:full_adder9.port4
+out[3] <= full_adder:full_adder10.port4
+out[4] <= full_adder:full_adder11.port4
+out[5] <= full_adder:full_adder12.port4
+out[6] <= full_adder:full_adder13.port4
+out[7] <= full_adder:full_adder14.port4
+out[8] <= full_adder:full_adder15.port4
+out[9] <= full_adder:full_adder15.port3
+
+
+|Wallace_tree_multiplier_5|And_combination_5:And_combination_5_1
+x0 => and1.IN0
+x0 => and2.IN0
+x0 => and3.IN0
+x0 => and4.IN0
+x0 => and5.IN0
+x1 => and6.IN0
+x1 => and7.IN0
+x1 => and8.IN0
+x1 => and9.IN0
+x1 => and10.IN0
+x2 => and11.IN0
+x2 => and12.IN0
+x2 => and13.IN0
+x2 => and14.IN0
+x2 => and15.IN0
+x3 => and16.IN0
+x3 => and17.IN0
+x3 => and18.IN0
+x3 => and19.IN0
+x3 => and20.IN0
+x4 => and21.IN0
+x4 => and22.IN0
+x4 => and23.IN0
+x4 => and24.IN0
+x4 => and25.IN0
+y0 => and5.IN1
+y0 => and10.IN1
+y0 => and15.IN1
+y0 => and20.IN1
+y0 => and25.IN1
+y1 => and4.IN1
+y1 => and9.IN1
+y1 => and14.IN1
+y1 => and19.IN1
+y1 => and24.IN1
+y2 => and3.IN1
+y2 => and8.IN1
+y2 => and13.IN1
+y2 => and18.IN1
+y2 => and23.IN1
+y3 => and2.IN1
+y3 => and7.IN1
+y3 => and12.IN1
+y3 => and17.IN1
+y3 => and22.IN1
+y4 => and1.IN1
+y4 => and6.IN1
+y4 => and11.IN1
+y4 => and16.IN1
+y4 => and21.IN1
+x0y4 <= and1.DB_MAX_OUTPUT_PORT_TYPE
+x0y3 <= and2.DB_MAX_OUTPUT_PORT_TYPE
+x0y2 <= and3.DB_MAX_OUTPUT_PORT_TYPE
+x0y1 <= and4.DB_MAX_OUTPUT_PORT_TYPE
+x0y0 <= and5.DB_MAX_OUTPUT_PORT_TYPE
+x1y4 <= and6.DB_MAX_OUTPUT_PORT_TYPE
+x1y3 <= and7.DB_MAX_OUTPUT_PORT_TYPE
+x1y2 <= and8.DB_MAX_OUTPUT_PORT_TYPE
+x1y1 <= and9.DB_MAX_OUTPUT_PORT_TYPE
+x1y0 <= and10.DB_MAX_OUTPUT_PORT_TYPE
+x2y4 <= and11.DB_MAX_OUTPUT_PORT_TYPE
+x2y3 <= and12.DB_MAX_OUTPUT_PORT_TYPE
+x2y2 <= and13.DB_MAX_OUTPUT_PORT_TYPE
+x2y1 <= and14.DB_MAX_OUTPUT_PORT_TYPE
+x2y0 <= and15.DB_MAX_OUTPUT_PORT_TYPE
+x3y4 <= and16.DB_MAX_OUTPUT_PORT_TYPE
+x3y3 <= and17.DB_MAX_OUTPUT_PORT_TYPE
+x3y2 <= and18.DB_MAX_OUTPUT_PORT_TYPE
+x3y1 <= and19.DB_MAX_OUTPUT_PORT_TYPE
+x3y0 <= and20.DB_MAX_OUTPUT_PORT_TYPE
+x4y4 <= and21.DB_MAX_OUTPUT_PORT_TYPE
+x4y3 <= and22.DB_MAX_OUTPUT_PORT_TYPE
+x4y2 <= and23.DB_MAX_OUTPUT_PORT_TYPE
+x4y1 <= and24.DB_MAX_OUTPUT_PORT_TYPE
+x4y0 <= and25.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|half_adder:half_adder1
+a => and1.IN0
+a => xor1.IN0
+b => and1.IN1
+b => xor1.IN1
+cout <= and1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|half_adder:half_adder2
+a => and1.IN0
+a => xor1.IN0
+b => and1.IN1
+b => xor1.IN1
+cout <= and1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|half_adder:half_adder3
+a => and1.IN0
+a => xor1.IN0
+b => and1.IN1
+b => xor1.IN1
+cout <= and1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|full_adder:full_adder1
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|full_adder:full_adder2
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|full_adder:full_adder3
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|half_adder:half_adder4
+a => and1.IN0
+a => xor1.IN0
+b => and1.IN1
+b => xor1.IN1
+cout <= and1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|full_adder:full_adder4
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|full_adder:full_adder5
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|full_adder:full_adder6
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|full_adder:full_adder7
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|full_adder:full_adder8
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|half_adder:half_adder5
+a => and1.IN0
+a => xor1.IN0
+b => and1.IN1
+b => xor1.IN1
+cout <= and1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|full_adder:full_adder9
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|full_adder:full_adder10
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|full_adder:full_adder11
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|full_adder:full_adder12
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|full_adder:full_adder13
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|full_adder:full_adder14
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Wallace_tree_multiplier_5|full_adder:full_adder15
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+

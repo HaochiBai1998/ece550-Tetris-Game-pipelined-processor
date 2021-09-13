@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_2/One_bit_adder_NAND_imple.v
+source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_2/One_bit_adder_NAND_imple_Waveform.vwf
+source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_2/db/One_bit_adder_NAND_imple.cbx.xml
+design_name = One_bit_adder_NAND_imple
+instance = comp, \S~output , S~output, One_bit_adder_NAND_imple, 1
+instance = comp, \cout~output , cout~output, One_bit_adder_NAND_imple, 1
+instance = comp, \a~input , a~input, One_bit_adder_NAND_imple, 1
+instance = comp, \b~input , b~input, One_bit_adder_NAND_imple, 1
+instance = comp, \cin~input , cin~input, One_bit_adder_NAND_imple, 1
+instance = comp, \nand8~0 , nand8~0, One_bit_adder_NAND_imple, 1
+instance = comp, \nand9~0 , nand9~0, One_bit_adder_NAND_imple, 1

@@ -1,0 +1,2840 @@
+# Reading C:/altera_lite/16.0/modelsim_ase/tcl/vsim/pref.tcl
+# do alu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying C:/altera_lite/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/RCA_2.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:36 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/RCA_2.v 
+# -- Compiling module RCA_2
+# 
+# Top level modules:
+# 	RCA_2
+# End time: 15:09:36 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_2bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:36 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_2bit.v 
+# -- Compiling module mux_2_2bit
+# 
+# Top level modules:
+# 	mux_2_2bit
+# End time: 15:09:36 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:36 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v 
+# -- Compiling module CSA_4
+# 
+# Top level modules:
+# 	CSA_4
+# End time: 15:09:37 on Sep 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_4bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:37 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_4bit.v 
+# -- Compiling module mux_2_4bit
+# 
+# Top level modules:
+# 	mux_2_4bit
+# End time: 15:09:37 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:37 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v 
+# -- Compiling module CSA_8
+# 
+# Top level modules:
+# 	CSA_8
+# End time: 15:09:37 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_8bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:37 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_8bit.v 
+# -- Compiling module mux_2_8bit
+# 
+# Top level modules:
+# 	mux_2_8bit
+# End time: 15:09:37 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:37 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v 
+# -- Compiling module CSA_16
+# 
+# Top level modules:
+# 	CSA_16
+# End time: 15:09:37 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_16bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:37 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_16bit.v 
+# -- Compiling module mux_2_16bit
+# 
+# Top level modules:
+# 	mux_2_16bit
+# End time: 15:09:37 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:38 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v 
+# -- Compiling module CSA_32
+# 
+# Top level modules:
+# 	CSA_32
+# End time: 15:09:38 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:38 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 15:09:38 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:38 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_32bit.v 
+# -- Compiling module mux_2_32bit
+# 
+# Top level modules:
+# 	mux_2_32bit
+# End time: 15:09:38 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:38 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_8.v 
+# -- Compiling module not_8
+# 
+# Top level modules:
+# 	not_8
+# End time: 15:09:38 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:38 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_16.v 
+# -- Compiling module not_16
+# 
+# Top level modules:
+# 	not_16
+# End time: 15:09:38 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:38 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_32.v 
+# -- Compiling module not_32
+# 
+# Top level modules:
+# 	not_32
+# End time: 15:09:38 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:38 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_4.v 
+# -- Compiling module and_4
+# 
+# Top level modules:
+# 	and_4
+# End time: 15:09:38 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:38 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_16.v 
+# -- Compiling module and_16
+# 
+# Top level modules:
+# 	and_16
+# End time: 15:09:38 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:38 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_32.v 
+# -- Compiling module and_32
+# 
+# Top level modules:
+# 	and_32
+# End time: 15:09:38 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:39 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_8.v 
+# -- Compiling module and_8
+# 
+# Top level modules:
+# 	and_8
+# End time: 15:09:39 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL_1_4bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:39 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL_1_4bit.v 
+# -- Compiling module SLL_1_4bit
+# 
+# Top level modules:
+# 	SLL_1_4bit
+# End time: 15:09:39 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA_1_4bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:39 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA_1_4bit.v 
+# -- Compiling module SRA_1_4bit
+# 
+# Top level modules:
+# 	SRA_1_4bit
+# End time: 15:09:39 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL_1_8bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:39 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL_1_8bit.v 
+# -- Compiling module SLL_1_8bit
+# 
+# Top level modules:
+# 	SLL_1_8bit
+# End time: 15:09:39 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL_1_16bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:39 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL_1_16bit.v 
+# -- Compiling module SLL_1_16bit
+# 
+# Top level modules:
+# 	SLL_1_16bit
+# End time: 15:09:39 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL_1_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:39 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL_1_32bit.v 
+# -- Compiling module SLL_1_32bit
+# 
+# Top level modules:
+# 	SLL_1_32bit
+# End time: 15:09:39 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA_1_8bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:39 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA_1_8bit.v 
+# -- Compiling module SRA_1_8bit
+# 
+# Top level modules:
+# 	SRA_1_8bit
+# End time: 15:09:39 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA_1_16bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:39 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA_1_16bit.v 
+# -- Compiling module SRA_1_16bit
+# 
+# Top level modules:
+# 	SRA_1_16bit
+# End time: 15:09:39 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL_2_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL_2_32bit.v 
+# -- Compiling module SLL_2_32bit
+# 
+# Top level modules:
+# 	SLL_2_32bit
+# End time: 15:09:40 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL_4_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL_4_32bit.v 
+# -- Compiling module SLL_4_32bit
+# 
+# Top level modules:
+# 	SLL_4_32bit
+# End time: 15:09:40 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL_8_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL_8_32bit.v 
+# -- Compiling module SLL_8_32bit
+# 
+# Top level modules:
+# 	SLL_8_32bit
+# End time: 15:09:40 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL_16_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL_16_32bit.v 
+# -- Compiling module SLL_16_32bit
+# 
+# Top level modules:
+# 	SLL_16_32bit
+# End time: 15:09:40 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA_2_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA_2_32bit.v 
+# -- Compiling module SRA_2_32bit
+# 
+# Top level modules:
+# 	SRA_2_32bit
+# End time: 15:09:40 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA_4_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA_4_32bit.v 
+# -- Compiling module SRA_4_32bit
+# 
+# Top level modules:
+# 	SRA_4_32bit
+# End time: 15:09:40 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA_8_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA_8_32bit.v 
+# -- Compiling module SRA_8_32bit
+# 
+# Top level modules:
+# 	SRA_8_32bit
+# End time: 15:09:40 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA_16_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA_16_32bit.v 
+# -- Compiling module SRA_16_32bit
+# 
+# Top level modules:
+# 	SRA_16_32bit
+# End time: 15:09:40 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL.v 
+# -- Compiling module SLL
+# 
+# Top level modules:
+# 	SLL
+# End time: 15:09:40 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA.v 
+# -- Compiling module SRA
+# 
+# Top level modules:
+# 	SRA
+# End time: 15:09:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_1_5.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_1_5.v 
+# -- Compiling module and_1_5
+# 
+# Top level modules:
+# 	and_1_5
+# End time: 15:09:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v 
+# -- Compiling module isequal_5
+# 
+# Top level modules:
+# 	isequal_5
+# End time: 15:09:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_4.v 
+# -- Compiling module or_1_4
+# 
+# Top level modules:
+# 	or_1_4
+# End time: 15:09:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_8.v 
+# -- Compiling module or_1_8
+# 
+# Top level modules:
+# 	or_1_8
+# End time: 15:09:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v 
+# -- Compiling module or_1_16
+# 
+# Top level modules:
+# 	or_1_16
+# End time: 15:09:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v 
+# -- Compiling module or_1_32
+# 
+# Top level modules:
+# 	or_1_32
+# End time: 15:09:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/xnor_5.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/xnor_5.v 
+# -- Compiling module xnor_5
+# 
+# Top level modules:
+# 	xnor_5
+# End time: 15:09:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/addsub.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/addsub.v 
+# -- Compiling module AddSub
+# 
+# Top level modules:
+# 	AddSub
+# End time: 15:09:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_4.v 
+# -- Compiling module not_4
+# 
+# Top level modules:
+# 	not_4
+# End time: 15:09:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/full_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 15:09:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_1bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_1bit.v 
+# -- Compiling module mux_2_1bit
+# 
+# Top level modules:
+# 	mux_2_1bit
+# End time: 15:09:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_32.v 
+# -- Compiling module or_32
+# 
+# Top level modules:
+# 	or_32
+# End time: 15:09:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_16.v 
+# -- Compiling module or_16
+# 
+# Top level modules:
+# 	or_16
+# End time: 15:09:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_8.v 
+# -- Compiling module or_8
+# 
+# Top level modules:
+# 	or_8
+# End time: 15:09:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_4.v 
+# -- Compiling module or_4
+# 
+# Top level modules:
+# 	or_4
+# End time: 15:09:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/sra_1_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/sra_1_32bit.v 
+# -- Compiling module SRA_1_32bit
+# 
+# Top level modules:
+# 	SRA_1_32bit
+# End time: 15:09:43 on Sep 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/shift_1_4bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:43 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/shift_1_4bit.v 
+# -- Compiling module Shift_1_4bit
+# 
+# Top level modules:
+# 	Shift_1_4bit
+# End time: 15:09:43 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_alu_selector.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:43 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_alu_selector.v 
+# -- Compiling module mux_ALU_selector
+# 
+# Top level modules:
+# 	mux_ALU_selector
+# End time: 15:09:43 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:43 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_8.v 
+# -- Compiling module mux_8
+# 
+# Top level modules:
+# 	mux_8
+# End time: 15:09:43 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:43 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_4.v 
+# -- Compiling module mux_4
+# 
+# Top level modules:
+# 	mux_4
+# End time: 15:09:43 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:43 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2.v 
+# -- Compiling module mux_2
+# 
+# Top level modules:
+# 	mux_2
+# End time: 15:09:43 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:09:43 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v 
+# -- Compiling module alu_tb
+# 
+# Top level modules:
+# 	alu_tb
+# End time: 15:09:43 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  alu_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" alu_tb 
+# Start time: 15:09:43 on Sep 13,2021
+# Loading work.alu_tb
+# Loading work.alu
+# Loading work.AddSub
+# Loading work.not_32
+# Loading work.not_16
+# Loading work.not_8
+# Loading work.not_4
+# Loading work.mux_2_32bit
+# Loading work.CSA_32
+# Loading work.CSA_16
+# Loading work.CSA_8
+# Loading work.CSA_4
+# Loading work.RCA_2
+# Loading work.full_adder
+# Loading work.mux_2_2bit
+# Loading work.mux_2_4bit
+# Loading work.mux_2_8bit
+# Loading work.mux_2_16bit
+# Loading work.or_1_32
+# Loading work.or_1_16
+# Loading work.or_1_8
+# Loading work.or_1_4
+# Loading work.mux_2_1bit
+# Loading work.and_32
+# Loading work.and_16
+# Loading work.and_8
+# Loading work.and_4
+# Loading work.or_32
+# Loading work.or_16
+# Loading work.or_8
+# Loading work.or_4
+# Loading work.SRA
+# Loading work.SRA_16_32bit
+# Loading work.SRA_8_32bit
+# Loading work.SRA_4_32bit
+# Loading work.SRA_2_32bit
+# Loading work.SRA_1_32bit
+# Loading work.SRA_1_16bit
+# Loading work.SRA_1_8bit
+# Loading work.SRA_1_4bit
+# Loading work.Shift_1_4bit
+# Loading work.SLL
+# Loading work.SLL_16_32bit
+# Loading work.SLL_8_32bit
+# Loading work.SLL_4_32bit
+# Loading work.SLL_2_32bit
+# Loading work.SLL_1_32bit
+# Loading work.SLL_1_16bit
+# Loading work.SLL_1_8bit
+# Loading work.SLL_1_4bit
+# Loading work.mux_ALU_selector
+# Loading work.mux_8
+# Loading work.mux_4
+# Loading work.mux_2
+# Loading work.isequal_5
+# Loading work.xnor_5
+# Loading work.and_1_5
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v(6): [PCDPC] - Port size (16) does not match connection size (17) for port 'in'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/AS1/o1/o2 File: C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(4): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or1 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(4): [PCDPC] - Port size (17) does not match connection size (16) for port 'in1'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or1 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(4): [PCDPC] - Port size (17) does not match connection size (16) for port 'in2'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or1 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(5): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or2 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(5): [PCDPC] - Port size (17) does not match connection size (16) for port 'in1'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or2 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(5): [PCDPC] - Port size (17) does not match connection size (16) for port 'in2'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or2 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0 << Starting the Simulation >>
+# The simulation completed without errors
+# ** Note: $stop    : C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v(51)
+#    Time: 2480 ns  Iteration: 1  Instance: /alu_tb
+# Break in Module alu_tb at C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v line 51
+do alu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/altera_lite/16.0/ECE_550/Project1/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/altera_lite/16.0/ECE_550/Project1/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# ** Error: (vlib-35) Failed to create directory "rtl_work".
+# 
+# File exists. (errno = EEXIST)
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/RCA_2.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:08 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/RCA_2.v 
+# -- Compiling module RCA_2
+# 
+# Top level modules:
+# 	RCA_2
+# End time: 15:12:08 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_2bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:08 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_2bit.v 
+# -- Compiling module mux_2_2bit
+# 
+# Top level modules:
+# 	mux_2_2bit
+# End time: 15:12:08 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:08 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v 
+# -- Compiling module CSA_4
+# 
+# Top level modules:
+# 	CSA_4
+# End time: 15:12:08 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_4bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:09 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_4bit.v 
+# -- Compiling module mux_2_4bit
+# 
+# Top level modules:
+# 	mux_2_4bit
+# End time: 15:12:09 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:09 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v 
+# -- Compiling module CSA_8
+# 
+# Top level modules:
+# 	CSA_8
+# End time: 15:12:09 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_8bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:09 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_8bit.v 
+# -- Compiling module mux_2_8bit
+# 
+# Top level modules:
+# 	mux_2_8bit
+# End time: 15:12:09 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:09 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v 
+# -- Compiling module CSA_16
+# 
+# Top level modules:
+# 	CSA_16
+# End time: 15:12:09 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_16bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:09 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_16bit.v 
+# -- Compiling module mux_2_16bit
+# 
+# Top level modules:
+# 	mux_2_16bit
+# End time: 15:12:09 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:10 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v 
+# -- Compiling module CSA_32
+# 
+# Top level modules:
+# 	CSA_32
+# End time: 15:12:10 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:10 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 15:12:10 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:10 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_32bit.v 
+# -- Compiling module mux_2_32bit
+# 
+# Top level modules:
+# 	mux_2_32bit
+# End time: 15:12:10 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:10 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_8.v 
+# -- Compiling module not_8
+# 
+# Top level modules:
+# 	not_8
+# End time: 15:12:10 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:10 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_16.v 
+# -- Compiling module not_16
+# 
+# Top level modules:
+# 	not_16
+# End time: 15:12:10 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:10 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_32.v 
+# -- Compiling module not_32
+# 
+# Top level modules:
+# 	not_32
+# End time: 15:12:10 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:11 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_4.v 
+# -- Compiling module and_4
+# 
+# Top level modules:
+# 	and_4
+# End time: 15:12:11 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:11 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_16.v 
+# -- Compiling module and_16
+# 
+# Top level modules:
+# 	and_16
+# End time: 15:12:11 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:11 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_32.v 
+# -- Compiling module and_32
+# 
+# Top level modules:
+# 	and_32
+# End time: 15:12:11 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:11 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_8.v 
+# -- Compiling module and_8
+# 
+# Top level modules:
+# 	and_8
+# End time: 15:12:11 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL_1_4bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:11 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL_1_4bit.v 
+# -- Compiling module SLL_1_4bit
+# 
+# Top level modules:
+# 	SLL_1_4bit
+# End time: 15:12:11 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA_1_4bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:11 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA_1_4bit.v 
+# -- Compiling module SRA_1_4bit
+# 
+# Top level modules:
+# 	SRA_1_4bit
+# End time: 15:12:11 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL_1_8bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:12 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL_1_8bit.v 
+# -- Compiling module SLL_1_8bit
+# 
+# Top level modules:
+# 	SLL_1_8bit
+# End time: 15:12:12 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL_1_16bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:12 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL_1_16bit.v 
+# -- Compiling module SLL_1_16bit
+# 
+# Top level modules:
+# 	SLL_1_16bit
+# End time: 15:12:12 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL_1_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:12 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL_1_32bit.v 
+# -- Compiling module SLL_1_32bit
+# 
+# Top level modules:
+# 	SLL_1_32bit
+# End time: 15:12:12 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA_1_8bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:12 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA_1_8bit.v 
+# -- Compiling module SRA_1_8bit
+# 
+# Top level modules:
+# 	SRA_1_8bit
+# End time: 15:12:12 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA_1_16bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:12 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA_1_16bit.v 
+# -- Compiling module SRA_1_16bit
+# 
+# Top level modules:
+# 	SRA_1_16bit
+# End time: 15:12:12 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL_2_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:12 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL_2_32bit.v 
+# -- Compiling module SLL_2_32bit
+# 
+# Top level modules:
+# 	SLL_2_32bit
+# End time: 15:12:12 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL_4_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:13 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL_4_32bit.v 
+# -- Compiling module SLL_4_32bit
+# 
+# Top level modules:
+# 	SLL_4_32bit
+# End time: 15:12:13 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL_8_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:13 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL_8_32bit.v 
+# -- Compiling module SLL_8_32bit
+# 
+# Top level modules:
+# 	SLL_8_32bit
+# End time: 15:12:13 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL_16_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:13 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL_16_32bit.v 
+# -- Compiling module SLL_16_32bit
+# 
+# Top level modules:
+# 	SLL_16_32bit
+# End time: 15:12:13 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA_2_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:13 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA_2_32bit.v 
+# -- Compiling module SRA_2_32bit
+# 
+# Top level modules:
+# 	SRA_2_32bit
+# End time: 15:12:13 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA_4_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:13 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA_4_32bit.v 
+# -- Compiling module SRA_4_32bit
+# 
+# Top level modules:
+# 	SRA_4_32bit
+# End time: 15:12:13 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA_8_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:13 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA_8_32bit.v 
+# -- Compiling module SRA_8_32bit
+# 
+# Top level modules:
+# 	SRA_8_32bit
+# End time: 15:12:14 on Sep 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA_16_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:14 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA_16_32bit.v 
+# -- Compiling module SRA_16_32bit
+# 
+# Top level modules:
+# 	SRA_16_32bit
+# End time: 15:12:14 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:14 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL.v 
+# -- Compiling module SLL
+# 
+# Top level modules:
+# 	SLL
+# End time: 15:12:14 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:14 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA.v 
+# -- Compiling module SRA
+# 
+# Top level modules:
+# 	SRA
+# End time: 15:12:14 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_1_5.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:14 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_1_5.v 
+# -- Compiling module and_1_5
+# 
+# Top level modules:
+# 	and_1_5
+# End time: 15:12:14 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:14 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v 
+# -- Compiling module isequal_5
+# 
+# Top level modules:
+# 	isequal_5
+# End time: 15:12:15 on Sep 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:15 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_4.v 
+# -- Compiling module or_1_4
+# 
+# Top level modules:
+# 	or_1_4
+# End time: 15:12:15 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:15 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_8.v 
+# -- Compiling module or_1_8
+# 
+# Top level modules:
+# 	or_1_8
+# End time: 15:12:15 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:15 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v 
+# -- Compiling module or_1_16
+# 
+# Top level modules:
+# 	or_1_16
+# End time: 15:12:15 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:15 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v 
+# -- Compiling module or_1_32
+# 
+# Top level modules:
+# 	or_1_32
+# End time: 15:12:15 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/xnor_5.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:15 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/xnor_5.v 
+# -- Compiling module xnor_5
+# 
+# Top level modules:
+# 	xnor_5
+# End time: 15:12:15 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/addsub.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:15 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/addsub.v 
+# -- Compiling module AddSub
+# 
+# Top level modules:
+# 	AddSub
+# End time: 15:12:15 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:16 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_4.v 
+# -- Compiling module not_4
+# 
+# Top level modules:
+# 	not_4
+# End time: 15:12:16 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/full_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:16 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 15:12:16 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_1bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:16 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_1bit.v 
+# -- Compiling module mux_2_1bit
+# 
+# Top level modules:
+# 	mux_2_1bit
+# End time: 15:12:16 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:16 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_32.v 
+# -- Compiling module or_32
+# 
+# Top level modules:
+# 	or_32
+# End time: 15:12:16 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:16 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_16.v 
+# -- Compiling module or_16
+# 
+# Top level modules:
+# 	or_16
+# End time: 15:12:16 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:17 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_8.v 
+# -- Compiling module or_8
+# 
+# Top level modules:
+# 	or_8
+# End time: 15:12:17 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:17 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_4.v 
+# -- Compiling module or_4
+# 
+# Top level modules:
+# 	or_4
+# End time: 15:12:17 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/sra_1_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:17 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/sra_1_32bit.v 
+# -- Compiling module SRA_1_32bit
+# 
+# Top level modules:
+# 	SRA_1_32bit
+# End time: 15:12:17 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/shift_1_4bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:17 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/shift_1_4bit.v 
+# -- Compiling module Shift_1_4bit
+# 
+# Top level modules:
+# 	Shift_1_4bit
+# End time: 15:12:17 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_alu_selector.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:17 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_alu_selector.v 
+# -- Compiling module mux_ALU_selector
+# 
+# Top level modules:
+# 	mux_ALU_selector
+# End time: 15:12:17 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:18 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_8.v 
+# -- Compiling module mux_8
+# 
+# Top level modules:
+# 	mux_8
+# End time: 15:12:18 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:18 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_4.v 
+# -- Compiling module mux_4
+# 
+# Top level modules:
+# 	mux_4
+# End time: 15:12:18 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:18 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2.v 
+# -- Compiling module mux_2
+# 
+# Top level modules:
+# 	mux_2
+# End time: 15:12:18 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:12:18 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v 
+# -- Compiling module alu_tb
+# 
+# Top level modules:
+# 	alu_tb
+# End time: 15:12:18 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  alu_tb
+# End time: 15:12:22 on Sep 13,2021, Elapsed time: 0:02:39
+# Errors: 0, Warnings: 7
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" alu_tb 
+# Start time: 15:12:22 on Sep 13,2021
+# Loading work.alu_tb
+# Loading work.alu
+# Loading work.AddSub
+# Loading work.not_32
+# Loading work.not_16
+# Loading work.not_8
+# Loading work.not_4
+# Loading work.mux_2_32bit
+# Loading work.CSA_32
+# Loading work.CSA_16
+# Loading work.CSA_8
+# Loading work.CSA_4
+# Loading work.RCA_2
+# Loading work.full_adder
+# Loading work.mux_2_2bit
+# Loading work.mux_2_4bit
+# Loading work.mux_2_8bit
+# Loading work.mux_2_16bit
+# Loading work.or_1_32
+# Loading work.or_1_16
+# Loading work.or_1_8
+# Loading work.or_1_4
+# Loading work.mux_2_1bit
+# Loading work.and_32
+# Loading work.and_16
+# Loading work.and_8
+# Loading work.and_4
+# Loading work.or_32
+# Loading work.or_16
+# Loading work.or_8
+# Loading work.or_4
+# Loading work.SRA
+# Loading work.SRA_16_32bit
+# Loading work.SRA_8_32bit
+# Loading work.SRA_4_32bit
+# Loading work.SRA_2_32bit
+# Loading work.SRA_1_32bit
+# Loading work.SRA_1_16bit
+# Loading work.SRA_1_8bit
+# Loading work.SRA_1_4bit
+# Loading work.Shift_1_4bit
+# Loading work.SLL
+# Loading work.SLL_16_32bit
+# Loading work.SLL_8_32bit
+# Loading work.SLL_4_32bit
+# Loading work.SLL_2_32bit
+# Loading work.SLL_1_32bit
+# Loading work.SLL_1_16bit
+# Loading work.SLL_1_8bit
+# Loading work.SLL_1_4bit
+# Loading work.mux_ALU_selector
+# Loading work.mux_8
+# Loading work.mux_4
+# Loading work.mux_2
+# Loading work.isequal_5
+# Loading work.xnor_5
+# Loading work.and_1_5
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v(6): [PCDPC] - Port size (16) does not match connection size (17) for port 'in'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/AS1/o1/o2 File: C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(4): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or1 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(4): [PCDPC] - Port size (17) does not match connection size (16) for port 'in1'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or1 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(4): [PCDPC] - Port size (17) does not match connection size (16) for port 'in2'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or1 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(5): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or2 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(5): [PCDPC] - Port size (17) does not match connection size (16) for port 'in1'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or2 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(5): [PCDPC] - Port size (17) does not match connection size (16) for port 'in2'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or2 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0 << Starting the Simulation >>
+# The simulation completed without errors
+# ** Note: $stop    : C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v(51)
+#    Time: 2480 ns  Iteration: 1  Instance: /alu_tb
+# Break in Module alu_tb at C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v line 51
+do alu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/RCA_2.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:58 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/RCA_2.v 
+# -- Compiling module RCA_2
+# 
+# Top level modules:
+# 	RCA_2
+# End time: 16:31:58 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_2bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:58 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_2bit.v 
+# -- Compiling module mux_2_2bit
+# 
+# Top level modules:
+# 	mux_2_2bit
+# End time: 16:31:58 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:58 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v 
+# -- Compiling module CSA_4
+# 
+# Top level modules:
+# 	CSA_4
+# End time: 16:31:58 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_4bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:58 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_4bit.v 
+# -- Compiling module mux_2_4bit
+# 
+# Top level modules:
+# 	mux_2_4bit
+# End time: 16:31:58 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:58 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v 
+# -- Compiling module CSA_8
+# 
+# Top level modules:
+# 	CSA_8
+# End time: 16:31:58 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_8bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:58 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_8bit.v 
+# -- Compiling module mux_2_8bit
+# 
+# Top level modules:
+# 	mux_2_8bit
+# End time: 16:31:58 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:58 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v 
+# -- Compiling module CSA_16
+# 
+# Top level modules:
+# 	CSA_16
+# End time: 16:31:58 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_16bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:58 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_16bit.v 
+# -- Compiling module mux_2_16bit
+# 
+# Top level modules:
+# 	mux_2_16bit
+# End time: 16:31:58 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:58 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v 
+# -- Compiling module CSA_32
+# 
+# Top level modules:
+# 	CSA_32
+# End time: 16:31:58 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:59 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 16:31:59 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:59 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_32bit.v 
+# -- Compiling module mux_2_32bit
+# 
+# Top level modules:
+# 	mux_2_32bit
+# End time: 16:31:59 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:59 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_8.v 
+# -- Compiling module not_8
+# 
+# Top level modules:
+# 	not_8
+# End time: 16:31:59 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:59 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_16.v 
+# -- Compiling module not_16
+# 
+# Top level modules:
+# 	not_16
+# End time: 16:31:59 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:59 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_32.v 
+# -- Compiling module not_32
+# 
+# Top level modules:
+# 	not_32
+# End time: 16:31:59 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:59 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_4.v 
+# -- Compiling module and_4
+# 
+# Top level modules:
+# 	and_4
+# End time: 16:31:59 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:59 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_16.v 
+# -- Compiling module and_16
+# 
+# Top level modules:
+# 	and_16
+# End time: 16:31:59 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:59 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_32.v 
+# -- Compiling module and_32
+# 
+# Top level modules:
+# 	and_32
+# End time: 16:31:59 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:59 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_8.v 
+# -- Compiling module and_8
+# 
+# Top level modules:
+# 	and_8
+# End time: 16:31:59 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:59 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL.v 
+# -- Compiling module SLL
+# 
+# Top level modules:
+# 	SLL
+# End time: 16:31:59 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:59 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA.v 
+# -- Compiling module SRA
+# 
+# Top level modules:
+# 	SRA
+# End time: 16:31:59 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_1_5.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:00 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_1_5.v 
+# -- Compiling module and_1_5
+# 
+# Top level modules:
+# 	and_1_5
+# End time: 16:32:00 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:00 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v 
+# -- Compiling module isequal_5
+# 
+# Top level modules:
+# 	isequal_5
+# End time: 16:32:00 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:00 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_4.v 
+# -- Compiling module or_1_4
+# 
+# Top level modules:
+# 	or_1_4
+# End time: 16:32:00 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:00 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_8.v 
+# -- Compiling module or_1_8
+# 
+# Top level modules:
+# 	or_1_8
+# End time: 16:32:00 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:00 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v 
+# -- Compiling module or_1_16
+# 
+# Top level modules:
+# 	or_1_16
+# End time: 16:32:00 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:00 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v 
+# -- Compiling module or_1_32
+# 
+# Top level modules:
+# 	or_1_32
+# End time: 16:32:00 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/xnor_5.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:00 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/xnor_5.v 
+# -- Compiling module xnor_5
+# 
+# Top level modules:
+# 	xnor_5
+# End time: 16:32:00 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/addsub.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:00 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/addsub.v 
+# -- Compiling module AddSub
+# 
+# Top level modules:
+# 	AddSub
+# End time: 16:32:00 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:00 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_4.v 
+# -- Compiling module not_4
+# 
+# Top level modules:
+# 	not_4
+# End time: 16:32:00 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/full_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:00 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 16:32:00 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_1bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:00 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_1bit.v 
+# -- Compiling module mux_2_1bit
+# 
+# Top level modules:
+# 	mux_2_1bit
+# End time: 16:32:00 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:00 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_32.v 
+# -- Compiling module or_32
+# 
+# Top level modules:
+# 	or_32
+# End time: 16:32:01 on Sep 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:01 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_16.v 
+# -- Compiling module or_16
+# 
+# Top level modules:
+# 	or_16
+# End time: 16:32:01 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:01 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_8.v 
+# -- Compiling module or_8
+# 
+# Top level modules:
+# 	or_8
+# End time: 16:32:01 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:01 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_4.v 
+# -- Compiling module or_4
+# 
+# Top level modules:
+# 	or_4
+# End time: 16:32:01 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_alu_selector.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:01 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_alu_selector.v 
+# -- Compiling module mux_ALU_selector
+# 
+# Top level modules:
+# 	mux_ALU_selector
+# End time: 16:32:01 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:01 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_8.v 
+# -- Compiling module mux_8
+# 
+# Top level modules:
+# 	mux_8
+# End time: 16:32:01 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:01 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_4.v 
+# -- Compiling module mux_4
+# 
+# Top level modules:
+# 	mux_4
+# End time: 16:32:01 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:01 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2.v 
+# -- Compiling module mux_2
+# 
+# Top level modules:
+# 	mux_2
+# End time: 16:32:01 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:01 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v 
+# -- Compiling module alu_tb
+# 
+# Top level modules:
+# 	alu_tb
+# End time: 16:32:01 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  alu_tb
+# End time: 16:32:03 on Sep 13,2021, Elapsed time: 1:19:41
+# Errors: 0, Warnings: 7
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" alu_tb 
+# Start time: 16:32:03 on Sep 13,2021
+# Loading work.alu_tb
+# Loading work.alu
+# Loading work.AddSub
+# Loading work.not_32
+# Loading work.not_16
+# Loading work.not_8
+# Loading work.not_4
+# Loading work.mux_2_32bit
+# Loading work.CSA_32
+# Loading work.CSA_16
+# Loading work.CSA_8
+# Loading work.CSA_4
+# Loading work.RCA_2
+# Loading work.full_adder
+# Loading work.mux_2_2bit
+# Loading work.mux_2_4bit
+# Loading work.mux_2_8bit
+# Loading work.mux_2_16bit
+# Loading work.or_1_32
+# Loading work.or_1_16
+# Loading work.or_1_8
+# Loading work.or_1_4
+# Loading work.mux_2_1bit
+# Loading work.and_32
+# Loading work.and_16
+# Loading work.and_8
+# Loading work.and_4
+# Loading work.or_32
+# Loading work.or_16
+# Loading work.or_8
+# Loading work.or_4
+# Loading work.SRA
+# Loading work.SLL
+# Loading work.mux_ALU_selector
+# Loading work.mux_8
+# Loading work.mux_4
+# Loading work.mux_2
+# Loading work.isequal_5
+# Loading work.xnor_5
+# Loading work.and_1_5
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v(6): [PCDPC] - Port size (16) does not match connection size (17) for port 'in'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/AS1/o1/o2 File: C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(4): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or1 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(4): [PCDPC] - Port size (17) does not match connection size (16) for port 'in1'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or1 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(4): [PCDPC] - Port size (17) does not match connection size (16) for port 'in2'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or1 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(5): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or2 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(5): [PCDPC] - Port size (17) does not match connection size (16) for port 'in1'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or2 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(5): [PCDPC] - Port size (17) does not match connection size (16) for port 'in2'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or2 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0 << Starting the Simulation >>
+# The simulation completed without errors
+# ** Note: $stop    : C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v(51)
+#    Time: 2480 ns  Iteration: 1  Instance: /alu_tb
+# Break in Module alu_tb at C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v line 51
+do alu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/RCA_2.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:19 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/RCA_2.v 
+# -- Compiling module RCA_2
+# 
+# Top level modules:
+# 	RCA_2
+# End time: 19:22:19 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_2bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:19 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_2bit.v 
+# -- Compiling module mux_2_2bit
+# 
+# Top level modules:
+# 	mux_2_2bit
+# End time: 19:22:19 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:19 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v 
+# -- Compiling module CSA_4
+# 
+# Top level modules:
+# 	CSA_4
+# End time: 19:22:19 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_4bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:19 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_4bit.v 
+# -- Compiling module mux_2_4bit
+# 
+# Top level modules:
+# 	mux_2_4bit
+# End time: 19:22:19 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:19 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v 
+# -- Compiling module CSA_8
+# 
+# Top level modules:
+# 	CSA_8
+# End time: 19:22:19 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_8bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:19 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_8bit.v 
+# -- Compiling module mux_2_8bit
+# 
+# Top level modules:
+# 	mux_2_8bit
+# End time: 19:22:19 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:19 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v 
+# -- Compiling module CSA_16
+# 
+# Top level modules:
+# 	CSA_16
+# End time: 19:22:19 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_16bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:19 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_16bit.v 
+# -- Compiling module mux_2_16bit
+# 
+# Top level modules:
+# 	mux_2_16bit
+# End time: 19:22:19 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:20 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v 
+# -- Compiling module CSA_32
+# 
+# Top level modules:
+# 	CSA_32
+# End time: 19:22:20 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:20 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 19:22:20 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:20 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_32bit.v 
+# -- Compiling module mux_2_32bit
+# 
+# Top level modules:
+# 	mux_2_32bit
+# End time: 19:22:20 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:20 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_8.v 
+# -- Compiling module not_8
+# 
+# Top level modules:
+# 	not_8
+# End time: 19:22:20 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:20 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_16.v 
+# -- Compiling module not_16
+# 
+# Top level modules:
+# 	not_16
+# End time: 19:22:20 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:20 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_32.v 
+# -- Compiling module not_32
+# 
+# Top level modules:
+# 	not_32
+# End time: 19:22:20 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:20 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_4.v 
+# -- Compiling module and_4
+# 
+# Top level modules:
+# 	and_4
+# End time: 19:22:20 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:20 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_16.v 
+# -- Compiling module and_16
+# 
+# Top level modules:
+# 	and_16
+# End time: 19:22:20 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:20 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_32.v 
+# -- Compiling module and_32
+# 
+# Top level modules:
+# 	and_32
+# End time: 19:22:20 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:20 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_8.v 
+# -- Compiling module and_8
+# 
+# Top level modules:
+# 	and_8
+# End time: 19:22:20 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:20 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL.v 
+# -- Compiling module SLL
+# 
+# Top level modules:
+# 	SLL
+# End time: 19:22:20 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:20 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA.v 
+# -- Compiling module SRA
+# 
+# Top level modules:
+# 	SRA
+# End time: 19:22:20 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_1_5.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:20 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_1_5.v 
+# -- Compiling module and_1_5
+# 
+# Top level modules:
+# 	and_1_5
+# End time: 19:22:20 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:20 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v 
+# -- Compiling module isequal_5
+# 
+# Top level modules:
+# 	isequal_5
+# End time: 19:22:21 on Sep 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:21 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_4.v 
+# -- Compiling module or_1_4
+# 
+# Top level modules:
+# 	or_1_4
+# End time: 19:22:21 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:21 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_8.v 
+# -- Compiling module or_1_8
+# 
+# Top level modules:
+# 	or_1_8
+# End time: 19:22:21 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:21 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v 
+# -- Compiling module or_1_16
+# 
+# Top level modules:
+# 	or_1_16
+# End time: 19:22:21 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:21 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v 
+# -- Compiling module or_1_32
+# 
+# Top level modules:
+# 	or_1_32
+# End time: 19:22:21 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/xnor_5.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:21 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/xnor_5.v 
+# -- Compiling module xnor_5
+# 
+# Top level modules:
+# 	xnor_5
+# End time: 19:22:21 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/addsub.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:21 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/addsub.v 
+# -- Compiling module AddSub
+# 
+# Top level modules:
+# 	AddSub
+# End time: 19:22:21 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:21 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_4.v 
+# -- Compiling module not_4
+# 
+# Top level modules:
+# 	not_4
+# End time: 19:22:21 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/full_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:21 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 19:22:21 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_1bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:21 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_1bit.v 
+# -- Compiling module mux_2_1bit
+# 
+# Top level modules:
+# 	mux_2_1bit
+# End time: 19:22:21 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:21 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_32.v 
+# -- Compiling module or_32
+# 
+# Top level modules:
+# 	or_32
+# End time: 19:22:21 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:21 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_16.v 
+# -- Compiling module or_16
+# 
+# Top level modules:
+# 	or_16
+# End time: 19:22:21 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:21 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_8.v 
+# -- Compiling module or_8
+# 
+# Top level modules:
+# 	or_8
+# End time: 19:22:21 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:21 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_4.v 
+# -- Compiling module or_4
+# 
+# Top level modules:
+# 	or_4
+# End time: 19:22:22 on Sep 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_alu_selector.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:22 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_alu_selector.v 
+# -- Compiling module mux_ALU_selector
+# 
+# Top level modules:
+# 	mux_ALU_selector
+# End time: 19:22:22 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:22 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_32.v 
+# -- Compiling module mux_32
+# 
+# Top level modules:
+# 	mux_32
+# End time: 19:22:22 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:22 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_16.v 
+# -- Compiling module mux_16
+# 
+# Top level modules:
+# 	mux_16
+# End time: 19:22:22 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:22 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_8.v 
+# -- Compiling module mux_8
+# 
+# Top level modules:
+# 	mux_8
+# End time: 19:22:22 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:22 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_4.v 
+# -- Compiling module mux_4
+# 
+# Top level modules:
+# 	mux_4
+# End time: 19:22:22 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:22 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2.v 
+# -- Compiling module mux_2
+# 
+# Top level modules:
+# 	mux_2
+# End time: 19:22:22 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:22 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v 
+# -- Compiling module alu_tb
+# 
+# Top level modules:
+# 	alu_tb
+# End time: 19:22:22 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  alu_tb
+# End time: 19:22:24 on Sep 13,2021, Elapsed time: 2:50:21
+# Errors: 0, Warnings: 7
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" alu_tb 
+# Start time: 19:22:24 on Sep 13,2021
+# Loading work.alu_tb
+# Loading work.alu
+# Loading work.AddSub
+# Loading work.not_32
+# Loading work.not_16
+# Loading work.not_8
+# Loading work.not_4
+# Loading work.mux_2_32bit
+# Loading work.CSA_32
+# Loading work.CSA_16
+# Loading work.CSA_8
+# Loading work.CSA_4
+# Loading work.RCA_2
+# Loading work.full_adder
+# Loading work.mux_2_2bit
+# Loading work.mux_2_4bit
+# Loading work.mux_2_8bit
+# Loading work.mux_2_16bit
+# Loading work.or_1_32
+# Loading work.or_1_16
+# Loading work.or_1_8
+# Loading work.or_1_4
+# Loading work.mux_2_1bit
+# Loading work.and_32
+# Loading work.and_16
+# Loading work.and_8
+# Loading work.and_4
+# Loading work.or_32
+# Loading work.or_16
+# Loading work.or_8
+# Loading work.or_4
+# Loading work.SRA
+# Loading work.SLL
+# Loading work.mux_ALU_selector
+# Loading work.mux_32
+# Loading work.mux_16
+# Loading work.mux_8
+# Loading work.mux_4
+# Loading work.mux_2
+# Loading work.isequal_5
+# Loading work.xnor_5
+# Loading work.and_1_5
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v(6): [PCDPC] - Port size (16) does not match connection size (17) for port 'in'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/AS1/o1/o2 File: C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(4): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or1 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(4): [PCDPC] - Port size (17) does not match connection size (16) for port 'in1'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or1 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(4): [PCDPC] - Port size (17) does not match connection size (16) for port 'in2'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or1 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(5): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or2 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(5): [PCDPC] - Port size (17) does not match connection size (16) for port 'in1'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or2 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(5): [PCDPC] - Port size (17) does not match connection size (16) for port 'in2'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or2 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0 << Starting the Simulation >>
+# The simulation completed without errors
+# ** Note: $stop    : C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v(51)
+#    Time: 2480 ns  Iteration: 1  Instance: /alu_tb
+# Break in Module alu_tb at C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v line 51
+do alu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/RCA_2.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/RCA_2.v 
+# -- Compiling module RCA_2
+# 
+# Top level modules:
+# 	RCA_2
+# End time: 19:22:40 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_2bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_2bit.v 
+# -- Compiling module mux_2_2bit
+# 
+# Top level modules:
+# 	mux_2_2bit
+# End time: 19:22:40 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v 
+# -- Compiling module CSA_4
+# 
+# Top level modules:
+# 	CSA_4
+# End time: 19:22:40 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_4bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_4bit.v 
+# -- Compiling module mux_2_4bit
+# 
+# Top level modules:
+# 	mux_2_4bit
+# End time: 19:22:40 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v 
+# -- Compiling module CSA_8
+# 
+# Top level modules:
+# 	CSA_8
+# End time: 19:22:40 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_8bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_8bit.v 
+# -- Compiling module mux_2_8bit
+# 
+# Top level modules:
+# 	mux_2_8bit
+# End time: 19:22:40 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v 
+# -- Compiling module CSA_16
+# 
+# Top level modules:
+# 	CSA_16
+# End time: 19:22:40 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_16bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_16bit.v 
+# -- Compiling module mux_2_16bit
+# 
+# Top level modules:
+# 	mux_2_16bit
+# End time: 19:22:40 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:40 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v 
+# -- Compiling module CSA_32
+# 
+# Top level modules:
+# 	CSA_32
+# End time: 19:22:41 on Sep 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 19:22:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_32bit.v 
+# -- Compiling module mux_2_32bit
+# 
+# Top level modules:
+# 	mux_2_32bit
+# End time: 19:22:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_8.v 
+# -- Compiling module not_8
+# 
+# Top level modules:
+# 	not_8
+# End time: 19:22:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_16.v 
+# -- Compiling module not_16
+# 
+# Top level modules:
+# 	not_16
+# End time: 19:22:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_32.v 
+# -- Compiling module not_32
+# 
+# Top level modules:
+# 	not_32
+# End time: 19:22:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_4.v 
+# -- Compiling module and_4
+# 
+# Top level modules:
+# 	and_4
+# End time: 19:22:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_16.v 
+# -- Compiling module and_16
+# 
+# Top level modules:
+# 	and_16
+# End time: 19:22:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_32.v 
+# -- Compiling module and_32
+# 
+# Top level modules:
+# 	and_32
+# End time: 19:22:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_8.v 
+# -- Compiling module and_8
+# 
+# Top level modules:
+# 	and_8
+# End time: 19:22:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SLL.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SLL.v 
+# -- Compiling module SLL
+# 
+# Top level modules:
+# 	SLL
+# End time: 19:22:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/SRA.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/SRA.v 
+# -- Compiling module SRA
+# 
+# Top level modules:
+# 	SRA
+# End time: 19:22:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/and_1_5.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/and_1_5.v 
+# -- Compiling module and_1_5
+# 
+# Top level modules:
+# 	and_1_5
+# End time: 19:22:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:41 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v 
+# -- Compiling module isequal_5
+# 
+# Top level modules:
+# 	isequal_5
+# End time: 19:22:41 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_4.v 
+# -- Compiling module or_1_4
+# 
+# Top level modules:
+# 	or_1_4
+# End time: 19:22:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_8.v 
+# -- Compiling module or_1_8
+# 
+# Top level modules:
+# 	or_1_8
+# End time: 19:22:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v 
+# -- Compiling module or_1_16
+# 
+# Top level modules:
+# 	or_1_16
+# End time: 19:22:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v 
+# -- Compiling module or_1_32
+# 
+# Top level modules:
+# 	or_1_32
+# End time: 19:22:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/xnor_5.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/xnor_5.v 
+# -- Compiling module xnor_5
+# 
+# Top level modules:
+# 	xnor_5
+# End time: 19:22:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/addsub.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/addsub.v 
+# -- Compiling module AddSub
+# 
+# Top level modules:
+# 	AddSub
+# End time: 19:22:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/not_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/not_4.v 
+# -- Compiling module not_4
+# 
+# Top level modules:
+# 	not_4
+# End time: 19:22:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/full_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 19:22:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2_1bit.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2_1bit.v 
+# -- Compiling module mux_2_1bit
+# 
+# Top level modules:
+# 	mux_2_1bit
+# End time: 19:22:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_32.v 
+# -- Compiling module or_32
+# 
+# Top level modules:
+# 	or_32
+# End time: 19:22:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_16.v 
+# -- Compiling module or_16
+# 
+# Top level modules:
+# 	or_16
+# End time: 19:22:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_8.v 
+# -- Compiling module or_8
+# 
+# Top level modules:
+# 	or_8
+# End time: 19:22:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/or_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/or_4.v 
+# -- Compiling module or_4
+# 
+# Top level modules:
+# 	or_4
+# End time: 19:22:42 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_alu_selector.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:42 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_alu_selector.v 
+# -- Compiling module mux_ALU_selector
+# 
+# Top level modules:
+# 	mux_ALU_selector
+# End time: 19:22:43 on Sep 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:43 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_32.v 
+# -- Compiling module mux_32
+# 
+# Top level modules:
+# 	mux_32
+# End time: 19:22:43 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_16.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:43 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_16.v 
+# -- Compiling module mux_16
+# 
+# Top level modules:
+# 	mux_16
+# End time: 19:22:43 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:43 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_8.v 
+# -- Compiling module mux_8
+# 
+# Top level modules:
+# 	mux_8
+# End time: 19:22:43 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_4.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:43 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_4.v 
+# -- Compiling module mux_4
+# 
+# Top level modules:
+# 	mux_4
+# End time: 19:22:43 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/mux_2.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:43 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/mux_2.v 
+# -- Compiling module mux_2
+# 
+# Top level modules:
+# 	mux_2
+# End time: 19:22:43 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/16.0/ECE_550/Project1 {C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:22:43 on Sep 13,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/16.0/ECE_550/Project1" C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v 
+# -- Compiling module alu_tb
+# 
+# Top level modules:
+# 	alu_tb
+# End time: 19:22:43 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  alu_tb
+# End time: 19:22:44 on Sep 13,2021, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 7
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" alu_tb 
+# Start time: 19:22:44 on Sep 13,2021
+# Loading work.alu_tb
+# Loading work.alu
+# Loading work.AddSub
+# Loading work.not_32
+# Loading work.not_16
+# Loading work.not_8
+# Loading work.not_4
+# Loading work.mux_2_32bit
+# Loading work.CSA_32
+# Loading work.CSA_16
+# Loading work.CSA_8
+# Loading work.CSA_4
+# Loading work.RCA_2
+# Loading work.full_adder
+# Loading work.mux_2_2bit
+# Loading work.mux_2_4bit
+# Loading work.mux_2_8bit
+# Loading work.mux_2_16bit
+# Loading work.or_1_32
+# Loading work.or_1_16
+# Loading work.or_1_8
+# Loading work.or_1_4
+# Loading work.mux_2_1bit
+# Loading work.and_32
+# Loading work.and_16
+# Loading work.and_8
+# Loading work.and_4
+# Loading work.or_32
+# Loading work.or_16
+# Loading work.or_8
+# Loading work.or_4
+# Loading work.SRA
+# Loading work.SLL
+# Loading work.mux_ALU_selector
+# Loading work.mux_32
+# Loading work.mux_16
+# Loading work.mux_8
+# Loading work.mux_4
+# Loading work.mux_2
+# Loading work.isequal_5
+# Loading work.xnor_5
+# Loading work.and_1_5
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v(6): [PCDPC] - Port size (16) does not match connection size (17) for port 'in'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/AS1/o1/o2 File: C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(4): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or1 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(4): [PCDPC] - Port size (17) does not match connection size (16) for port 'in1'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or1 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(4): [PCDPC] - Port size (17) does not match connection size (16) for port 'in2'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or1 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(5): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or2 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(5): [PCDPC] - Port size (17) does not match connection size (16) for port 'in1'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or2 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# ** Warning: (vsim-3015) C:/altera_lite/16.0/ECE_550/Project1/or_32.v(5): [PCDPC] - Port size (17) does not match connection size (16) for port 'in2'. The port definition is at: C:/altera_lite/16.0/ECE_550/Project1/or_16.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/O1/or2 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0 << Starting the Simulation >>
+# The simulation completed without errors
+# ** Note: $stop    : C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v(51)
+#    Time: 2480 ns  Iteration: 1  Instance: /alu_tb
+# Break in Module alu_tb at C:/altera_lite/16.0/ECE_550/Project1/alu_tb.v line 51
+# End time: 19:22:59 on Sep 13,2021, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 7

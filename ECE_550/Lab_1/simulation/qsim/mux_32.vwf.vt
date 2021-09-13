@@ -1,0 +1,5271 @@
+// Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus Prime License Agreement,
+// the Altera MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Altera and sold by Altera or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "09/11/2021 15:53:14"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          mux_32
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module mux_32_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [31:0] in0;
+reg [31:0] in1;
+reg [31:0] in2;
+reg [31:0] in3;
+reg [31:0] in4;
+reg [31:0] in5;
+reg [31:0] in6;
+reg [31:0] in7;
+reg [31:0] in8;
+reg [31:0] in9;
+reg [31:0] in10;
+reg [31:0] in11;
+reg [31:0] in12;
+reg [31:0] in13;
+reg [31:0] in14;
+reg [31:0] in15;
+reg [31:0] in16;
+reg [31:0] in17;
+reg [31:0] in18;
+reg [31:0] in19;
+reg [31:0] in20;
+reg [31:0] in21;
+reg [31:0] in22;
+reg [31:0] in23;
+reg [31:0] in24;
+reg [31:0] in25;
+reg [31:0] in26;
+reg [31:0] in27;
+reg [31:0] in28;
+reg [31:0] in29;
+reg [31:0] in30;
+reg [31:0] in31;
+reg [4:0] select;
+// wires                                               
+wire [31:0] out;
+
+// assign statements (if any)                          
+mux_32 i1 (
+// port map - connection between master ports and signals/registers   
+	.in0(in0),
+	.in1(in1),
+	.in2(in2),
+	.in3(in3),
+	.in4(in4),
+	.in5(in5),
+	.in6(in6),
+	.in7(in7),
+	.in8(in8),
+	.in9(in9),
+	.in10(in10),
+	.in11(in11),
+	.in12(in12),
+	.in13(in13),
+	.in14(in14),
+	.in15(in15),
+	.in16(in16),
+	.in17(in17),
+	.in18(in18),
+	.in19(in19),
+	.in20(in20),
+	.in21(in21),
+	.in22(in22),
+	.in23(in23),
+	.in24(in24),
+	.in25(in25),
+	.in26(in26),
+	.in27(in27),
+	.in28(in28),
+	.in29(in29),
+	.in30(in30),
+	.in31(in31),
+	.out(out),
+	.select(select)
+);
+initial 
+begin 
+#1600000 $finish;
+end 
+// in0[ 31 ]
+initial
+begin
+	in0[31] = 1'b0;
+end 
+// in0[ 30 ]
+initial
+begin
+	in0[30] = 1'b0;
+end 
+// in0[ 29 ]
+initial
+begin
+	in0[29] = 1'b0;
+end 
+// in0[ 28 ]
+initial
+begin
+	in0[28] = 1'b0;
+end 
+// in0[ 27 ]
+initial
+begin
+	in0[27] = 1'b0;
+end 
+// in0[ 26 ]
+initial
+begin
+	in0[26] = 1'b0;
+end 
+// in0[ 25 ]
+initial
+begin
+	in0[25] = 1'b0;
+end 
+// in0[ 24 ]
+initial
+begin
+	in0[24] = 1'b0;
+end 
+// in0[ 23 ]
+initial
+begin
+	in0[23] = 1'b0;
+end 
+// in0[ 22 ]
+initial
+begin
+	in0[22] = 1'b0;
+end 
+// in0[ 21 ]
+initial
+begin
+	in0[21] = 1'b0;
+end 
+// in0[ 20 ]
+initial
+begin
+	in0[20] = 1'b0;
+end 
+// in0[ 19 ]
+initial
+begin
+	in0[19] = 1'b0;
+end 
+// in0[ 18 ]
+initial
+begin
+	in0[18] = 1'b0;
+end 
+// in0[ 17 ]
+initial
+begin
+	in0[17] = 1'b0;
+end 
+// in0[ 16 ]
+initial
+begin
+	in0[16] = 1'b0;
+end 
+// in0[ 15 ]
+initial
+begin
+	in0[15] = 1'b0;
+end 
+// in0[ 14 ]
+initial
+begin
+	in0[14] = 1'b0;
+end 
+// in0[ 13 ]
+initial
+begin
+	in0[13] = 1'b0;
+end 
+// in0[ 12 ]
+initial
+begin
+	in0[12] = 1'b0;
+end 
+// in0[ 11 ]
+initial
+begin
+	in0[11] = 1'b0;
+end 
+// in0[ 10 ]
+initial
+begin
+	in0[10] = 1'b0;
+end 
+// in0[ 9 ]
+initial
+begin
+	in0[9] = 1'b0;
+end 
+// in0[ 8 ]
+initial
+begin
+	in0[8] = 1'b0;
+end 
+// in0[ 7 ]
+initial
+begin
+	in0[7] = 1'b0;
+end 
+// in0[ 6 ]
+initial
+begin
+	in0[6] = 1'b0;
+end 
+// in0[ 5 ]
+initial
+begin
+	in0[5] = 1'b0;
+end 
+// in0[ 4 ]
+initial
+begin
+	in0[4] = 1'b0;
+end 
+// in0[ 3 ]
+initial
+begin
+	in0[3] = 1'b0;
+end 
+// in0[ 2 ]
+initial
+begin
+	in0[2] = 1'b0;
+end 
+// in0[ 1 ]
+initial
+begin
+	in0[1] = 1'b0;
+end 
+// in0[ 0 ]
+initial
+begin
+	in0[0] = 1'b0;
+end 
+// in1[ 31 ]
+initial
+begin
+	in1[31] = 1'b0;
+end 
+// in1[ 30 ]
+initial
+begin
+	in1[30] = 1'b0;
+end 
+// in1[ 29 ]
+initial
+begin
+	in1[29] = 1'b0;
+end 
+// in1[ 28 ]
+initial
+begin
+	in1[28] = 1'b0;
+end 
+// in1[ 27 ]
+initial
+begin
+	in1[27] = 1'b0;
+end 
+// in1[ 26 ]
+initial
+begin
+	in1[26] = 1'b0;
+end 
+// in1[ 25 ]
+initial
+begin
+	in1[25] = 1'b0;
+end 
+// in1[ 24 ]
+initial
+begin
+	in1[24] = 1'b0;
+end 
+// in1[ 23 ]
+initial
+begin
+	in1[23] = 1'b0;
+end 
+// in1[ 22 ]
+initial
+begin
+	in1[22] = 1'b0;
+end 
+// in1[ 21 ]
+initial
+begin
+	in1[21] = 1'b0;
+end 
+// in1[ 20 ]
+initial
+begin
+	in1[20] = 1'b0;
+end 
+// in1[ 19 ]
+initial
+begin
+	in1[19] = 1'b0;
+end 
+// in1[ 18 ]
+initial
+begin
+	in1[18] = 1'b0;
+end 
+// in1[ 17 ]
+initial
+begin
+	in1[17] = 1'b0;
+end 
+// in1[ 16 ]
+initial
+begin
+	in1[16] = 1'b0;
+end 
+// in1[ 15 ]
+initial
+begin
+	in1[15] = 1'b0;
+end 
+// in1[ 14 ]
+initial
+begin
+	in1[14] = 1'b0;
+end 
+// in1[ 13 ]
+initial
+begin
+	in1[13] = 1'b0;
+end 
+// in1[ 12 ]
+initial
+begin
+	in1[12] = 1'b0;
+end 
+// in1[ 11 ]
+initial
+begin
+	in1[11] = 1'b0;
+end 
+// in1[ 10 ]
+initial
+begin
+	in1[10] = 1'b0;
+end 
+// in1[ 9 ]
+initial
+begin
+	in1[9] = 1'b0;
+end 
+// in1[ 8 ]
+initial
+begin
+	in1[8] = 1'b0;
+end 
+// in1[ 7 ]
+initial
+begin
+	in1[7] = 1'b0;
+end 
+// in1[ 6 ]
+initial
+begin
+	in1[6] = 1'b0;
+end 
+// in1[ 5 ]
+initial
+begin
+	in1[5] = 1'b0;
+end 
+// in1[ 4 ]
+initial
+begin
+	in1[4] = 1'b0;
+end 
+// in1[ 3 ]
+initial
+begin
+	in1[3] = 1'b0;
+end 
+// in1[ 2 ]
+initial
+begin
+	in1[2] = 1'b0;
+end 
+// in1[ 1 ]
+initial
+begin
+	in1[1] = 1'b0;
+end 
+// in1[ 0 ]
+initial
+begin
+	in1[0] = 1'b0;
+end 
+// in2[ 31 ]
+initial
+begin
+	in2[31] = 1'b0;
+end 
+// in2[ 30 ]
+initial
+begin
+	in2[30] = 1'b0;
+end 
+// in2[ 29 ]
+initial
+begin
+	in2[29] = 1'b0;
+end 
+// in2[ 28 ]
+initial
+begin
+	in2[28] = 1'b0;
+end 
+// in2[ 27 ]
+initial
+begin
+	in2[27] = 1'b0;
+end 
+// in2[ 26 ]
+initial
+begin
+	in2[26] = 1'b0;
+end 
+// in2[ 25 ]
+initial
+begin
+	in2[25] = 1'b0;
+end 
+// in2[ 24 ]
+initial
+begin
+	in2[24] = 1'b0;
+end 
+// in2[ 23 ]
+initial
+begin
+	in2[23] = 1'b0;
+end 
+// in2[ 22 ]
+initial
+begin
+	in2[22] = 1'b0;
+end 
+// in2[ 21 ]
+initial
+begin
+	in2[21] = 1'b0;
+end 
+// in2[ 20 ]
+initial
+begin
+	in2[20] = 1'b0;
+end 
+// in2[ 19 ]
+initial
+begin
+	in2[19] = 1'b0;
+end 
+// in2[ 18 ]
+initial
+begin
+	in2[18] = 1'b0;
+end 
+// in2[ 17 ]
+initial
+begin
+	in2[17] = 1'b0;
+end 
+// in2[ 16 ]
+initial
+begin
+	in2[16] = 1'b0;
+end 
+// in2[ 15 ]
+initial
+begin
+	in2[15] = 1'b0;
+end 
+// in2[ 14 ]
+initial
+begin
+	in2[14] = 1'b0;
+end 
+// in2[ 13 ]
+initial
+begin
+	in2[13] = 1'b0;
+end 
+// in2[ 12 ]
+initial
+begin
+	in2[12] = 1'b0;
+end 
+// in2[ 11 ]
+initial
+begin
+	in2[11] = 1'b0;
+end 
+// in2[ 10 ]
+initial
+begin
+	in2[10] = 1'b0;
+end 
+// in2[ 9 ]
+initial
+begin
+	in2[9] = 1'b0;
+end 
+// in2[ 8 ]
+initial
+begin
+	in2[8] = 1'b0;
+end 
+// in2[ 7 ]
+initial
+begin
+	in2[7] = 1'b0;
+end 
+// in2[ 6 ]
+initial
+begin
+	in2[6] = 1'b0;
+end 
+// in2[ 5 ]
+initial
+begin
+	in2[5] = 1'b0;
+end 
+// in2[ 4 ]
+initial
+begin
+	in2[4] = 1'b0;
+end 
+// in2[ 3 ]
+initial
+begin
+	in2[3] = 1'b0;
+end 
+// in2[ 2 ]
+initial
+begin
+	in2[2] = 1'b0;
+end 
+// in2[ 1 ]
+initial
+begin
+	in2[1] = 1'b0;
+end 
+// in2[ 0 ]
+initial
+begin
+	in2[0] = 1'b0;
+end 
+// in3[ 31 ]
+initial
+begin
+	in3[31] = 1'b0;
+end 
+// in3[ 30 ]
+initial
+begin
+	in3[30] = 1'b0;
+end 
+// in3[ 29 ]
+initial
+begin
+	in3[29] = 1'b0;
+end 
+// in3[ 28 ]
+initial
+begin
+	in3[28] = 1'b0;
+end 
+// in3[ 27 ]
+initial
+begin
+	in3[27] = 1'b0;
+end 
+// in3[ 26 ]
+initial
+begin
+	in3[26] = 1'b0;
+end 
+// in3[ 25 ]
+initial
+begin
+	in3[25] = 1'b0;
+end 
+// in3[ 24 ]
+initial
+begin
+	in3[24] = 1'b0;
+end 
+// in3[ 23 ]
+initial
+begin
+	in3[23] = 1'b0;
+end 
+// in3[ 22 ]
+initial
+begin
+	in3[22] = 1'b0;
+end 
+// in3[ 21 ]
+initial
+begin
+	in3[21] = 1'b0;
+end 
+// in3[ 20 ]
+initial
+begin
+	in3[20] = 1'b0;
+end 
+// in3[ 19 ]
+initial
+begin
+	in3[19] = 1'b0;
+end 
+// in3[ 18 ]
+initial
+begin
+	in3[18] = 1'b0;
+end 
+// in3[ 17 ]
+initial
+begin
+	in3[17] = 1'b0;
+end 
+// in3[ 16 ]
+initial
+begin
+	in3[16] = 1'b0;
+end 
+// in3[ 15 ]
+initial
+begin
+	in3[15] = 1'b0;
+end 
+// in3[ 14 ]
+initial
+begin
+	in3[14] = 1'b0;
+end 
+// in3[ 13 ]
+initial
+begin
+	in3[13] = 1'b0;
+end 
+// in3[ 12 ]
+initial
+begin
+	in3[12] = 1'b0;
+end 
+// in3[ 11 ]
+initial
+begin
+	in3[11] = 1'b0;
+end 
+// in3[ 10 ]
+initial
+begin
+	in3[10] = 1'b0;
+end 
+// in3[ 9 ]
+initial
+begin
+	in3[9] = 1'b0;
+end 
+// in3[ 8 ]
+initial
+begin
+	in3[8] = 1'b0;
+end 
+// in3[ 7 ]
+initial
+begin
+	in3[7] = 1'b0;
+end 
+// in3[ 6 ]
+initial
+begin
+	in3[6] = 1'b0;
+end 
+// in3[ 5 ]
+initial
+begin
+	in3[5] = 1'b0;
+end 
+// in3[ 4 ]
+initial
+begin
+	in3[4] = 1'b0;
+end 
+// in3[ 3 ]
+initial
+begin
+	in3[3] = 1'b0;
+end 
+// in3[ 2 ]
+initial
+begin
+	in3[2] = 1'b0;
+end 
+// in3[ 1 ]
+initial
+begin
+	in3[1] = 1'b0;
+end 
+// in3[ 0 ]
+initial
+begin
+	in3[0] = 1'b0;
+end 
+// in4[ 31 ]
+initial
+begin
+	in4[31] = 1'b0;
+end 
+// in4[ 30 ]
+initial
+begin
+	in4[30] = 1'b0;
+end 
+// in4[ 29 ]
+initial
+begin
+	in4[29] = 1'b0;
+end 
+// in4[ 28 ]
+initial
+begin
+	in4[28] = 1'b0;
+end 
+// in4[ 27 ]
+initial
+begin
+	in4[27] = 1'b0;
+end 
+// in4[ 26 ]
+initial
+begin
+	in4[26] = 1'b0;
+end 
+// in4[ 25 ]
+initial
+begin
+	in4[25] = 1'b0;
+end 
+// in4[ 24 ]
+initial
+begin
+	in4[24] = 1'b0;
+end 
+// in4[ 23 ]
+initial
+begin
+	in4[23] = 1'b0;
+end 
+// in4[ 22 ]
+initial
+begin
+	in4[22] = 1'b0;
+end 
+// in4[ 21 ]
+initial
+begin
+	in4[21] = 1'b0;
+end 
+// in4[ 20 ]
+initial
+begin
+	in4[20] = 1'b0;
+end 
+// in4[ 19 ]
+initial
+begin
+	in4[19] = 1'b0;
+end 
+// in4[ 18 ]
+initial
+begin
+	in4[18] = 1'b0;
+end 
+// in4[ 17 ]
+initial
+begin
+	in4[17] = 1'b0;
+end 
+// in4[ 16 ]
+initial
+begin
+	in4[16] = 1'b0;
+end 
+// in4[ 15 ]
+initial
+begin
+	in4[15] = 1'b0;
+end 
+// in4[ 14 ]
+initial
+begin
+	in4[14] = 1'b0;
+end 
+// in4[ 13 ]
+initial
+begin
+	in4[13] = 1'b0;
+end 
+// in4[ 12 ]
+initial
+begin
+	in4[12] = 1'b0;
+end 
+// in4[ 11 ]
+initial
+begin
+	in4[11] = 1'b0;
+end 
+// in4[ 10 ]
+initial
+begin
+	in4[10] = 1'b0;
+end 
+// in4[ 9 ]
+initial
+begin
+	in4[9] = 1'b0;
+end 
+// in4[ 8 ]
+initial
+begin
+	in4[8] = 1'b0;
+end 
+// in4[ 7 ]
+initial
+begin
+	in4[7] = 1'b0;
+end 
+// in4[ 6 ]
+initial
+begin
+	in4[6] = 1'b0;
+end 
+// in4[ 5 ]
+initial
+begin
+	in4[5] = 1'b0;
+end 
+// in4[ 4 ]
+initial
+begin
+	in4[4] = 1'b0;
+end 
+// in4[ 3 ]
+initial
+begin
+	in4[3] = 1'b0;
+end 
+// in4[ 2 ]
+initial
+begin
+	in4[2] = 1'b0;
+end 
+// in4[ 1 ]
+initial
+begin
+	in4[1] = 1'b0;
+end 
+// in4[ 0 ]
+initial
+begin
+	in4[0] = 1'b0;
+end 
+// in5[ 31 ]
+initial
+begin
+	in5[31] = 1'b0;
+end 
+// in5[ 30 ]
+initial
+begin
+	in5[30] = 1'b0;
+end 
+// in5[ 29 ]
+initial
+begin
+	in5[29] = 1'b0;
+end 
+// in5[ 28 ]
+initial
+begin
+	in5[28] = 1'b0;
+end 
+// in5[ 27 ]
+initial
+begin
+	in5[27] = 1'b0;
+end 
+// in5[ 26 ]
+initial
+begin
+	in5[26] = 1'b0;
+end 
+// in5[ 25 ]
+initial
+begin
+	in5[25] = 1'b0;
+end 
+// in5[ 24 ]
+initial
+begin
+	in5[24] = 1'b0;
+end 
+// in5[ 23 ]
+initial
+begin
+	in5[23] = 1'b0;
+end 
+// in5[ 22 ]
+initial
+begin
+	in5[22] = 1'b0;
+end 
+// in5[ 21 ]
+initial
+begin
+	in5[21] = 1'b0;
+end 
+// in5[ 20 ]
+initial
+begin
+	in5[20] = 1'b0;
+end 
+// in5[ 19 ]
+initial
+begin
+	in5[19] = 1'b0;
+end 
+// in5[ 18 ]
+initial
+begin
+	in5[18] = 1'b0;
+end 
+// in5[ 17 ]
+initial
+begin
+	in5[17] = 1'b0;
+end 
+// in5[ 16 ]
+initial
+begin
+	in5[16] = 1'b0;
+end 
+// in5[ 15 ]
+initial
+begin
+	in5[15] = 1'b0;
+end 
+// in5[ 14 ]
+initial
+begin
+	in5[14] = 1'b0;
+end 
+// in5[ 13 ]
+initial
+begin
+	in5[13] = 1'b0;
+end 
+// in5[ 12 ]
+initial
+begin
+	in5[12] = 1'b0;
+end 
+// in5[ 11 ]
+initial
+begin
+	in5[11] = 1'b0;
+end 
+// in5[ 10 ]
+initial
+begin
+	in5[10] = 1'b0;
+end 
+// in5[ 9 ]
+initial
+begin
+	in5[9] = 1'b0;
+end 
+// in5[ 8 ]
+initial
+begin
+	in5[8] = 1'b0;
+end 
+// in5[ 7 ]
+initial
+begin
+	in5[7] = 1'b0;
+end 
+// in5[ 6 ]
+initial
+begin
+	in5[6] = 1'b0;
+end 
+// in5[ 5 ]
+initial
+begin
+	in5[5] = 1'b0;
+end 
+// in5[ 4 ]
+initial
+begin
+	in5[4] = 1'b0;
+end 
+// in5[ 3 ]
+initial
+begin
+	in5[3] = 1'b0;
+end 
+// in5[ 2 ]
+initial
+begin
+	in5[2] = 1'b0;
+end 
+// in5[ 1 ]
+initial
+begin
+	in5[1] = 1'b0;
+end 
+// in5[ 0 ]
+initial
+begin
+	in5[0] = 1'b0;
+end 
+// in6[ 31 ]
+initial
+begin
+	in6[31] = 1'b0;
+end 
+// in6[ 30 ]
+initial
+begin
+	in6[30] = 1'b0;
+end 
+// in6[ 29 ]
+initial
+begin
+	in6[29] = 1'b0;
+end 
+// in6[ 28 ]
+initial
+begin
+	in6[28] = 1'b0;
+end 
+// in6[ 27 ]
+initial
+begin
+	in6[27] = 1'b0;
+end 
+// in6[ 26 ]
+initial
+begin
+	in6[26] = 1'b0;
+end 
+// in6[ 25 ]
+initial
+begin
+	in6[25] = 1'b0;
+end 
+// in6[ 24 ]
+initial
+begin
+	in6[24] = 1'b0;
+end 
+// in6[ 23 ]
+initial
+begin
+	in6[23] = 1'b0;
+end 
+// in6[ 22 ]
+initial
+begin
+	in6[22] = 1'b0;
+end 
+// in6[ 21 ]
+initial
+begin
+	in6[21] = 1'b0;
+end 
+// in6[ 20 ]
+initial
+begin
+	in6[20] = 1'b0;
+end 
+// in6[ 19 ]
+initial
+begin
+	in6[19] = 1'b0;
+end 
+// in6[ 18 ]
+initial
+begin
+	in6[18] = 1'b0;
+end 
+// in6[ 17 ]
+initial
+begin
+	in6[17] = 1'b0;
+end 
+// in6[ 16 ]
+initial
+begin
+	in6[16] = 1'b0;
+end 
+// in6[ 15 ]
+initial
+begin
+	in6[15] = 1'b0;
+end 
+// in6[ 14 ]
+initial
+begin
+	in6[14] = 1'b0;
+end 
+// in6[ 13 ]
+initial
+begin
+	in6[13] = 1'b0;
+end 
+// in6[ 12 ]
+initial
+begin
+	in6[12] = 1'b0;
+end 
+// in6[ 11 ]
+initial
+begin
+	in6[11] = 1'b0;
+end 
+// in6[ 10 ]
+initial
+begin
+	in6[10] = 1'b0;
+end 
+// in6[ 9 ]
+initial
+begin
+	in6[9] = 1'b0;
+end 
+// in6[ 8 ]
+initial
+begin
+	in6[8] = 1'b0;
+end 
+// in6[ 7 ]
+initial
+begin
+	in6[7] = 1'b0;
+end 
+// in6[ 6 ]
+initial
+begin
+	in6[6] = 1'b0;
+end 
+// in6[ 5 ]
+initial
+begin
+	in6[5] = 1'b0;
+end 
+// in6[ 4 ]
+initial
+begin
+	in6[4] = 1'b0;
+end 
+// in6[ 3 ]
+initial
+begin
+	in6[3] = 1'b0;
+end 
+// in6[ 2 ]
+initial
+begin
+	in6[2] = 1'b0;
+end 
+// in6[ 1 ]
+initial
+begin
+	in6[1] = 1'b0;
+end 
+// in6[ 0 ]
+initial
+begin
+	in6[0] = 1'b0;
+end 
+// in7[ 31 ]
+initial
+begin
+	in7[31] = 1'b0;
+end 
+// in7[ 30 ]
+initial
+begin
+	in7[30] = 1'b0;
+end 
+// in7[ 29 ]
+initial
+begin
+	in7[29] = 1'b0;
+end 
+// in7[ 28 ]
+initial
+begin
+	in7[28] = 1'b0;
+end 
+// in7[ 27 ]
+initial
+begin
+	in7[27] = 1'b0;
+end 
+// in7[ 26 ]
+initial
+begin
+	in7[26] = 1'b0;
+end 
+// in7[ 25 ]
+initial
+begin
+	in7[25] = 1'b0;
+end 
+// in7[ 24 ]
+initial
+begin
+	in7[24] = 1'b0;
+end 
+// in7[ 23 ]
+initial
+begin
+	in7[23] = 1'b0;
+end 
+// in7[ 22 ]
+initial
+begin
+	in7[22] = 1'b0;
+end 
+// in7[ 21 ]
+initial
+begin
+	in7[21] = 1'b0;
+end 
+// in7[ 20 ]
+initial
+begin
+	in7[20] = 1'b0;
+end 
+// in7[ 19 ]
+initial
+begin
+	in7[19] = 1'b0;
+end 
+// in7[ 18 ]
+initial
+begin
+	in7[18] = 1'b0;
+end 
+// in7[ 17 ]
+initial
+begin
+	in7[17] = 1'b0;
+end 
+// in7[ 16 ]
+initial
+begin
+	in7[16] = 1'b0;
+end 
+// in7[ 15 ]
+initial
+begin
+	in7[15] = 1'b0;
+end 
+// in7[ 14 ]
+initial
+begin
+	in7[14] = 1'b0;
+end 
+// in7[ 13 ]
+initial
+begin
+	in7[13] = 1'b0;
+end 
+// in7[ 12 ]
+initial
+begin
+	in7[12] = 1'b0;
+end 
+// in7[ 11 ]
+initial
+begin
+	in7[11] = 1'b0;
+end 
+// in7[ 10 ]
+initial
+begin
+	in7[10] = 1'b0;
+end 
+// in7[ 9 ]
+initial
+begin
+	in7[9] = 1'b0;
+end 
+// in7[ 8 ]
+initial
+begin
+	in7[8] = 1'b0;
+end 
+// in7[ 7 ]
+initial
+begin
+	in7[7] = 1'b0;
+end 
+// in7[ 6 ]
+initial
+begin
+	in7[6] = 1'b0;
+end 
+// in7[ 5 ]
+initial
+begin
+	in7[5] = 1'b0;
+end 
+// in7[ 4 ]
+initial
+begin
+	in7[4] = 1'b0;
+end 
+// in7[ 3 ]
+initial
+begin
+	in7[3] = 1'b0;
+end 
+// in7[ 2 ]
+initial
+begin
+	in7[2] = 1'b0;
+end 
+// in7[ 1 ]
+initial
+begin
+	in7[1] = 1'b0;
+end 
+// in7[ 0 ]
+initial
+begin
+	in7[0] = 1'b0;
+end 
+// in8[ 31 ]
+initial
+begin
+	in8[31] = 1'b0;
+end 
+// in8[ 30 ]
+initial
+begin
+	in8[30] = 1'b0;
+end 
+// in8[ 29 ]
+initial
+begin
+	in8[29] = 1'b0;
+end 
+// in8[ 28 ]
+initial
+begin
+	in8[28] = 1'b0;
+end 
+// in8[ 27 ]
+initial
+begin
+	in8[27] = 1'b0;
+end 
+// in8[ 26 ]
+initial
+begin
+	in8[26] = 1'b0;
+end 
+// in8[ 25 ]
+initial
+begin
+	in8[25] = 1'b0;
+end 
+// in8[ 24 ]
+initial
+begin
+	in8[24] = 1'b0;
+end 
+// in8[ 23 ]
+initial
+begin
+	in8[23] = 1'b0;
+end 
+// in8[ 22 ]
+initial
+begin
+	in8[22] = 1'b0;
+end 
+// in8[ 21 ]
+initial
+begin
+	in8[21] = 1'b0;
+end 
+// in8[ 20 ]
+initial
+begin
+	in8[20] = 1'b0;
+end 
+// in8[ 19 ]
+initial
+begin
+	in8[19] = 1'b0;
+end 
+// in8[ 18 ]
+initial
+begin
+	in8[18] = 1'b0;
+end 
+// in8[ 17 ]
+initial
+begin
+	in8[17] = 1'b0;
+end 
+// in8[ 16 ]
+initial
+begin
+	in8[16] = 1'b0;
+end 
+// in8[ 15 ]
+initial
+begin
+	in8[15] = 1'b0;
+end 
+// in8[ 14 ]
+initial
+begin
+	in8[14] = 1'b0;
+end 
+// in8[ 13 ]
+initial
+begin
+	in8[13] = 1'b0;
+end 
+// in8[ 12 ]
+initial
+begin
+	in8[12] = 1'b0;
+end 
+// in8[ 11 ]
+initial
+begin
+	in8[11] = 1'b0;
+end 
+// in8[ 10 ]
+initial
+begin
+	in8[10] = 1'b0;
+end 
+// in8[ 9 ]
+initial
+begin
+	in8[9] = 1'b0;
+end 
+// in8[ 8 ]
+initial
+begin
+	in8[8] = 1'b0;
+end 
+// in8[ 7 ]
+initial
+begin
+	in8[7] = 1'b0;
+end 
+// in8[ 6 ]
+initial
+begin
+	in8[6] = 1'b0;
+end 
+// in8[ 5 ]
+initial
+begin
+	in8[5] = 1'b0;
+end 
+// in8[ 4 ]
+initial
+begin
+	in8[4] = 1'b0;
+end 
+// in8[ 3 ]
+initial
+begin
+	in8[3] = 1'b0;
+end 
+// in8[ 2 ]
+initial
+begin
+	in8[2] = 1'b0;
+end 
+// in8[ 1 ]
+initial
+begin
+	in8[1] = 1'b0;
+end 
+// in8[ 0 ]
+initial
+begin
+	in8[0] = 1'b0;
+end 
+// in9[ 31 ]
+initial
+begin
+	in9[31] = 1'b0;
+end 
+// in9[ 30 ]
+initial
+begin
+	in9[30] = 1'b0;
+end 
+// in9[ 29 ]
+initial
+begin
+	in9[29] = 1'b0;
+end 
+// in9[ 28 ]
+initial
+begin
+	in9[28] = 1'b0;
+end 
+// in9[ 27 ]
+initial
+begin
+	in9[27] = 1'b0;
+end 
+// in9[ 26 ]
+initial
+begin
+	in9[26] = 1'b0;
+end 
+// in9[ 25 ]
+initial
+begin
+	in9[25] = 1'b0;
+end 
+// in9[ 24 ]
+initial
+begin
+	in9[24] = 1'b0;
+end 
+// in9[ 23 ]
+initial
+begin
+	in9[23] = 1'b0;
+end 
+// in9[ 22 ]
+initial
+begin
+	in9[22] = 1'b0;
+end 
+// in9[ 21 ]
+initial
+begin
+	in9[21] = 1'b0;
+end 
+// in9[ 20 ]
+initial
+begin
+	in9[20] = 1'b0;
+end 
+// in9[ 19 ]
+initial
+begin
+	in9[19] = 1'b0;
+end 
+// in9[ 18 ]
+initial
+begin
+	in9[18] = 1'b0;
+end 
+// in9[ 17 ]
+initial
+begin
+	in9[17] = 1'b0;
+end 
+// in9[ 16 ]
+initial
+begin
+	in9[16] = 1'b0;
+end 
+// in9[ 15 ]
+initial
+begin
+	in9[15] = 1'b0;
+end 
+// in9[ 14 ]
+initial
+begin
+	in9[14] = 1'b0;
+end 
+// in9[ 13 ]
+initial
+begin
+	in9[13] = 1'b0;
+end 
+// in9[ 12 ]
+initial
+begin
+	in9[12] = 1'b0;
+end 
+// in9[ 11 ]
+initial
+begin
+	in9[11] = 1'b0;
+end 
+// in9[ 10 ]
+initial
+begin
+	in9[10] = 1'b0;
+end 
+// in9[ 9 ]
+initial
+begin
+	in9[9] = 1'b0;
+end 
+// in9[ 8 ]
+initial
+begin
+	in9[8] = 1'b0;
+end 
+// in9[ 7 ]
+initial
+begin
+	in9[7] = 1'b0;
+end 
+// in9[ 6 ]
+initial
+begin
+	in9[6] = 1'b0;
+end 
+// in9[ 5 ]
+initial
+begin
+	in9[5] = 1'b0;
+end 
+// in9[ 4 ]
+initial
+begin
+	in9[4] = 1'b0;
+end 
+// in9[ 3 ]
+initial
+begin
+	in9[3] = 1'b0;
+end 
+// in9[ 2 ]
+initial
+begin
+	in9[2] = 1'b0;
+end 
+// in9[ 1 ]
+initial
+begin
+	in9[1] = 1'b0;
+end 
+// in9[ 0 ]
+initial
+begin
+	in9[0] = 1'b0;
+end 
+// in10[ 31 ]
+initial
+begin
+	in10[31] = 1'b0;
+end 
+// in10[ 30 ]
+initial
+begin
+	in10[30] = 1'b0;
+end 
+// in10[ 29 ]
+initial
+begin
+	in10[29] = 1'b0;
+end 
+// in10[ 28 ]
+initial
+begin
+	in10[28] = 1'b0;
+end 
+// in10[ 27 ]
+initial
+begin
+	in10[27] = 1'b0;
+end 
+// in10[ 26 ]
+initial
+begin
+	in10[26] = 1'b0;
+end 
+// in10[ 25 ]
+initial
+begin
+	in10[25] = 1'b0;
+end 
+// in10[ 24 ]
+initial
+begin
+	in10[24] = 1'b0;
+end 
+// in10[ 23 ]
+initial
+begin
+	in10[23] = 1'b0;
+end 
+// in10[ 22 ]
+initial
+begin
+	in10[22] = 1'b0;
+end 
+// in10[ 21 ]
+initial
+begin
+	in10[21] = 1'b0;
+end 
+// in10[ 20 ]
+initial
+begin
+	in10[20] = 1'b0;
+end 
+// in10[ 19 ]
+initial
+begin
+	in10[19] = 1'b0;
+end 
+// in10[ 18 ]
+initial
+begin
+	in10[18] = 1'b0;
+end 
+// in10[ 17 ]
+initial
+begin
+	in10[17] = 1'b0;
+end 
+// in10[ 16 ]
+initial
+begin
+	in10[16] = 1'b0;
+end 
+// in10[ 15 ]
+initial
+begin
+	in10[15] = 1'b0;
+end 
+// in10[ 14 ]
+initial
+begin
+	in10[14] = 1'b0;
+end 
+// in10[ 13 ]
+initial
+begin
+	in10[13] = 1'b0;
+end 
+// in10[ 12 ]
+initial
+begin
+	in10[12] = 1'b0;
+end 
+// in10[ 11 ]
+initial
+begin
+	in10[11] = 1'b0;
+end 
+// in10[ 10 ]
+initial
+begin
+	in10[10] = 1'b0;
+end 
+// in10[ 9 ]
+initial
+begin
+	in10[9] = 1'b0;
+end 
+// in10[ 8 ]
+initial
+begin
+	in10[8] = 1'b0;
+end 
+// in10[ 7 ]
+initial
+begin
+	in10[7] = 1'b0;
+end 
+// in10[ 6 ]
+initial
+begin
+	in10[6] = 1'b0;
+end 
+// in10[ 5 ]
+initial
+begin
+	in10[5] = 1'b0;
+end 
+// in10[ 4 ]
+initial
+begin
+	in10[4] = 1'b0;
+end 
+// in10[ 3 ]
+initial
+begin
+	in10[3] = 1'b0;
+end 
+// in10[ 2 ]
+initial
+begin
+	in10[2] = 1'b0;
+end 
+// in10[ 1 ]
+initial
+begin
+	in10[1] = 1'b0;
+end 
+// in10[ 0 ]
+initial
+begin
+	in10[0] = 1'b0;
+end 
+// in11[ 31 ]
+initial
+begin
+	in11[31] = 1'b0;
+end 
+// in11[ 30 ]
+initial
+begin
+	in11[30] = 1'b0;
+end 
+// in11[ 29 ]
+initial
+begin
+	in11[29] = 1'b0;
+end 
+// in11[ 28 ]
+initial
+begin
+	in11[28] = 1'b0;
+end 
+// in11[ 27 ]
+initial
+begin
+	in11[27] = 1'b0;
+end 
+// in11[ 26 ]
+initial
+begin
+	in11[26] = 1'b0;
+end 
+// in11[ 25 ]
+initial
+begin
+	in11[25] = 1'b0;
+end 
+// in11[ 24 ]
+initial
+begin
+	in11[24] = 1'b0;
+end 
+// in11[ 23 ]
+initial
+begin
+	in11[23] = 1'b0;
+end 
+// in11[ 22 ]
+initial
+begin
+	in11[22] = 1'b0;
+end 
+// in11[ 21 ]
+initial
+begin
+	in11[21] = 1'b0;
+end 
+// in11[ 20 ]
+initial
+begin
+	in11[20] = 1'b0;
+end 
+// in11[ 19 ]
+initial
+begin
+	in11[19] = 1'b0;
+end 
+// in11[ 18 ]
+initial
+begin
+	in11[18] = 1'b0;
+end 
+// in11[ 17 ]
+initial
+begin
+	in11[17] = 1'b0;
+end 
+// in11[ 16 ]
+initial
+begin
+	in11[16] = 1'b0;
+end 
+// in11[ 15 ]
+initial
+begin
+	in11[15] = 1'b0;
+end 
+// in11[ 14 ]
+initial
+begin
+	in11[14] = 1'b0;
+end 
+// in11[ 13 ]
+initial
+begin
+	in11[13] = 1'b0;
+end 
+// in11[ 12 ]
+initial
+begin
+	in11[12] = 1'b0;
+end 
+// in11[ 11 ]
+initial
+begin
+	in11[11] = 1'b0;
+end 
+// in11[ 10 ]
+initial
+begin
+	in11[10] = 1'b0;
+end 
+// in11[ 9 ]
+initial
+begin
+	in11[9] = 1'b0;
+end 
+// in11[ 8 ]
+initial
+begin
+	in11[8] = 1'b0;
+end 
+// in11[ 7 ]
+initial
+begin
+	in11[7] = 1'b0;
+end 
+// in11[ 6 ]
+initial
+begin
+	in11[6] = 1'b0;
+end 
+// in11[ 5 ]
+initial
+begin
+	in11[5] = 1'b0;
+end 
+// in11[ 4 ]
+initial
+begin
+	in11[4] = 1'b0;
+end 
+// in11[ 3 ]
+initial
+begin
+	in11[3] = 1'b0;
+end 
+// in11[ 2 ]
+initial
+begin
+	in11[2] = 1'b0;
+end 
+// in11[ 1 ]
+initial
+begin
+	in11[1] = 1'b0;
+end 
+// in11[ 0 ]
+initial
+begin
+	in11[0] = 1'b1;
+end 
+// in12[ 31 ]
+initial
+begin
+	in12[31] = 1'b0;
+end 
+// in12[ 30 ]
+initial
+begin
+	in12[30] = 1'b0;
+end 
+// in12[ 29 ]
+initial
+begin
+	in12[29] = 1'b0;
+end 
+// in12[ 28 ]
+initial
+begin
+	in12[28] = 1'b0;
+end 
+// in12[ 27 ]
+initial
+begin
+	in12[27] = 1'b0;
+end 
+// in12[ 26 ]
+initial
+begin
+	in12[26] = 1'b0;
+end 
+// in12[ 25 ]
+initial
+begin
+	in12[25] = 1'b0;
+end 
+// in12[ 24 ]
+initial
+begin
+	in12[24] = 1'b0;
+end 
+// in12[ 23 ]
+initial
+begin
+	in12[23] = 1'b0;
+end 
+// in12[ 22 ]
+initial
+begin
+	in12[22] = 1'b0;
+end 
+// in12[ 21 ]
+initial
+begin
+	in12[21] = 1'b0;
+end 
+// in12[ 20 ]
+initial
+begin
+	in12[20] = 1'b0;
+end 
+// in12[ 19 ]
+initial
+begin
+	in12[19] = 1'b0;
+end 
+// in12[ 18 ]
+initial
+begin
+	in12[18] = 1'b0;
+end 
+// in12[ 17 ]
+initial
+begin
+	in12[17] = 1'b0;
+end 
+// in12[ 16 ]
+initial
+begin
+	in12[16] = 1'b0;
+end 
+// in12[ 15 ]
+initial
+begin
+	in12[15] = 1'b0;
+end 
+// in12[ 14 ]
+initial
+begin
+	in12[14] = 1'b0;
+end 
+// in12[ 13 ]
+initial
+begin
+	in12[13] = 1'b0;
+end 
+// in12[ 12 ]
+initial
+begin
+	in12[12] = 1'b0;
+end 
+// in12[ 11 ]
+initial
+begin
+	in12[11] = 1'b0;
+end 
+// in12[ 10 ]
+initial
+begin
+	in12[10] = 1'b0;
+end 
+// in12[ 9 ]
+initial
+begin
+	in12[9] = 1'b0;
+end 
+// in12[ 8 ]
+initial
+begin
+	in12[8] = 1'b0;
+end 
+// in12[ 7 ]
+initial
+begin
+	in12[7] = 1'b0;
+end 
+// in12[ 6 ]
+initial
+begin
+	in12[6] = 1'b0;
+end 
+// in12[ 5 ]
+initial
+begin
+	in12[5] = 1'b0;
+end 
+// in12[ 4 ]
+initial
+begin
+	in12[4] = 1'b0;
+end 
+// in12[ 3 ]
+initial
+begin
+	in12[3] = 1'b0;
+end 
+// in12[ 2 ]
+initial
+begin
+	in12[2] = 1'b0;
+end 
+// in12[ 1 ]
+initial
+begin
+	in12[1] = 1'b0;
+end 
+// in12[ 0 ]
+initial
+begin
+	in12[0] = 1'b0;
+end 
+// in13[ 31 ]
+initial
+begin
+	in13[31] = 1'b0;
+end 
+// in13[ 30 ]
+initial
+begin
+	in13[30] = 1'b0;
+end 
+// in13[ 29 ]
+initial
+begin
+	in13[29] = 1'b0;
+end 
+// in13[ 28 ]
+initial
+begin
+	in13[28] = 1'b0;
+end 
+// in13[ 27 ]
+initial
+begin
+	in13[27] = 1'b0;
+end 
+// in13[ 26 ]
+initial
+begin
+	in13[26] = 1'b0;
+end 
+// in13[ 25 ]
+initial
+begin
+	in13[25] = 1'b0;
+end 
+// in13[ 24 ]
+initial
+begin
+	in13[24] = 1'b0;
+end 
+// in13[ 23 ]
+initial
+begin
+	in13[23] = 1'b0;
+end 
+// in13[ 22 ]
+initial
+begin
+	in13[22] = 1'b0;
+end 
+// in13[ 21 ]
+initial
+begin
+	in13[21] = 1'b0;
+end 
+// in13[ 20 ]
+initial
+begin
+	in13[20] = 1'b0;
+end 
+// in13[ 19 ]
+initial
+begin
+	in13[19] = 1'b0;
+end 
+// in13[ 18 ]
+initial
+begin
+	in13[18] = 1'b0;
+end 
+// in13[ 17 ]
+initial
+begin
+	in13[17] = 1'b0;
+end 
+// in13[ 16 ]
+initial
+begin
+	in13[16] = 1'b0;
+end 
+// in13[ 15 ]
+initial
+begin
+	in13[15] = 1'b0;
+end 
+// in13[ 14 ]
+initial
+begin
+	in13[14] = 1'b0;
+end 
+// in13[ 13 ]
+initial
+begin
+	in13[13] = 1'b0;
+end 
+// in13[ 12 ]
+initial
+begin
+	in13[12] = 1'b0;
+end 
+// in13[ 11 ]
+initial
+begin
+	in13[11] = 1'b0;
+end 
+// in13[ 10 ]
+initial
+begin
+	in13[10] = 1'b0;
+end 
+// in13[ 9 ]
+initial
+begin
+	in13[9] = 1'b0;
+end 
+// in13[ 8 ]
+initial
+begin
+	in13[8] = 1'b0;
+end 
+// in13[ 7 ]
+initial
+begin
+	in13[7] = 1'b0;
+end 
+// in13[ 6 ]
+initial
+begin
+	in13[6] = 1'b0;
+end 
+// in13[ 5 ]
+initial
+begin
+	in13[5] = 1'b0;
+end 
+// in13[ 4 ]
+initial
+begin
+	in13[4] = 1'b0;
+end 
+// in13[ 3 ]
+initial
+begin
+	in13[3] = 1'b0;
+end 
+// in13[ 2 ]
+initial
+begin
+	in13[2] = 1'b0;
+end 
+// in13[ 1 ]
+initial
+begin
+	in13[1] = 1'b0;
+end 
+// in13[ 0 ]
+initial
+begin
+	in13[0] = 1'b0;
+end 
+// in14[ 31 ]
+initial
+begin
+	in14[31] = 1'b0;
+end 
+// in14[ 30 ]
+initial
+begin
+	in14[30] = 1'b0;
+end 
+// in14[ 29 ]
+initial
+begin
+	in14[29] = 1'b0;
+end 
+// in14[ 28 ]
+initial
+begin
+	in14[28] = 1'b0;
+end 
+// in14[ 27 ]
+initial
+begin
+	in14[27] = 1'b0;
+end 
+// in14[ 26 ]
+initial
+begin
+	in14[26] = 1'b0;
+end 
+// in14[ 25 ]
+initial
+begin
+	in14[25] = 1'b0;
+end 
+// in14[ 24 ]
+initial
+begin
+	in14[24] = 1'b0;
+end 
+// in14[ 23 ]
+initial
+begin
+	in14[23] = 1'b0;
+end 
+// in14[ 22 ]
+initial
+begin
+	in14[22] = 1'b0;
+end 
+// in14[ 21 ]
+initial
+begin
+	in14[21] = 1'b0;
+end 
+// in14[ 20 ]
+initial
+begin
+	in14[20] = 1'b0;
+end 
+// in14[ 19 ]
+initial
+begin
+	in14[19] = 1'b0;
+end 
+// in14[ 18 ]
+initial
+begin
+	in14[18] = 1'b0;
+end 
+// in14[ 17 ]
+initial
+begin
+	in14[17] = 1'b0;
+end 
+// in14[ 16 ]
+initial
+begin
+	in14[16] = 1'b0;
+end 
+// in14[ 15 ]
+initial
+begin
+	in14[15] = 1'b0;
+end 
+// in14[ 14 ]
+initial
+begin
+	in14[14] = 1'b0;
+end 
+// in14[ 13 ]
+initial
+begin
+	in14[13] = 1'b0;
+end 
+// in14[ 12 ]
+initial
+begin
+	in14[12] = 1'b0;
+end 
+// in14[ 11 ]
+initial
+begin
+	in14[11] = 1'b0;
+end 
+// in14[ 10 ]
+initial
+begin
+	in14[10] = 1'b0;
+end 
+// in14[ 9 ]
+initial
+begin
+	in14[9] = 1'b0;
+end 
+// in14[ 8 ]
+initial
+begin
+	in14[8] = 1'b0;
+end 
+// in14[ 7 ]
+initial
+begin
+	in14[7] = 1'b0;
+end 
+// in14[ 6 ]
+initial
+begin
+	in14[6] = 1'b0;
+end 
+// in14[ 5 ]
+initial
+begin
+	in14[5] = 1'b0;
+end 
+// in14[ 4 ]
+initial
+begin
+	in14[4] = 1'b0;
+end 
+// in14[ 3 ]
+initial
+begin
+	in14[3] = 1'b0;
+end 
+// in14[ 2 ]
+initial
+begin
+	in14[2] = 1'b0;
+end 
+// in14[ 1 ]
+initial
+begin
+	in14[1] = 1'b0;
+end 
+// in14[ 0 ]
+initial
+begin
+	in14[0] = 1'b0;
+end 
+// in15[ 31 ]
+initial
+begin
+	in15[31] = 1'b0;
+end 
+// in15[ 30 ]
+initial
+begin
+	in15[30] = 1'b0;
+end 
+// in15[ 29 ]
+initial
+begin
+	in15[29] = 1'b0;
+end 
+// in15[ 28 ]
+initial
+begin
+	in15[28] = 1'b0;
+end 
+// in15[ 27 ]
+initial
+begin
+	in15[27] = 1'b0;
+end 
+// in15[ 26 ]
+initial
+begin
+	in15[26] = 1'b0;
+end 
+// in15[ 25 ]
+initial
+begin
+	in15[25] = 1'b0;
+end 
+// in15[ 24 ]
+initial
+begin
+	in15[24] = 1'b0;
+end 
+// in15[ 23 ]
+initial
+begin
+	in15[23] = 1'b0;
+end 
+// in15[ 22 ]
+initial
+begin
+	in15[22] = 1'b0;
+end 
+// in15[ 21 ]
+initial
+begin
+	in15[21] = 1'b0;
+end 
+// in15[ 20 ]
+initial
+begin
+	in15[20] = 1'b0;
+end 
+// in15[ 19 ]
+initial
+begin
+	in15[19] = 1'b0;
+end 
+// in15[ 18 ]
+initial
+begin
+	in15[18] = 1'b0;
+end 
+// in15[ 17 ]
+initial
+begin
+	in15[17] = 1'b0;
+end 
+// in15[ 16 ]
+initial
+begin
+	in15[16] = 1'b0;
+end 
+// in15[ 15 ]
+initial
+begin
+	in15[15] = 1'b0;
+end 
+// in15[ 14 ]
+initial
+begin
+	in15[14] = 1'b0;
+end 
+// in15[ 13 ]
+initial
+begin
+	in15[13] = 1'b0;
+end 
+// in15[ 12 ]
+initial
+begin
+	in15[12] = 1'b0;
+end 
+// in15[ 11 ]
+initial
+begin
+	in15[11] = 1'b0;
+end 
+// in15[ 10 ]
+initial
+begin
+	in15[10] = 1'b0;
+end 
+// in15[ 9 ]
+initial
+begin
+	in15[9] = 1'b0;
+end 
+// in15[ 8 ]
+initial
+begin
+	in15[8] = 1'b0;
+end 
+// in15[ 7 ]
+initial
+begin
+	in15[7] = 1'b0;
+end 
+// in15[ 6 ]
+initial
+begin
+	in15[6] = 1'b0;
+end 
+// in15[ 5 ]
+initial
+begin
+	in15[5] = 1'b0;
+end 
+// in15[ 4 ]
+initial
+begin
+	in15[4] = 1'b0;
+end 
+// in15[ 3 ]
+initial
+begin
+	in15[3] = 1'b0;
+end 
+// in15[ 2 ]
+initial
+begin
+	in15[2] = 1'b0;
+end 
+// in15[ 1 ]
+initial
+begin
+	in15[1] = 1'b0;
+end 
+// in15[ 0 ]
+initial
+begin
+	in15[0] = 1'b0;
+end 
+// in16[ 31 ]
+initial
+begin
+	in16[31] = 1'b0;
+end 
+// in16[ 30 ]
+initial
+begin
+	in16[30] = 1'b0;
+end 
+// in16[ 29 ]
+initial
+begin
+	in16[29] = 1'b0;
+end 
+// in16[ 28 ]
+initial
+begin
+	in16[28] = 1'b0;
+end 
+// in16[ 27 ]
+initial
+begin
+	in16[27] = 1'b0;
+end 
+// in16[ 26 ]
+initial
+begin
+	in16[26] = 1'b0;
+end 
+// in16[ 25 ]
+initial
+begin
+	in16[25] = 1'b0;
+end 
+// in16[ 24 ]
+initial
+begin
+	in16[24] = 1'b0;
+end 
+// in16[ 23 ]
+initial
+begin
+	in16[23] = 1'b0;
+end 
+// in16[ 22 ]
+initial
+begin
+	in16[22] = 1'b0;
+end 
+// in16[ 21 ]
+initial
+begin
+	in16[21] = 1'b0;
+end 
+// in16[ 20 ]
+initial
+begin
+	in16[20] = 1'b0;
+end 
+// in16[ 19 ]
+initial
+begin
+	in16[19] = 1'b0;
+end 
+// in16[ 18 ]
+initial
+begin
+	in16[18] = 1'b0;
+end 
+// in16[ 17 ]
+initial
+begin
+	in16[17] = 1'b0;
+end 
+// in16[ 16 ]
+initial
+begin
+	in16[16] = 1'b0;
+end 
+// in16[ 15 ]
+initial
+begin
+	in16[15] = 1'b0;
+end 
+// in16[ 14 ]
+initial
+begin
+	in16[14] = 1'b0;
+end 
+// in16[ 13 ]
+initial
+begin
+	in16[13] = 1'b0;
+end 
+// in16[ 12 ]
+initial
+begin
+	in16[12] = 1'b0;
+end 
+// in16[ 11 ]
+initial
+begin
+	in16[11] = 1'b0;
+end 
+// in16[ 10 ]
+initial
+begin
+	in16[10] = 1'b0;
+end 
+// in16[ 9 ]
+initial
+begin
+	in16[9] = 1'b0;
+end 
+// in16[ 8 ]
+initial
+begin
+	in16[8] = 1'b0;
+end 
+// in16[ 7 ]
+initial
+begin
+	in16[7] = 1'b0;
+end 
+// in16[ 6 ]
+initial
+begin
+	in16[6] = 1'b0;
+end 
+// in16[ 5 ]
+initial
+begin
+	in16[5] = 1'b0;
+end 
+// in16[ 4 ]
+initial
+begin
+	in16[4] = 1'b0;
+end 
+// in16[ 3 ]
+initial
+begin
+	in16[3] = 1'b0;
+end 
+// in16[ 2 ]
+initial
+begin
+	in16[2] = 1'b0;
+end 
+// in16[ 1 ]
+initial
+begin
+	in16[1] = 1'b0;
+end 
+// in16[ 0 ]
+initial
+begin
+	in16[0] = 1'b0;
+end 
+// in17[ 31 ]
+initial
+begin
+	in17[31] = 1'b0;
+end 
+// in17[ 30 ]
+initial
+begin
+	in17[30] = 1'b0;
+end 
+// in17[ 29 ]
+initial
+begin
+	in17[29] = 1'b0;
+end 
+// in17[ 28 ]
+initial
+begin
+	in17[28] = 1'b0;
+end 
+// in17[ 27 ]
+initial
+begin
+	in17[27] = 1'b0;
+end 
+// in17[ 26 ]
+initial
+begin
+	in17[26] = 1'b0;
+end 
+// in17[ 25 ]
+initial
+begin
+	in17[25] = 1'b0;
+end 
+// in17[ 24 ]
+initial
+begin
+	in17[24] = 1'b0;
+end 
+// in17[ 23 ]
+initial
+begin
+	in17[23] = 1'b0;
+end 
+// in17[ 22 ]
+initial
+begin
+	in17[22] = 1'b0;
+end 
+// in17[ 21 ]
+initial
+begin
+	in17[21] = 1'b0;
+end 
+// in17[ 20 ]
+initial
+begin
+	in17[20] = 1'b0;
+end 
+// in17[ 19 ]
+initial
+begin
+	in17[19] = 1'b0;
+end 
+// in17[ 18 ]
+initial
+begin
+	in17[18] = 1'b0;
+end 
+// in17[ 17 ]
+initial
+begin
+	in17[17] = 1'b0;
+end 
+// in17[ 16 ]
+initial
+begin
+	in17[16] = 1'b0;
+end 
+// in17[ 15 ]
+initial
+begin
+	in17[15] = 1'b0;
+end 
+// in17[ 14 ]
+initial
+begin
+	in17[14] = 1'b0;
+end 
+// in17[ 13 ]
+initial
+begin
+	in17[13] = 1'b0;
+end 
+// in17[ 12 ]
+initial
+begin
+	in17[12] = 1'b0;
+end 
+// in17[ 11 ]
+initial
+begin
+	in17[11] = 1'b0;
+end 
+// in17[ 10 ]
+initial
+begin
+	in17[10] = 1'b0;
+end 
+// in17[ 9 ]
+initial
+begin
+	in17[9] = 1'b0;
+end 
+// in17[ 8 ]
+initial
+begin
+	in17[8] = 1'b0;
+end 
+// in17[ 7 ]
+initial
+begin
+	in17[7] = 1'b0;
+end 
+// in17[ 6 ]
+initial
+begin
+	in17[6] = 1'b0;
+end 
+// in17[ 5 ]
+initial
+begin
+	in17[5] = 1'b0;
+end 
+// in17[ 4 ]
+initial
+begin
+	in17[4] = 1'b0;
+end 
+// in17[ 3 ]
+initial
+begin
+	in17[3] = 1'b0;
+end 
+// in17[ 2 ]
+initial
+begin
+	in17[2] = 1'b0;
+end 
+// in17[ 1 ]
+initial
+begin
+	in17[1] = 1'b0;
+end 
+// in17[ 0 ]
+initial
+begin
+	in17[0] = 1'b0;
+end 
+// in18[ 31 ]
+initial
+begin
+	in18[31] = 1'b0;
+end 
+// in18[ 30 ]
+initial
+begin
+	in18[30] = 1'b0;
+end 
+// in18[ 29 ]
+initial
+begin
+	in18[29] = 1'b0;
+end 
+// in18[ 28 ]
+initial
+begin
+	in18[28] = 1'b0;
+end 
+// in18[ 27 ]
+initial
+begin
+	in18[27] = 1'b0;
+end 
+// in18[ 26 ]
+initial
+begin
+	in18[26] = 1'b0;
+end 
+// in18[ 25 ]
+initial
+begin
+	in18[25] = 1'b0;
+end 
+// in18[ 24 ]
+initial
+begin
+	in18[24] = 1'b0;
+end 
+// in18[ 23 ]
+initial
+begin
+	in18[23] = 1'b0;
+end 
+// in18[ 22 ]
+initial
+begin
+	in18[22] = 1'b0;
+end 
+// in18[ 21 ]
+initial
+begin
+	in18[21] = 1'b0;
+end 
+// in18[ 20 ]
+initial
+begin
+	in18[20] = 1'b0;
+end 
+// in18[ 19 ]
+initial
+begin
+	in18[19] = 1'b0;
+end 
+// in18[ 18 ]
+initial
+begin
+	in18[18] = 1'b0;
+end 
+// in18[ 17 ]
+initial
+begin
+	in18[17] = 1'b0;
+end 
+// in18[ 16 ]
+initial
+begin
+	in18[16] = 1'b0;
+end 
+// in18[ 15 ]
+initial
+begin
+	in18[15] = 1'b0;
+end 
+// in18[ 14 ]
+initial
+begin
+	in18[14] = 1'b0;
+end 
+// in18[ 13 ]
+initial
+begin
+	in18[13] = 1'b0;
+end 
+// in18[ 12 ]
+initial
+begin
+	in18[12] = 1'b0;
+end 
+// in18[ 11 ]
+initial
+begin
+	in18[11] = 1'b0;
+end 
+// in18[ 10 ]
+initial
+begin
+	in18[10] = 1'b0;
+end 
+// in18[ 9 ]
+initial
+begin
+	in18[9] = 1'b0;
+end 
+// in18[ 8 ]
+initial
+begin
+	in18[8] = 1'b0;
+end 
+// in18[ 7 ]
+initial
+begin
+	in18[7] = 1'b0;
+end 
+// in18[ 6 ]
+initial
+begin
+	in18[6] = 1'b0;
+end 
+// in18[ 5 ]
+initial
+begin
+	in18[5] = 1'b0;
+end 
+// in18[ 4 ]
+initial
+begin
+	in18[4] = 1'b0;
+end 
+// in18[ 3 ]
+initial
+begin
+	in18[3] = 1'b0;
+end 
+// in18[ 2 ]
+initial
+begin
+	in18[2] = 1'b0;
+end 
+// in18[ 1 ]
+initial
+begin
+	in18[1] = 1'b1;
+end 
+// in18[ 0 ]
+initial
+begin
+	in18[0] = 1'b0;
+end 
+// in19[ 31 ]
+initial
+begin
+	in19[31] = 1'b0;
+end 
+// in19[ 30 ]
+initial
+begin
+	in19[30] = 1'b0;
+end 
+// in19[ 29 ]
+initial
+begin
+	in19[29] = 1'b0;
+end 
+// in19[ 28 ]
+initial
+begin
+	in19[28] = 1'b0;
+end 
+// in19[ 27 ]
+initial
+begin
+	in19[27] = 1'b0;
+end 
+// in19[ 26 ]
+initial
+begin
+	in19[26] = 1'b0;
+end 
+// in19[ 25 ]
+initial
+begin
+	in19[25] = 1'b0;
+end 
+// in19[ 24 ]
+initial
+begin
+	in19[24] = 1'b0;
+end 
+// in19[ 23 ]
+initial
+begin
+	in19[23] = 1'b0;
+end 
+// in19[ 22 ]
+initial
+begin
+	in19[22] = 1'b0;
+end 
+// in19[ 21 ]
+initial
+begin
+	in19[21] = 1'b0;
+end 
+// in19[ 20 ]
+initial
+begin
+	in19[20] = 1'b0;
+end 
+// in19[ 19 ]
+initial
+begin
+	in19[19] = 1'b0;
+end 
+// in19[ 18 ]
+initial
+begin
+	in19[18] = 1'b0;
+end 
+// in19[ 17 ]
+initial
+begin
+	in19[17] = 1'b0;
+end 
+// in19[ 16 ]
+initial
+begin
+	in19[16] = 1'b0;
+end 
+// in19[ 15 ]
+initial
+begin
+	in19[15] = 1'b0;
+end 
+// in19[ 14 ]
+initial
+begin
+	in19[14] = 1'b0;
+end 
+// in19[ 13 ]
+initial
+begin
+	in19[13] = 1'b0;
+end 
+// in19[ 12 ]
+initial
+begin
+	in19[12] = 1'b0;
+end 
+// in19[ 11 ]
+initial
+begin
+	in19[11] = 1'b0;
+end 
+// in19[ 10 ]
+initial
+begin
+	in19[10] = 1'b0;
+end 
+// in19[ 9 ]
+initial
+begin
+	in19[9] = 1'b0;
+end 
+// in19[ 8 ]
+initial
+begin
+	in19[8] = 1'b0;
+end 
+// in19[ 7 ]
+initial
+begin
+	in19[7] = 1'b0;
+end 
+// in19[ 6 ]
+initial
+begin
+	in19[6] = 1'b0;
+end 
+// in19[ 5 ]
+initial
+begin
+	in19[5] = 1'b0;
+end 
+// in19[ 4 ]
+initial
+begin
+	in19[4] = 1'b0;
+end 
+// in19[ 3 ]
+initial
+begin
+	in19[3] = 1'b0;
+end 
+// in19[ 2 ]
+initial
+begin
+	in19[2] = 1'b0;
+end 
+// in19[ 1 ]
+initial
+begin
+	in19[1] = 1'b0;
+end 
+// in19[ 0 ]
+initial
+begin
+	in19[0] = 1'b0;
+end 
+// in20[ 31 ]
+initial
+begin
+	in20[31] = 1'b0;
+end 
+// in20[ 30 ]
+initial
+begin
+	in20[30] = 1'b0;
+end 
+// in20[ 29 ]
+initial
+begin
+	in20[29] = 1'b0;
+end 
+// in20[ 28 ]
+initial
+begin
+	in20[28] = 1'b0;
+end 
+// in20[ 27 ]
+initial
+begin
+	in20[27] = 1'b0;
+end 
+// in20[ 26 ]
+initial
+begin
+	in20[26] = 1'b0;
+end 
+// in20[ 25 ]
+initial
+begin
+	in20[25] = 1'b0;
+end 
+// in20[ 24 ]
+initial
+begin
+	in20[24] = 1'b0;
+end 
+// in20[ 23 ]
+initial
+begin
+	in20[23] = 1'b0;
+end 
+// in20[ 22 ]
+initial
+begin
+	in20[22] = 1'b0;
+end 
+// in20[ 21 ]
+initial
+begin
+	in20[21] = 1'b0;
+end 
+// in20[ 20 ]
+initial
+begin
+	in20[20] = 1'b0;
+end 
+// in20[ 19 ]
+initial
+begin
+	in20[19] = 1'b0;
+end 
+// in20[ 18 ]
+initial
+begin
+	in20[18] = 1'b0;
+end 
+// in20[ 17 ]
+initial
+begin
+	in20[17] = 1'b0;
+end 
+// in20[ 16 ]
+initial
+begin
+	in20[16] = 1'b0;
+end 
+// in20[ 15 ]
+initial
+begin
+	in20[15] = 1'b0;
+end 
+// in20[ 14 ]
+initial
+begin
+	in20[14] = 1'b0;
+end 
+// in20[ 13 ]
+initial
+begin
+	in20[13] = 1'b0;
+end 
+// in20[ 12 ]
+initial
+begin
+	in20[12] = 1'b0;
+end 
+// in20[ 11 ]
+initial
+begin
+	in20[11] = 1'b0;
+end 
+// in20[ 10 ]
+initial
+begin
+	in20[10] = 1'b0;
+end 
+// in20[ 9 ]
+initial
+begin
+	in20[9] = 1'b0;
+end 
+// in20[ 8 ]
+initial
+begin
+	in20[8] = 1'b0;
+end 
+// in20[ 7 ]
+initial
+begin
+	in20[7] = 1'b0;
+end 
+// in20[ 6 ]
+initial
+begin
+	in20[6] = 1'b0;
+end 
+// in20[ 5 ]
+initial
+begin
+	in20[5] = 1'b0;
+end 
+// in20[ 4 ]
+initial
+begin
+	in20[4] = 1'b0;
+end 
+// in20[ 3 ]
+initial
+begin
+	in20[3] = 1'b0;
+end 
+// in20[ 2 ]
+initial
+begin
+	in20[2] = 1'b0;
+end 
+// in20[ 1 ]
+initial
+begin
+	in20[1] = 1'b0;
+end 
+// in20[ 0 ]
+initial
+begin
+	in20[0] = 1'b0;
+end 
+// in21[ 31 ]
+initial
+begin
+	in21[31] = 1'b0;
+end 
+// in21[ 30 ]
+initial
+begin
+	in21[30] = 1'b0;
+end 
+// in21[ 29 ]
+initial
+begin
+	in21[29] = 1'b0;
+end 
+// in21[ 28 ]
+initial
+begin
+	in21[28] = 1'b0;
+end 
+// in21[ 27 ]
+initial
+begin
+	in21[27] = 1'b0;
+end 
+// in21[ 26 ]
+initial
+begin
+	in21[26] = 1'b0;
+end 
+// in21[ 25 ]
+initial
+begin
+	in21[25] = 1'b0;
+end 
+// in21[ 24 ]
+initial
+begin
+	in21[24] = 1'b0;
+end 
+// in21[ 23 ]
+initial
+begin
+	in21[23] = 1'b0;
+end 
+// in21[ 22 ]
+initial
+begin
+	in21[22] = 1'b0;
+end 
+// in21[ 21 ]
+initial
+begin
+	in21[21] = 1'b0;
+end 
+// in21[ 20 ]
+initial
+begin
+	in21[20] = 1'b0;
+end 
+// in21[ 19 ]
+initial
+begin
+	in21[19] = 1'b0;
+end 
+// in21[ 18 ]
+initial
+begin
+	in21[18] = 1'b0;
+end 
+// in21[ 17 ]
+initial
+begin
+	in21[17] = 1'b0;
+end 
+// in21[ 16 ]
+initial
+begin
+	in21[16] = 1'b0;
+end 
+// in21[ 15 ]
+initial
+begin
+	in21[15] = 1'b0;
+end 
+// in21[ 14 ]
+initial
+begin
+	in21[14] = 1'b0;
+end 
+// in21[ 13 ]
+initial
+begin
+	in21[13] = 1'b0;
+end 
+// in21[ 12 ]
+initial
+begin
+	in21[12] = 1'b0;
+end 
+// in21[ 11 ]
+initial
+begin
+	in21[11] = 1'b0;
+end 
+// in21[ 10 ]
+initial
+begin
+	in21[10] = 1'b0;
+end 
+// in21[ 9 ]
+initial
+begin
+	in21[9] = 1'b0;
+end 
+// in21[ 8 ]
+initial
+begin
+	in21[8] = 1'b0;
+end 
+// in21[ 7 ]
+initial
+begin
+	in21[7] = 1'b0;
+end 
+// in21[ 6 ]
+initial
+begin
+	in21[6] = 1'b0;
+end 
+// in21[ 5 ]
+initial
+begin
+	in21[5] = 1'b0;
+end 
+// in21[ 4 ]
+initial
+begin
+	in21[4] = 1'b0;
+end 
+// in21[ 3 ]
+initial
+begin
+	in21[3] = 1'b0;
+end 
+// in21[ 2 ]
+initial
+begin
+	in21[2] = 1'b0;
+end 
+// in21[ 1 ]
+initial
+begin
+	in21[1] = 1'b0;
+end 
+// in21[ 0 ]
+initial
+begin
+	in21[0] = 1'b0;
+end 
+// in22[ 31 ]
+initial
+begin
+	in22[31] = 1'b0;
+end 
+// in22[ 30 ]
+initial
+begin
+	in22[30] = 1'b0;
+end 
+// in22[ 29 ]
+initial
+begin
+	in22[29] = 1'b0;
+end 
+// in22[ 28 ]
+initial
+begin
+	in22[28] = 1'b0;
+end 
+// in22[ 27 ]
+initial
+begin
+	in22[27] = 1'b0;
+end 
+// in22[ 26 ]
+initial
+begin
+	in22[26] = 1'b0;
+end 
+// in22[ 25 ]
+initial
+begin
+	in22[25] = 1'b0;
+end 
+// in22[ 24 ]
+initial
+begin
+	in22[24] = 1'b0;
+end 
+// in22[ 23 ]
+initial
+begin
+	in22[23] = 1'b0;
+end 
+// in22[ 22 ]
+initial
+begin
+	in22[22] = 1'b0;
+end 
+// in22[ 21 ]
+initial
+begin
+	in22[21] = 1'b0;
+end 
+// in22[ 20 ]
+initial
+begin
+	in22[20] = 1'b0;
+end 
+// in22[ 19 ]
+initial
+begin
+	in22[19] = 1'b0;
+end 
+// in22[ 18 ]
+initial
+begin
+	in22[18] = 1'b0;
+end 
+// in22[ 17 ]
+initial
+begin
+	in22[17] = 1'b0;
+end 
+// in22[ 16 ]
+initial
+begin
+	in22[16] = 1'b0;
+end 
+// in22[ 15 ]
+initial
+begin
+	in22[15] = 1'b0;
+end 
+// in22[ 14 ]
+initial
+begin
+	in22[14] = 1'b0;
+end 
+// in22[ 13 ]
+initial
+begin
+	in22[13] = 1'b0;
+end 
+// in22[ 12 ]
+initial
+begin
+	in22[12] = 1'b0;
+end 
+// in22[ 11 ]
+initial
+begin
+	in22[11] = 1'b0;
+end 
+// in22[ 10 ]
+initial
+begin
+	in22[10] = 1'b0;
+end 
+// in22[ 9 ]
+initial
+begin
+	in22[9] = 1'b0;
+end 
+// in22[ 8 ]
+initial
+begin
+	in22[8] = 1'b0;
+end 
+// in22[ 7 ]
+initial
+begin
+	in22[7] = 1'b0;
+end 
+// in22[ 6 ]
+initial
+begin
+	in22[6] = 1'b0;
+end 
+// in22[ 5 ]
+initial
+begin
+	in22[5] = 1'b0;
+end 
+// in22[ 4 ]
+initial
+begin
+	in22[4] = 1'b0;
+end 
+// in22[ 3 ]
+initial
+begin
+	in22[3] = 1'b0;
+end 
+// in22[ 2 ]
+initial
+begin
+	in22[2] = 1'b0;
+end 
+// in22[ 1 ]
+initial
+begin
+	in22[1] = 1'b0;
+end 
+// in22[ 0 ]
+initial
+begin
+	in22[0] = 1'b0;
+end 
+// in23[ 31 ]
+initial
+begin
+	in23[31] = 1'b0;
+end 
+// in23[ 30 ]
+initial
+begin
+	in23[30] = 1'b0;
+end 
+// in23[ 29 ]
+initial
+begin
+	in23[29] = 1'b0;
+end 
+// in23[ 28 ]
+initial
+begin
+	in23[28] = 1'b0;
+end 
+// in23[ 27 ]
+initial
+begin
+	in23[27] = 1'b0;
+end 
+// in23[ 26 ]
+initial
+begin
+	in23[26] = 1'b0;
+end 
+// in23[ 25 ]
+initial
+begin
+	in23[25] = 1'b0;
+end 
+// in23[ 24 ]
+initial
+begin
+	in23[24] = 1'b0;
+end 
+// in23[ 23 ]
+initial
+begin
+	in23[23] = 1'b0;
+end 
+// in23[ 22 ]
+initial
+begin
+	in23[22] = 1'b0;
+end 
+// in23[ 21 ]
+initial
+begin
+	in23[21] = 1'b0;
+end 
+// in23[ 20 ]
+initial
+begin
+	in23[20] = 1'b0;
+end 
+// in23[ 19 ]
+initial
+begin
+	in23[19] = 1'b0;
+end 
+// in23[ 18 ]
+initial
+begin
+	in23[18] = 1'b0;
+end 
+// in23[ 17 ]
+initial
+begin
+	in23[17] = 1'b0;
+end 
+// in23[ 16 ]
+initial
+begin
+	in23[16] = 1'b0;
+end 
+// in23[ 15 ]
+initial
+begin
+	in23[15] = 1'b0;
+end 
+// in23[ 14 ]
+initial
+begin
+	in23[14] = 1'b0;
+end 
+// in23[ 13 ]
+initial
+begin
+	in23[13] = 1'b0;
+end 
+// in23[ 12 ]
+initial
+begin
+	in23[12] = 1'b0;
+end 
+// in23[ 11 ]
+initial
+begin
+	in23[11] = 1'b0;
+end 
+// in23[ 10 ]
+initial
+begin
+	in23[10] = 1'b0;
+end 
+// in23[ 9 ]
+initial
+begin
+	in23[9] = 1'b0;
+end 
+// in23[ 8 ]
+initial
+begin
+	in23[8] = 1'b0;
+end 
+// in23[ 7 ]
+initial
+begin
+	in23[7] = 1'b0;
+end 
+// in23[ 6 ]
+initial
+begin
+	in23[6] = 1'b0;
+end 
+// in23[ 5 ]
+initial
+begin
+	in23[5] = 1'b0;
+end 
+// in23[ 4 ]
+initial
+begin
+	in23[4] = 1'b0;
+end 
+// in23[ 3 ]
+initial
+begin
+	in23[3] = 1'b0;
+end 
+// in23[ 2 ]
+initial
+begin
+	in23[2] = 1'b0;
+end 
+// in23[ 1 ]
+initial
+begin
+	in23[1] = 1'b0;
+end 
+// in23[ 0 ]
+initial
+begin
+	in23[0] = 1'b0;
+end 
+// in24[ 31 ]
+initial
+begin
+	in24[31] = 1'b0;
+end 
+// in24[ 30 ]
+initial
+begin
+	in24[30] = 1'b0;
+end 
+// in24[ 29 ]
+initial
+begin
+	in24[29] = 1'b0;
+end 
+// in24[ 28 ]
+initial
+begin
+	in24[28] = 1'b0;
+end 
+// in24[ 27 ]
+initial
+begin
+	in24[27] = 1'b0;
+end 
+// in24[ 26 ]
+initial
+begin
+	in24[26] = 1'b0;
+end 
+// in24[ 25 ]
+initial
+begin
+	in24[25] = 1'b0;
+end 
+// in24[ 24 ]
+initial
+begin
+	in24[24] = 1'b0;
+end 
+// in24[ 23 ]
+initial
+begin
+	in24[23] = 1'b0;
+end 
+// in24[ 22 ]
+initial
+begin
+	in24[22] = 1'b0;
+end 
+// in24[ 21 ]
+initial
+begin
+	in24[21] = 1'b0;
+end 
+// in24[ 20 ]
+initial
+begin
+	in24[20] = 1'b0;
+end 
+// in24[ 19 ]
+initial
+begin
+	in24[19] = 1'b0;
+end 
+// in24[ 18 ]
+initial
+begin
+	in24[18] = 1'b0;
+end 
+// in24[ 17 ]
+initial
+begin
+	in24[17] = 1'b0;
+end 
+// in24[ 16 ]
+initial
+begin
+	in24[16] = 1'b0;
+end 
+// in24[ 15 ]
+initial
+begin
+	in24[15] = 1'b0;
+end 
+// in24[ 14 ]
+initial
+begin
+	in24[14] = 1'b0;
+end 
+// in24[ 13 ]
+initial
+begin
+	in24[13] = 1'b0;
+end 
+// in24[ 12 ]
+initial
+begin
+	in24[12] = 1'b0;
+end 
+// in24[ 11 ]
+initial
+begin
+	in24[11] = 1'b0;
+end 
+// in24[ 10 ]
+initial
+begin
+	in24[10] = 1'b0;
+end 
+// in24[ 9 ]
+initial
+begin
+	in24[9] = 1'b0;
+end 
+// in24[ 8 ]
+initial
+begin
+	in24[8] = 1'b0;
+end 
+// in24[ 7 ]
+initial
+begin
+	in24[7] = 1'b0;
+end 
+// in24[ 6 ]
+initial
+begin
+	in24[6] = 1'b0;
+end 
+// in24[ 5 ]
+initial
+begin
+	in24[5] = 1'b0;
+end 
+// in24[ 4 ]
+initial
+begin
+	in24[4] = 1'b0;
+end 
+// in24[ 3 ]
+initial
+begin
+	in24[3] = 1'b0;
+end 
+// in24[ 2 ]
+initial
+begin
+	in24[2] = 1'b0;
+end 
+// in24[ 1 ]
+initial
+begin
+	in24[1] = 1'b0;
+end 
+// in24[ 0 ]
+initial
+begin
+	in24[0] = 1'b0;
+end 
+// in25[ 31 ]
+initial
+begin
+	in25[31] = 1'b0;
+end 
+// in25[ 30 ]
+initial
+begin
+	in25[30] = 1'b0;
+end 
+// in25[ 29 ]
+initial
+begin
+	in25[29] = 1'b0;
+end 
+// in25[ 28 ]
+initial
+begin
+	in25[28] = 1'b0;
+end 
+// in25[ 27 ]
+initial
+begin
+	in25[27] = 1'b0;
+end 
+// in25[ 26 ]
+initial
+begin
+	in25[26] = 1'b0;
+end 
+// in25[ 25 ]
+initial
+begin
+	in25[25] = 1'b0;
+end 
+// in25[ 24 ]
+initial
+begin
+	in25[24] = 1'b0;
+end 
+// in25[ 23 ]
+initial
+begin
+	in25[23] = 1'b0;
+end 
+// in25[ 22 ]
+initial
+begin
+	in25[22] = 1'b0;
+end 
+// in25[ 21 ]
+initial
+begin
+	in25[21] = 1'b0;
+end 
+// in25[ 20 ]
+initial
+begin
+	in25[20] = 1'b0;
+end 
+// in25[ 19 ]
+initial
+begin
+	in25[19] = 1'b0;
+end 
+// in25[ 18 ]
+initial
+begin
+	in25[18] = 1'b0;
+end 
+// in25[ 17 ]
+initial
+begin
+	in25[17] = 1'b0;
+end 
+// in25[ 16 ]
+initial
+begin
+	in25[16] = 1'b0;
+end 
+// in25[ 15 ]
+initial
+begin
+	in25[15] = 1'b0;
+end 
+// in25[ 14 ]
+initial
+begin
+	in25[14] = 1'b0;
+end 
+// in25[ 13 ]
+initial
+begin
+	in25[13] = 1'b0;
+end 
+// in25[ 12 ]
+initial
+begin
+	in25[12] = 1'b0;
+end 
+// in25[ 11 ]
+initial
+begin
+	in25[11] = 1'b0;
+end 
+// in25[ 10 ]
+initial
+begin
+	in25[10] = 1'b0;
+end 
+// in25[ 9 ]
+initial
+begin
+	in25[9] = 1'b0;
+end 
+// in25[ 8 ]
+initial
+begin
+	in25[8] = 1'b0;
+end 
+// in25[ 7 ]
+initial
+begin
+	in25[7] = 1'b0;
+end 
+// in25[ 6 ]
+initial
+begin
+	in25[6] = 1'b0;
+end 
+// in25[ 5 ]
+initial
+begin
+	in25[5] = 1'b0;
+end 
+// in25[ 4 ]
+initial
+begin
+	in25[4] = 1'b0;
+end 
+// in25[ 3 ]
+initial
+begin
+	in25[3] = 1'b0;
+end 
+// in25[ 2 ]
+initial
+begin
+	in25[2] = 1'b0;
+end 
+// in25[ 1 ]
+initial
+begin
+	in25[1] = 1'b0;
+end 
+// in25[ 0 ]
+initial
+begin
+	in25[0] = 1'b0;
+end 
+// in26[ 31 ]
+initial
+begin
+	in26[31] = 1'b0;
+end 
+// in26[ 30 ]
+initial
+begin
+	in26[30] = 1'b0;
+end 
+// in26[ 29 ]
+initial
+begin
+	in26[29] = 1'b0;
+end 
+// in26[ 28 ]
+initial
+begin
+	in26[28] = 1'b0;
+end 
+// in26[ 27 ]
+initial
+begin
+	in26[27] = 1'b0;
+end 
+// in26[ 26 ]
+initial
+begin
+	in26[26] = 1'b0;
+end 
+// in26[ 25 ]
+initial
+begin
+	in26[25] = 1'b0;
+end 
+// in26[ 24 ]
+initial
+begin
+	in26[24] = 1'b0;
+end 
+// in26[ 23 ]
+initial
+begin
+	in26[23] = 1'b0;
+end 
+// in26[ 22 ]
+initial
+begin
+	in26[22] = 1'b0;
+end 
+// in26[ 21 ]
+initial
+begin
+	in26[21] = 1'b0;
+end 
+// in26[ 20 ]
+initial
+begin
+	in26[20] = 1'b0;
+end 
+// in26[ 19 ]
+initial
+begin
+	in26[19] = 1'b0;
+end 
+// in26[ 18 ]
+initial
+begin
+	in26[18] = 1'b0;
+end 
+// in26[ 17 ]
+initial
+begin
+	in26[17] = 1'b0;
+end 
+// in26[ 16 ]
+initial
+begin
+	in26[16] = 1'b0;
+end 
+// in26[ 15 ]
+initial
+begin
+	in26[15] = 1'b0;
+end 
+// in26[ 14 ]
+initial
+begin
+	in26[14] = 1'b0;
+end 
+// in26[ 13 ]
+initial
+begin
+	in26[13] = 1'b0;
+end 
+// in26[ 12 ]
+initial
+begin
+	in26[12] = 1'b0;
+end 
+// in26[ 11 ]
+initial
+begin
+	in26[11] = 1'b0;
+end 
+// in26[ 10 ]
+initial
+begin
+	in26[10] = 1'b0;
+end 
+// in26[ 9 ]
+initial
+begin
+	in26[9] = 1'b0;
+end 
+// in26[ 8 ]
+initial
+begin
+	in26[8] = 1'b0;
+end 
+// in26[ 7 ]
+initial
+begin
+	in26[7] = 1'b0;
+end 
+// in26[ 6 ]
+initial
+begin
+	in26[6] = 1'b0;
+end 
+// in26[ 5 ]
+initial
+begin
+	in26[5] = 1'b0;
+end 
+// in26[ 4 ]
+initial
+begin
+	in26[4] = 1'b0;
+end 
+// in26[ 3 ]
+initial
+begin
+	in26[3] = 1'b0;
+end 
+// in26[ 2 ]
+initial
+begin
+	in26[2] = 1'b0;
+end 
+// in26[ 1 ]
+initial
+begin
+	in26[1] = 1'b0;
+end 
+// in26[ 0 ]
+initial
+begin
+	in26[0] = 1'b0;
+end 
+// in27[ 31 ]
+initial
+begin
+	in27[31] = 1'b0;
+end 
+// in27[ 30 ]
+initial
+begin
+	in27[30] = 1'b0;
+end 
+// in27[ 29 ]
+initial
+begin
+	in27[29] = 1'b0;
+end 
+// in27[ 28 ]
+initial
+begin
+	in27[28] = 1'b0;
+end 
+// in27[ 27 ]
+initial
+begin
+	in27[27] = 1'b0;
+end 
+// in27[ 26 ]
+initial
+begin
+	in27[26] = 1'b0;
+end 
+// in27[ 25 ]
+initial
+begin
+	in27[25] = 1'b0;
+end 
+// in27[ 24 ]
+initial
+begin
+	in27[24] = 1'b0;
+end 
+// in27[ 23 ]
+initial
+begin
+	in27[23] = 1'b0;
+end 
+// in27[ 22 ]
+initial
+begin
+	in27[22] = 1'b0;
+end 
+// in27[ 21 ]
+initial
+begin
+	in27[21] = 1'b0;
+end 
+// in27[ 20 ]
+initial
+begin
+	in27[20] = 1'b0;
+end 
+// in27[ 19 ]
+initial
+begin
+	in27[19] = 1'b0;
+end 
+// in27[ 18 ]
+initial
+begin
+	in27[18] = 1'b0;
+end 
+// in27[ 17 ]
+initial
+begin
+	in27[17] = 1'b0;
+end 
+// in27[ 16 ]
+initial
+begin
+	in27[16] = 1'b0;
+end 
+// in27[ 15 ]
+initial
+begin
+	in27[15] = 1'b0;
+end 
+// in27[ 14 ]
+initial
+begin
+	in27[14] = 1'b0;
+end 
+// in27[ 13 ]
+initial
+begin
+	in27[13] = 1'b0;
+end 
+// in27[ 12 ]
+initial
+begin
+	in27[12] = 1'b0;
+end 
+// in27[ 11 ]
+initial
+begin
+	in27[11] = 1'b0;
+end 
+// in27[ 10 ]
+initial
+begin
+	in27[10] = 1'b0;
+end 
+// in27[ 9 ]
+initial
+begin
+	in27[9] = 1'b0;
+end 
+// in27[ 8 ]
+initial
+begin
+	in27[8] = 1'b0;
+end 
+// in27[ 7 ]
+initial
+begin
+	in27[7] = 1'b0;
+end 
+// in27[ 6 ]
+initial
+begin
+	in27[6] = 1'b0;
+end 
+// in27[ 5 ]
+initial
+begin
+	in27[5] = 1'b0;
+end 
+// in27[ 4 ]
+initial
+begin
+	in27[4] = 1'b0;
+end 
+// in27[ 3 ]
+initial
+begin
+	in27[3] = 1'b0;
+end 
+// in27[ 2 ]
+initial
+begin
+	in27[2] = 1'b0;
+end 
+// in27[ 1 ]
+initial
+begin
+	in27[1] = 1'b0;
+end 
+// in27[ 0 ]
+initial
+begin
+	in27[0] = 1'b0;
+end 
+// in28[ 31 ]
+initial
+begin
+	in28[31] = 1'b0;
+end 
+// in28[ 30 ]
+initial
+begin
+	in28[30] = 1'b0;
+end 
+// in28[ 29 ]
+initial
+begin
+	in28[29] = 1'b0;
+end 
+// in28[ 28 ]
+initial
+begin
+	in28[28] = 1'b0;
+end 
+// in28[ 27 ]
+initial
+begin
+	in28[27] = 1'b0;
+end 
+// in28[ 26 ]
+initial
+begin
+	in28[26] = 1'b0;
+end 
+// in28[ 25 ]
+initial
+begin
+	in28[25] = 1'b0;
+end 
+// in28[ 24 ]
+initial
+begin
+	in28[24] = 1'b0;
+end 
+// in28[ 23 ]
+initial
+begin
+	in28[23] = 1'b0;
+end 
+// in28[ 22 ]
+initial
+begin
+	in28[22] = 1'b0;
+end 
+// in28[ 21 ]
+initial
+begin
+	in28[21] = 1'b0;
+end 
+// in28[ 20 ]
+initial
+begin
+	in28[20] = 1'b0;
+end 
+// in28[ 19 ]
+initial
+begin
+	in28[19] = 1'b0;
+end 
+// in28[ 18 ]
+initial
+begin
+	in28[18] = 1'b0;
+end 
+// in28[ 17 ]
+initial
+begin
+	in28[17] = 1'b0;
+end 
+// in28[ 16 ]
+initial
+begin
+	in28[16] = 1'b0;
+end 
+// in28[ 15 ]
+initial
+begin
+	in28[15] = 1'b0;
+end 
+// in28[ 14 ]
+initial
+begin
+	in28[14] = 1'b0;
+end 
+// in28[ 13 ]
+initial
+begin
+	in28[13] = 1'b0;
+end 
+// in28[ 12 ]
+initial
+begin
+	in28[12] = 1'b0;
+end 
+// in28[ 11 ]
+initial
+begin
+	in28[11] = 1'b0;
+end 
+// in28[ 10 ]
+initial
+begin
+	in28[10] = 1'b0;
+end 
+// in28[ 9 ]
+initial
+begin
+	in28[9] = 1'b0;
+end 
+// in28[ 8 ]
+initial
+begin
+	in28[8] = 1'b0;
+end 
+// in28[ 7 ]
+initial
+begin
+	in28[7] = 1'b0;
+end 
+// in28[ 6 ]
+initial
+begin
+	in28[6] = 1'b0;
+end 
+// in28[ 5 ]
+initial
+begin
+	in28[5] = 1'b0;
+end 
+// in28[ 4 ]
+initial
+begin
+	in28[4] = 1'b0;
+end 
+// in28[ 3 ]
+initial
+begin
+	in28[3] = 1'b0;
+end 
+// in28[ 2 ]
+initial
+begin
+	in28[2] = 1'b0;
+end 
+// in28[ 1 ]
+initial
+begin
+	in28[1] = 1'b0;
+end 
+// in28[ 0 ]
+initial
+begin
+	in28[0] = 1'b0;
+end 
+// in29[ 31 ]
+initial
+begin
+	in29[31] = 1'b0;
+end 
+// in29[ 30 ]
+initial
+begin
+	in29[30] = 1'b0;
+end 
+// in29[ 29 ]
+initial
+begin
+	in29[29] = 1'b0;
+end 
+// in29[ 28 ]
+initial
+begin
+	in29[28] = 1'b0;
+end 
+// in29[ 27 ]
+initial
+begin
+	in29[27] = 1'b0;
+end 
+// in29[ 26 ]
+initial
+begin
+	in29[26] = 1'b0;
+end 
+// in29[ 25 ]
+initial
+begin
+	in29[25] = 1'b0;
+end 
+// in29[ 24 ]
+initial
+begin
+	in29[24] = 1'b0;
+end 
+// in29[ 23 ]
+initial
+begin
+	in29[23] = 1'b0;
+end 
+// in29[ 22 ]
+initial
+begin
+	in29[22] = 1'b0;
+end 
+// in29[ 21 ]
+initial
+begin
+	in29[21] = 1'b0;
+end 
+// in29[ 20 ]
+initial
+begin
+	in29[20] = 1'b0;
+end 
+// in29[ 19 ]
+initial
+begin
+	in29[19] = 1'b0;
+end 
+// in29[ 18 ]
+initial
+begin
+	in29[18] = 1'b0;
+end 
+// in29[ 17 ]
+initial
+begin
+	in29[17] = 1'b0;
+end 
+// in29[ 16 ]
+initial
+begin
+	in29[16] = 1'b0;
+end 
+// in29[ 15 ]
+initial
+begin
+	in29[15] = 1'b0;
+end 
+// in29[ 14 ]
+initial
+begin
+	in29[14] = 1'b0;
+end 
+// in29[ 13 ]
+initial
+begin
+	in29[13] = 1'b0;
+end 
+// in29[ 12 ]
+initial
+begin
+	in29[12] = 1'b0;
+end 
+// in29[ 11 ]
+initial
+begin
+	in29[11] = 1'b0;
+end 
+// in29[ 10 ]
+initial
+begin
+	in29[10] = 1'b0;
+end 
+// in29[ 9 ]
+initial
+begin
+	in29[9] = 1'b0;
+end 
+// in29[ 8 ]
+initial
+begin
+	in29[8] = 1'b0;
+end 
+// in29[ 7 ]
+initial
+begin
+	in29[7] = 1'b0;
+end 
+// in29[ 6 ]
+initial
+begin
+	in29[6] = 1'b0;
+end 
+// in29[ 5 ]
+initial
+begin
+	in29[5] = 1'b0;
+end 
+// in29[ 4 ]
+initial
+begin
+	in29[4] = 1'b0;
+end 
+// in29[ 3 ]
+initial
+begin
+	in29[3] = 1'b0;
+end 
+// in29[ 2 ]
+initial
+begin
+	in29[2] = 1'b0;
+end 
+// in29[ 1 ]
+initial
+begin
+	in29[1] = 1'b0;
+end 
+// in29[ 0 ]
+initial
+begin
+	in29[0] = 1'b0;
+end 
+// in30[ 31 ]
+initial
+begin
+	in30[31] = 1'b0;
+end 
+// in30[ 30 ]
+initial
+begin
+	in30[30] = 1'b0;
+end 
+// in30[ 29 ]
+initial
+begin
+	in30[29] = 1'b0;
+end 
+// in30[ 28 ]
+initial
+begin
+	in30[28] = 1'b0;
+end 
+// in30[ 27 ]
+initial
+begin
+	in30[27] = 1'b0;
+end 
+// in30[ 26 ]
+initial
+begin
+	in30[26] = 1'b0;
+end 
+// in30[ 25 ]
+initial
+begin
+	in30[25] = 1'b0;
+end 
+// in30[ 24 ]
+initial
+begin
+	in30[24] = 1'b0;
+end 
+// in30[ 23 ]
+initial
+begin
+	in30[23] = 1'b0;
+end 
+// in30[ 22 ]
+initial
+begin
+	in30[22] = 1'b0;
+end 
+// in30[ 21 ]
+initial
+begin
+	in30[21] = 1'b0;
+end 
+// in30[ 20 ]
+initial
+begin
+	in30[20] = 1'b0;
+end 
+// in30[ 19 ]
+initial
+begin
+	in30[19] = 1'b0;
+end 
+// in30[ 18 ]
+initial
+begin
+	in30[18] = 1'b0;
+end 
+// in30[ 17 ]
+initial
+begin
+	in30[17] = 1'b0;
+end 
+// in30[ 16 ]
+initial
+begin
+	in30[16] = 1'b0;
+end 
+// in30[ 15 ]
+initial
+begin
+	in30[15] = 1'b0;
+end 
+// in30[ 14 ]
+initial
+begin
+	in30[14] = 1'b0;
+end 
+// in30[ 13 ]
+initial
+begin
+	in30[13] = 1'b0;
+end 
+// in30[ 12 ]
+initial
+begin
+	in30[12] = 1'b0;
+end 
+// in30[ 11 ]
+initial
+begin
+	in30[11] = 1'b0;
+end 
+// in30[ 10 ]
+initial
+begin
+	in30[10] = 1'b0;
+end 
+// in30[ 9 ]
+initial
+begin
+	in30[9] = 1'b0;
+end 
+// in30[ 8 ]
+initial
+begin
+	in30[8] = 1'b0;
+end 
+// in30[ 7 ]
+initial
+begin
+	in30[7] = 1'b0;
+end 
+// in30[ 6 ]
+initial
+begin
+	in30[6] = 1'b0;
+end 
+// in30[ 5 ]
+initial
+begin
+	in30[5] = 1'b0;
+end 
+// in30[ 4 ]
+initial
+begin
+	in30[4] = 1'b0;
+end 
+// in30[ 3 ]
+initial
+begin
+	in30[3] = 1'b0;
+end 
+// in30[ 2 ]
+initial
+begin
+	in30[2] = 1'b0;
+end 
+// in30[ 1 ]
+initial
+begin
+	in30[1] = 1'b0;
+end 
+// in30[ 0 ]
+initial
+begin
+	in30[0] = 1'b0;
+end 
+// in31[ 31 ]
+initial
+begin
+	in31[31] = 1'b0;
+end 
+// in31[ 30 ]
+initial
+begin
+	in31[30] = 1'b0;
+end 
+// in31[ 29 ]
+initial
+begin
+	in31[29] = 1'b0;
+end 
+// in31[ 28 ]
+initial
+begin
+	in31[28] = 1'b0;
+end 
+// in31[ 27 ]
+initial
+begin
+	in31[27] = 1'b0;
+end 
+// in31[ 26 ]
+initial
+begin
+	in31[26] = 1'b0;
+end 
+// in31[ 25 ]
+initial
+begin
+	in31[25] = 1'b0;
+end 
+// in31[ 24 ]
+initial
+begin
+	in31[24] = 1'b0;
+end 
+// in31[ 23 ]
+initial
+begin
+	in31[23] = 1'b0;
+end 
+// in31[ 22 ]
+initial
+begin
+	in31[22] = 1'b0;
+end 
+// in31[ 21 ]
+initial
+begin
+	in31[21] = 1'b0;
+end 
+// in31[ 20 ]
+initial
+begin
+	in31[20] = 1'b0;
+end 
+// in31[ 19 ]
+initial
+begin
+	in31[19] = 1'b0;
+end 
+// in31[ 18 ]
+initial
+begin
+	in31[18] = 1'b0;
+end 
+// in31[ 17 ]
+initial
+begin
+	in31[17] = 1'b0;
+end 
+// in31[ 16 ]
+initial
+begin
+	in31[16] = 1'b0;
+end 
+// in31[ 15 ]
+initial
+begin
+	in31[15] = 1'b0;
+end 
+// in31[ 14 ]
+initial
+begin
+	in31[14] = 1'b0;
+end 
+// in31[ 13 ]
+initial
+begin
+	in31[13] = 1'b0;
+end 
+// in31[ 12 ]
+initial
+begin
+	in31[12] = 1'b0;
+end 
+// in31[ 11 ]
+initial
+begin
+	in31[11] = 1'b0;
+end 
+// in31[ 10 ]
+initial
+begin
+	in31[10] = 1'b0;
+end 
+// in31[ 9 ]
+initial
+begin
+	in31[9] = 1'b0;
+end 
+// in31[ 8 ]
+initial
+begin
+	in31[8] = 1'b0;
+end 
+// in31[ 7 ]
+initial
+begin
+	in31[7] = 1'b0;
+end 
+// in31[ 6 ]
+initial
+begin
+	in31[6] = 1'b0;
+end 
+// in31[ 5 ]
+initial
+begin
+	in31[5] = 1'b0;
+end 
+// in31[ 4 ]
+initial
+begin
+	in31[4] = 1'b0;
+end 
+// in31[ 3 ]
+initial
+begin
+	in31[3] = 1'b0;
+end 
+// in31[ 2 ]
+initial
+begin
+	in31[2] = 1'b0;
+end 
+// in31[ 1 ]
+initial
+begin
+	in31[1] = 1'b0;
+end 
+// in31[ 0 ]
+initial
+begin
+	in31[0] = 1'b0;
+end 
+// select[ 4 ]
+always
+begin
+	select[4] = 1'b0;
+	select[4] = #40000 1'b1;
+	#40000;
+end 
+// select[ 3 ]
+always
+begin
+	select[3] = 1'b0;
+	select[3] = #80000 1'b1;
+	#80000;
+end 
+// select[ 2 ]
+always
+begin
+	select[2] = 1'b0;
+	select[2] = #160000 1'b1;
+	#160000;
+end 
+// select[ 1 ]
+initial
+begin
+	repeat(2)
+	begin
+		select[1] = 1'b0;
+		select[1] = #320000 1'b1;
+		# 320000;
+	end
+	select[1] = 1'b0;
+end 
+// select[ 0 ]
+initial
+begin
+	select[0] = 1'b0;
+	select[0] = #640000 1'b1;
+	select[0] = #640000 1'b0;
+end 
+endmodule
+

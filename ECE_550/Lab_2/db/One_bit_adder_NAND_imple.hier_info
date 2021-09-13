@@ -1,0 +1,11 @@
+|One_bit_adder_NAND_imple
+a => nand1.IN0
+a => nand2.IN1
+b => nand1.IN1
+b => nand3.IN1
+cin => nand5.IN1
+cin => nand7.IN1
+S << nand8.DB_MAX_OUTPUT_PORT_TYPE
+cout << nand9.DB_MAX_OUTPUT_PORT_TYPE
+
+
