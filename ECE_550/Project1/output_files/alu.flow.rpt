@@ -1,5 +1,5 @@
 Flow report for alu
-Tue Sep 14 18:41:50 2021
+Tue Sep 14 19:21:31 2021
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Sep 14 18:41:50 2021       ;
+; Flow Status                        ; Successful - Tue Sep 14 19:21:31 2021       ;
 ; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                      ; alu                                         ;
 ; Top-level Entity Name              ; alu                                         ;
@@ -104,7 +104,9 @@ agreement for further details.
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 4943 MB             ; 00:00:26                           ;
-; Total                ; 00:00:14     ; --                      ; --                  ; 00:00:26                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4842 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4847 MB             ; 00:00:01                           ;
+; Total                ; 00:00:14     ; --                      ; --                  ; 00:00:28                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -114,6 +116,8 @@ agreement for further details.
 ; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +----------------------+------------------+-----------+------------+----------------+
 ; Analysis & Synthesis ; LAPTOP-USJPC1OA  ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-USJPC1OA  ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-USJPC1OA  ; Windows 8 ; 6.2        ; x86_64         ;
 +----------------------+------------------+-----------+------------+----------------+
 
 
@@ -121,6 +125,8 @@ agreement for further details.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off alu -c alu
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off alu -c alu --vector_source=C:/Users/hb/Desktop/ece550/ECE_550/Project1/Waveform3.vwf --testbench_file=C:/Users/hb/Desktop/ece550/ECE_550/Project1/simulation/qsim/Waveform3.vwf.vt
+quartus_eda --write_settings_files=off --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/hb/Desktop/ece550/ECE_550/Project1/simulation/qsim/ alu -c alu
 
 
 
