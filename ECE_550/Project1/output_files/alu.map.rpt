@@ -1,5 +1,5 @@
 Analysis & Synthesis report for alu
-Mon Sep 13 19:22:04 2021
+Tue Sep 14 18:41:50 2021
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -64,7 +64,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Sep 13 19:22:04 2021       ;
+; Analysis & Synthesis Status        ; Successful - Tue Sep 14 18:41:50 2021       ;
 ; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                      ; alu                                         ;
 ; Top-level Entity Name              ; alu                                         ;
@@ -168,69 +168,64 @@ agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 12          ;
-; Maximum allowed            ; 12          ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 12     ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                            ; Library ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------+---------+
-; RCA_2.v                          ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/RCA_2.v            ;         ;
-; mux_2_2bit.v                     ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/mux_2_2bit.v       ;         ;
-; CSA_4.v                          ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v            ;         ;
-; mux_2_4bit.v                     ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/mux_2_4bit.v       ;         ;
-; CSA_8.v                          ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v            ;         ;
-; mux_2_8bit.v                     ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/mux_2_8bit.v       ;         ;
-; CSA_16.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v           ;         ;
-; mux_2_16bit.v                    ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/mux_2_16bit.v      ;         ;
-; CSA_32.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v           ;         ;
-; alu.v                            ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/alu.v              ;         ;
-; mux_2_32bit.v                    ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/mux_2_32bit.v      ;         ;
-; not_8.v                          ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/not_8.v            ;         ;
-; not_16.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/not_16.v           ;         ;
-; not_32.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/not_32.v           ;         ;
-; and_4.v                          ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/and_4.v            ;         ;
-; and_16.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/and_16.v           ;         ;
-; and_32.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/and_32.v           ;         ;
-; and_8.v                          ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/and_8.v            ;         ;
-; SLL.v                            ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/SLL.v              ;         ;
-; SRA.v                            ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/SRA.v              ;         ;
-; and_1_5.v                        ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/and_1_5.v          ;         ;
-; isequal_5.v                      ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v        ;         ;
-; or_1_4.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/or_1_4.v           ;         ;
-; or_1_8.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/or_1_8.v           ;         ;
-; or_1_16.v                        ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v          ;         ;
-; or_1_32.v                        ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v          ;         ;
-; xnor_5.v                         ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Project1/xnor_5.v           ;         ;
-; addsub.v                         ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/addsub.v           ;         ;
-; not_4.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/not_4.v            ;         ;
-; full_adder.v                     ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/full_adder.v       ;         ;
-; mux_2_1bit.v                     ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/mux_2_1bit.v       ;         ;
-; or_32.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/or_32.v            ;         ;
-; or_16.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/or_16.v            ;         ;
-; or_8.v                           ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/or_8.v             ;         ;
-; or_4.v                           ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/or_4.v             ;         ;
-; mux_alu_selector.v               ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/mux_alu_selector.v ;         ;
-; mux_32.v                         ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/mux_32.v           ;         ;
-; mux_16.v                         ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/mux_16.v           ;         ;
-; mux_8.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/mux_8.v            ;         ;
-; mux_4.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/mux_4.v            ;         ;
-; mux_2.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Project1/mux_2.v            ;         ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                       ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                   ; Library ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------+---------+
+; RCA_2.v                          ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/RCA_2.v            ;         ;
+; mux_2_2bit.v                     ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_2_2bit.v       ;         ;
+; CSA_4.v                          ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/CSA_4.v            ;         ;
+; mux_2_4bit.v                     ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_2_4bit.v       ;         ;
+; CSA_8.v                          ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/CSA_8.v            ;         ;
+; mux_2_8bit.v                     ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_2_8bit.v       ;         ;
+; CSA_16.v                         ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/CSA_16.v           ;         ;
+; mux_2_16bit.v                    ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_2_16bit.v      ;         ;
+; CSA_32.v                         ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/CSA_32.v           ;         ;
+; alu.v                            ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/alu.v              ;         ;
+; mux_2_32bit.v                    ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_2_32bit.v      ;         ;
+; not_8.v                          ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/not_8.v            ;         ;
+; not_16.v                         ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/not_16.v           ;         ;
+; not_32.v                         ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/not_32.v           ;         ;
+; and_4.v                          ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/and_4.v            ;         ;
+; and_16.v                         ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/and_16.v           ;         ;
+; and_32.v                         ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/and_32.v           ;         ;
+; and_8.v                          ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/and_8.v            ;         ;
+; SLL.v                            ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/SLL.v              ;         ;
+; SRA.v                            ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/SRA.v              ;         ;
+; and_1_5.v                        ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/and_1_5.v          ;         ;
+; isequal_5.v                      ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/isequal_5.v        ;         ;
+; or_1_4.v                         ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_1_4.v           ;         ;
+; or_1_8.v                         ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_1_8.v           ;         ;
+; or_1_16.v                        ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_1_16.v          ;         ;
+; or_1_32.v                        ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_1_32.v          ;         ;
+; xnor_5.v                         ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/xnor_5.v           ;         ;
+; addsub.v                         ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/addsub.v           ;         ;
+; not_4.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/not_4.v            ;         ;
+; full_adder.v                     ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/full_adder.v       ;         ;
+; mux_2_1bit.v                     ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_2_1bit.v       ;         ;
+; or_32.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_32.v            ;         ;
+; or_16.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_16.v            ;         ;
+; or_8.v                           ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_8.v             ;         ;
+; or_4.v                           ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_4.v             ;         ;
+; mux_alu_selector.v               ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_alu_selector.v ;         ;
+; mux_32.v                         ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_32.v           ;         ;
+; mux_16.v                         ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_16.v           ;         ;
+; mux_8.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_8.v            ;         ;
+; mux_4.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_4.v            ;         ;
+; mux_2.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_2.v            ;         ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------------------+
@@ -658,7 +653,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -668,200 +663,184 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Mon Sep 13 19:21:51 2021
+    Info: Processing started: Tue Sep 14 18:41:36 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off alu -c alu
-Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file rca_2.v
-    Info (12023): Found entity 1: RCA_2 File: C:/altera_lite/16.0/ECE_550/Project1/RCA_2.v Line: 1
+    Info (12023): Found entity 1: RCA_2 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/RCA_2.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux_2_2bit.v
-    Info (12023): Found entity 1: mux_2_2bit File: C:/altera_lite/16.0/ECE_550/Project1/mux_2_2bit.v Line: 1
+    Info (12023): Found entity 1: mux_2_2bit File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_2_2bit.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file csa_4.v
-    Info (12023): Found entity 1: CSA_4 File: C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v Line: 1
+    Info (12023): Found entity 1: CSA_4 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/CSA_4.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux_2_4bit.v
-    Info (12023): Found entity 1: mux_2_4bit File: C:/altera_lite/16.0/ECE_550/Project1/mux_2_4bit.v Line: 1
+    Info (12023): Found entity 1: mux_2_4bit File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_2_4bit.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file csa_8.v
-    Info (12023): Found entity 1: CSA_8 File: C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v Line: 1
+    Info (12023): Found entity 1: CSA_8 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/CSA_8.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux_2_8bit.v
-    Info (12023): Found entity 1: mux_2_8bit File: C:/altera_lite/16.0/ECE_550/Project1/mux_2_8bit.v Line: 1
+    Info (12023): Found entity 1: mux_2_8bit File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_2_8bit.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file csa_16.v
-    Info (12023): Found entity 1: CSA_16 File: C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v Line: 1
+    Info (12023): Found entity 1: CSA_16 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/CSA_16.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux_2_16bit.v
-    Info (12023): Found entity 1: mux_2_16bit File: C:/altera_lite/16.0/ECE_550/Project1/mux_2_16bit.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file alu_buf.v
-    Info (12023): Found entity 1: alu_buf File: C:/altera_lite/16.0/ECE_550/Project1/alu_buf.v Line: 1
+    Info (12023): Found entity 1: mux_2_16bit File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_2_16bit.v Line: 1
+Warning (12019): Can't analyze file -- file alu_buf.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file csa_32.v
-    Info (12023): Found entity 1: CSA_32 File: C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v Line: 1
+    Info (12023): Found entity 1: CSA_32 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/CSA_32.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu.v
-    Info (12023): Found entity 1: alu File: C:/altera_lite/16.0/ECE_550/Project1/alu.v Line: 1
+    Info (12023): Found entity 1: alu File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/alu.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux_2_32bit.v
-    Info (12023): Found entity 1: mux_2_32bit File: C:/altera_lite/16.0/ECE_550/Project1/mux_2_32bit.v Line: 1
+    Info (12023): Found entity 1: mux_2_32bit File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_2_32bit.v Line: 1
 Warning (12019): Can't analyze file -- file and_3.v is missing
 Warning (12019): Can't analyze file -- file not4.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file not_8.v
-    Info (12023): Found entity 1: not_8 File: C:/altera_lite/16.0/ECE_550/Project1/not_8.v Line: 1
+    Info (12023): Found entity 1: not_8 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/not_8.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file not_16.v
-    Info (12023): Found entity 1: not_16 File: C:/altera_lite/16.0/ECE_550/Project1/not_16.v Line: 1
+    Info (12023): Found entity 1: not_16 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/not_16.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file not_32.v
-    Info (12023): Found entity 1: not_32 File: C:/altera_lite/16.0/ECE_550/Project1/not_32.v Line: 1
+    Info (12023): Found entity 1: not_32 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/not_32.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file and_4.v
-    Info (12023): Found entity 1: and_4 File: C:/altera_lite/16.0/ECE_550/Project1/and_4.v Line: 1
+    Info (12023): Found entity 1: and_4 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/and_4.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file and_16.v
-    Info (12023): Found entity 1: and_16 File: C:/altera_lite/16.0/ECE_550/Project1/and_16.v Line: 1
+    Info (12023): Found entity 1: and_16 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/and_16.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file and_32.v
-    Info (12023): Found entity 1: and_32 File: C:/altera_lite/16.0/ECE_550/Project1/and_32.v Line: 1
+    Info (12023): Found entity 1: and_32 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/and_32.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file and_8.v
-    Info (12023): Found entity 1: and_8 File: C:/altera_lite/16.0/ECE_550/Project1/and_8.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file sll_1_4bit.v
-    Info (12023): Found entity 1: SLL_1_4bit File: C:/altera_lite/16.0/ECE_550/Project1/SLL_1_4bit.v Line: 1
+    Info (12023): Found entity 1: and_8 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/and_8.v Line: 1
+Warning (12019): Can't analyze file -- file SLL_1_4bit.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file sra_1_4bit.v
-    Info (12023): Found entity 1: SRA_1_4bit File: C:/altera_lite/16.0/ECE_550/Project1/SRA_1_4bit.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file sll_1_8bit.v
-    Info (12023): Found entity 1: SLL_1_8bit File: C:/altera_lite/16.0/ECE_550/Project1/SLL_1_8bit.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file sll_1_16bit.v
-    Info (12023): Found entity 1: SLL_1_16bit File: C:/altera_lite/16.0/ECE_550/Project1/SLL_1_16bit.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file sll_1_32bit.v
-    Info (12023): Found entity 1: SLL_1_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SLL_1_32bit.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file sra_1_8bit.v
-    Info (12023): Found entity 1: SRA_1_8bit File: C:/altera_lite/16.0/ECE_550/Project1/SRA_1_8bit.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file sra_1_16bit.v
-    Info (12023): Found entity 1: SRA_1_16bit File: C:/altera_lite/16.0/ECE_550/Project1/SRA_1_16bit.v Line: 1
+    Info (12023): Found entity 1: SRA_1_4bit File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/SRA_1_4bit.v Line: 1
+Warning (12019): Can't analyze file -- file SLL_1_8bit.v is missing
+Warning (12019): Can't analyze file -- file SLL_1_16bit.v is missing
+Warning (12019): Can't analyze file -- file SLL_1_32bit.v is missing
+Warning (12019): Can't analyze file -- file SRA_1_8bit.v is missing
+Warning (12019): Can't analyze file -- file SRA_1_16bit.v is missing
 Warning (12019): Can't analyze file -- file SRA_1_32.v is missing
-Info (12021): Found 1 design units, including 1 entities, in source file sll_2_32bit.v
-    Info (12023): Found entity 1: SLL_2_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SLL_2_32bit.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file sll_4_32bit.v
-    Info (12023): Found entity 1: SLL_4_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SLL_4_32bit.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file sll_8_32bit.v
-    Info (12023): Found entity 1: SLL_8_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SLL_8_32bit.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file sll_16_32bit.v
-    Info (12023): Found entity 1: SLL_16_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SLL_16_32bit.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file sra_2_32bit.v
-    Info (12023): Found entity 1: SRA_2_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SRA_2_32bit.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file sra_4_32bit.v
-    Info (12023): Found entity 1: SRA_4_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SRA_4_32bit.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file sra_8_32bit.v
-    Info (12023): Found entity 1: SRA_8_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SRA_8_32bit.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file sra_16_32bit.v
-    Info (12023): Found entity 1: SRA_16_32bit File: C:/altera_lite/16.0/ECE_550/Project1/SRA_16_32bit.v Line: 1
+Warning (12019): Can't analyze file -- file SLL_2_32bit.v is missing
+Warning (12019): Can't analyze file -- file SLL_4_32bit.v is missing
+Warning (12019): Can't analyze file -- file SLL_8_32bit.v is missing
+Warning (12019): Can't analyze file -- file SLL_16_32bit.v is missing
+Warning (12019): Can't analyze file -- file SRA_2_32bit.v is missing
+Warning (12019): Can't analyze file -- file SRA_4_32bit.v is missing
+Warning (12019): Can't analyze file -- file SRA_8_32bit.v is missing
+Warning (12019): Can't analyze file -- file SRA_16_32bit.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file sll.v
-    Info (12023): Found entity 1: SLL File: C:/altera_lite/16.0/ECE_550/Project1/SLL.v Line: 1
+    Info (12023): Found entity 1: SLL File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/SLL.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file sra.v
-    Info (12023): Found entity 1: SRA File: C:/altera_lite/16.0/ECE_550/Project1/SRA.v Line: 1
+    Info (12023): Found entity 1: SRA File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/SRA.v Line: 1
 Warning (12019): Can't analyze file -- file and_5_32bit.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file and_1_5.v
-    Info (12023): Found entity 1: and_1_5 File: C:/altera_lite/16.0/ECE_550/Project1/and_1_5.v Line: 1
+    Info (12023): Found entity 1: and_1_5 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/and_1_5.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file isequal_5.v
-    Info (12023): Found entity 1: isequal_5 File: C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v Line: 1
+    Info (12023): Found entity 1: isequal_5 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/isequal_5.v Line: 1
 Warning (12019): Can't analyze file -- file mux_5_32.v is missing
-Info (12021): Found 0 design units, including 0 entities, in source file alu_info_signals_cal.v
+Warning (12019): Can't analyze file -- file ALU_Info_Signals_Cal.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file and_1_4.v
-    Info (12023): Found entity 1: and_1_4 File: C:/altera_lite/16.0/ECE_550/Project1/and_1_4.v Line: 1
+    Info (12023): Found entity 1: and_1_4 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/and_1_4.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file and_1_8.v
-    Info (12023): Found entity 1: and_1_8 File: C:/altera_lite/16.0/ECE_550/Project1/and_1_8.v Line: 1
+    Info (12023): Found entity 1: and_1_8 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/and_1_8.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file and_1_16.v
-    Info (12023): Found entity 1: and_1_16 File: C:/altera_lite/16.0/ECE_550/Project1/and_1_16.v Line: 1
+    Info (12023): Found entity 1: and_1_16 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/and_1_16.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file and_1_32.v
-    Info (12023): Found entity 1: and_1_32 File: C:/altera_lite/16.0/ECE_550/Project1/and_1_32.v Line: 1
+    Info (12023): Found entity 1: and_1_32 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/and_1_32.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file or_1_4.v
-    Info (12023): Found entity 1: or_1_4 File: C:/altera_lite/16.0/ECE_550/Project1/or_1_4.v Line: 1
+    Info (12023): Found entity 1: or_1_4 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_1_4.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file or_1_8.v
-    Info (12023): Found entity 1: or_1_8 File: C:/altera_lite/16.0/ECE_550/Project1/or_1_8.v Line: 1
+    Info (12023): Found entity 1: or_1_8 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_1_8.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file or_1_16.v
-    Info (12023): Found entity 1: or_1_16 File: C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v Line: 1
+    Info (12023): Found entity 1: or_1_16 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_1_16.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file or_1_32.v
-    Info (12023): Found entity 1: or_1_32 File: C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v Line: 1
+    Info (12023): Found entity 1: or_1_32 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_1_32.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file xnor_5.v
-    Info (12023): Found entity 1: xnor_5 File: C:/altera_lite/16.0/ECE_550/Project1/xnor_5.v Line: 1
+    Info (12023): Found entity 1: xnor_5 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/xnor_5.v Line: 1
 Info (12127): Elaborating entity "alu" for the top level hierarchy
 Warning (12125): Using design file addsub.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: AddSub File: C:/altera_lite/16.0/ECE_550/Project1/addsub.v Line: 1
-Info (12128): Elaborating entity "AddSub" for hierarchy "AddSub:AS1" File: C:/altera_lite/16.0/ECE_550/Project1/alu.v Line: 11
-Warning (10230): Verilog HDL assignment warning at addsub.v(24): truncated value with size 32 to match size of target (1) File: C:/altera_lite/16.0/ECE_550/Project1/addsub.v Line: 24
-Info (12128): Elaborating entity "not_32" for hierarchy "AddSub:AS1|not_32:not1" File: C:/altera_lite/16.0/ECE_550/Project1/addsub.v Line: 9
-Info (12128): Elaborating entity "not_16" for hierarchy "AddSub:AS1|not_32:not1|not_16:not_16_1" File: C:/altera_lite/16.0/ECE_550/Project1/not_32.v Line: 4
-Info (12128): Elaborating entity "not_8" for hierarchy "AddSub:AS1|not_32:not1|not_16:not_16_1|not_8:not_8_1" File: C:/altera_lite/16.0/ECE_550/Project1/not_16.v Line: 4
+    Info (12023): Found entity 1: AddSub File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/addsub.v Line: 1
+Info (12128): Elaborating entity "AddSub" for hierarchy "AddSub:AS1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/alu.v Line: 11
+Warning (10230): Verilog HDL assignment warning at addsub.v(24): truncated value with size 32 to match size of target (1) File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/addsub.v Line: 24
+Info (12128): Elaborating entity "not_32" for hierarchy "AddSub:AS1|not_32:not1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/addsub.v Line: 9
+Info (12128): Elaborating entity "not_16" for hierarchy "AddSub:AS1|not_32:not1|not_16:not_16_1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/not_32.v Line: 4
+Info (12128): Elaborating entity "not_8" for hierarchy "AddSub:AS1|not_32:not1|not_16:not_16_1|not_8:not_8_1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/not_16.v Line: 4
 Warning (12125): Using design file not_4.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: not_4 File: C:/altera_lite/16.0/ECE_550/Project1/not_4.v Line: 1
-Info (12128): Elaborating entity "not_4" for hierarchy "AddSub:AS1|not_32:not1|not_16:not_16_1|not_8:not_8_1|not_4:not_4_1" File: C:/altera_lite/16.0/ECE_550/Project1/not_8.v Line: 4
-Info (12128): Elaborating entity "mux_2_32bit" for hierarchy "AddSub:AS1|mux_2_32bit:mux_2_32bit_1" File: C:/altera_lite/16.0/ECE_550/Project1/addsub.v Line: 11
-Info (12128): Elaborating entity "CSA_32" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1" File: C:/altera_lite/16.0/ECE_550/Project1/addsub.v Line: 12
-Info (12128): Elaborating entity "CSA_16" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1" File: C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v Line: 8
-Info (12128): Elaborating entity "CSA_8" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1" File: C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v Line: 8
-Info (12128): Elaborating entity "CSA_4" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1" File: C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v Line: 8
-Info (12128): Elaborating entity "RCA_2" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_1" File: C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v Line: 8
+    Info (12023): Found entity 1: not_4 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/not_4.v Line: 1
+Info (12128): Elaborating entity "not_4" for hierarchy "AddSub:AS1|not_32:not1|not_16:not_16_1|not_8:not_8_1|not_4:not_4_1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/not_8.v Line: 4
+Info (12128): Elaborating entity "mux_2_32bit" for hierarchy "AddSub:AS1|mux_2_32bit:mux_2_32bit_1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/addsub.v Line: 11
+Info (12128): Elaborating entity "CSA_32" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/addsub.v Line: 12
+Info (12128): Elaborating entity "CSA_16" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/CSA_32.v Line: 8
+Info (12128): Elaborating entity "CSA_8" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/CSA_16.v Line: 8
+Info (12128): Elaborating entity "CSA_4" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/CSA_8.v Line: 8
+Info (12128): Elaborating entity "RCA_2" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/CSA_4.v Line: 8
 Warning (12125): Using design file full_adder.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: full_adder File: C:/altera_lite/16.0/ECE_550/Project1/full_adder.v Line: 1
-Info (12128): Elaborating entity "full_adder" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_1|full_adder:full_adder1" File: C:/altera_lite/16.0/ECE_550/Project1/RCA_2.v Line: 7
-Info (12128): Elaborating entity "mux_2_2bit" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|mux_2_2bit:mux_2_2bit_1" File: C:/altera_lite/16.0/ECE_550/Project1/CSA_4.v Line: 11
-Info (12128): Elaborating entity "mux_2_4bit" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|mux_2_4bit:mux_2_4bit_1" File: C:/altera_lite/16.0/ECE_550/Project1/CSA_8.v Line: 11
-Info (12128): Elaborating entity "mux_2_8bit" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|mux_2_8bit:mux_2_8bit_1" File: C:/altera_lite/16.0/ECE_550/Project1/CSA_16.v Line: 11
-Info (12128): Elaborating entity "mux_2_16bit" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|mux_2_16bit:mux_2_16bit_1" File: C:/altera_lite/16.0/ECE_550/Project1/CSA_32.v Line: 11
-Info (12128): Elaborating entity "or_1_32" for hierarchy "AddSub:AS1|or_1_32:o1" File: C:/altera_lite/16.0/ECE_550/Project1/addsub.v Line: 27
-Info (12128): Elaborating entity "or_1_16" for hierarchy "AddSub:AS1|or_1_32:o1|or_1_16:o1" File: C:/altera_lite/16.0/ECE_550/Project1/or_1_32.v Line: 5
-Info (12128): Elaborating entity "or_1_8" for hierarchy "AddSub:AS1|or_1_32:o1|or_1_16:o1|or_1_8:o1" File: C:/altera_lite/16.0/ECE_550/Project1/or_1_16.v Line: 5
-Info (12128): Elaborating entity "or_1_4" for hierarchy "AddSub:AS1|or_1_32:o1|or_1_16:o1|or_1_8:o1|or_1_4:a1" File: C:/altera_lite/16.0/ECE_550/Project1/or_1_8.v Line: 5
+    Info (12023): Found entity 1: full_adder File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/full_adder.v Line: 1
+Info (12128): Elaborating entity "full_adder" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|RCA_2:RCA_2_1|full_adder:full_adder1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/RCA_2.v Line: 7
+Info (12128): Elaborating entity "mux_2_2bit" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|CSA_4:CSA_4_1|mux_2_2bit:mux_2_2bit_1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/CSA_4.v Line: 11
+Info (12128): Elaborating entity "mux_2_4bit" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|CSA_8:CSA_8_1|mux_2_4bit:mux_2_4bit_1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/CSA_8.v Line: 11
+Info (12128): Elaborating entity "mux_2_8bit" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|CSA_16:CSA_16_1|mux_2_8bit:mux_2_8bit_1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/CSA_16.v Line: 11
+Info (12128): Elaborating entity "mux_2_16bit" for hierarchy "AddSub:AS1|CSA_32:CSA_32_1|mux_2_16bit:mux_2_16bit_1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/CSA_32.v Line: 11
+Info (12128): Elaborating entity "or_1_32" for hierarchy "AddSub:AS1|or_1_32:o1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/addsub.v Line: 27
+Info (12128): Elaborating entity "or_1_16" for hierarchy "AddSub:AS1|or_1_32:o1|or_1_16:o1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_1_32.v Line: 5
+Info (12128): Elaborating entity "or_1_8" for hierarchy "AddSub:AS1|or_1_32:o1|or_1_16:o1|or_1_8:o1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_1_16.v Line: 5
+Info (12128): Elaborating entity "or_1_4" for hierarchy "AddSub:AS1|or_1_32:o1|or_1_16:o1|or_1_8:o1|or_1_4:a1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_1_8.v Line: 5
 Warning (12125): Using design file mux_2_1bit.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: mux_2_1bit File: C:/altera_lite/16.0/ECE_550/Project1/mux_2_1bit.v Line: 1
-Info (12128): Elaborating entity "mux_2_1bit" for hierarchy "AddSub:AS1|mux_2_1bit:m1" File: C:/altera_lite/16.0/ECE_550/Project1/addsub.v Line: 28
-Info (12128): Elaborating entity "and_32" for hierarchy "and_32:A1" File: C:/altera_lite/16.0/ECE_550/Project1/alu.v Line: 12
-Info (12128): Elaborating entity "and_16" for hierarchy "and_32:A1|and_16:and1" File: C:/altera_lite/16.0/ECE_550/Project1/and_32.v Line: 4
-Info (12128): Elaborating entity "and_8" for hierarchy "and_32:A1|and_16:and1|and_8:and1" File: C:/altera_lite/16.0/ECE_550/Project1/and_16.v Line: 4
-Info (12128): Elaborating entity "and_4" for hierarchy "and_32:A1|and_16:and1|and_8:and1|and_4:and1" File: C:/altera_lite/16.0/ECE_550/Project1/and_8.v Line: 4
+    Info (12023): Found entity 1: mux_2_1bit File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_2_1bit.v Line: 1
+Info (12128): Elaborating entity "mux_2_1bit" for hierarchy "AddSub:AS1|mux_2_1bit:m1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/addsub.v Line: 28
+Info (12128): Elaborating entity "and_32" for hierarchy "and_32:A1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/alu.v Line: 12
+Info (12128): Elaborating entity "and_16" for hierarchy "and_32:A1|and_16:and1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/and_32.v Line: 4
+Info (12128): Elaborating entity "and_8" for hierarchy "and_32:A1|and_16:and1|and_8:and1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/and_16.v Line: 4
+Info (12128): Elaborating entity "and_4" for hierarchy "and_32:A1|and_16:and1|and_8:and1|and_4:and1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/and_8.v Line: 4
 Warning (12125): Using design file or_32.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: or_32 File: C:/altera_lite/16.0/ECE_550/Project1/or_32.v Line: 1
-Info (12128): Elaborating entity "or_32" for hierarchy "or_32:O1" File: C:/altera_lite/16.0/ECE_550/Project1/alu.v Line: 13
+    Info (12023): Found entity 1: or_32 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_32.v Line: 1
+Info (12128): Elaborating entity "or_32" for hierarchy "or_32:O1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/alu.v Line: 13
 Warning (12125): Using design file or_16.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: or_16 File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v Line: 1
-Info (12128): Elaborating entity "or_16" for hierarchy "or_32:O1|or_16:or1" File: C:/altera_lite/16.0/ECE_550/Project1/or_32.v Line: 4
-Warning (10034): Output port "out[16]" at or_16.v(3) has no driver File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v Line: 3
+    Info (12023): Found entity 1: or_16 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_16.v Line: 1
+Info (12128): Elaborating entity "or_16" for hierarchy "or_32:O1|or_16:or1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_32.v Line: 4
+Warning (10034): Output port "out[16]" at or_16.v(3) has no driver File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_16.v Line: 3
 Warning (12125): Using design file or_8.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: or_8 File: C:/altera_lite/16.0/ECE_550/Project1/or_8.v Line: 1
-Info (12128): Elaborating entity "or_8" for hierarchy "or_32:O1|or_16:or1|or_8:or1" File: C:/altera_lite/16.0/ECE_550/Project1/or_16.v Line: 4
+    Info (12023): Found entity 1: or_8 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_8.v Line: 1
+Info (12128): Elaborating entity "or_8" for hierarchy "or_32:O1|or_16:or1|or_8:or1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_16.v Line: 4
 Warning (12125): Using design file or_4.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: or_4 File: C:/altera_lite/16.0/ECE_550/Project1/or_4.v Line: 1
-Info (12128): Elaborating entity "or_4" for hierarchy "or_32:O1|or_16:or1|or_8:or1|or_4:or1" File: C:/altera_lite/16.0/ECE_550/Project1/or_8.v Line: 4
-Info (12128): Elaborating entity "SRA" for hierarchy "SRA:SRA1" File: C:/altera_lite/16.0/ECE_550/Project1/alu.v Line: 14
-Info (12128): Elaborating entity "SLL" for hierarchy "SLL:SLL1" File: C:/altera_lite/16.0/ECE_550/Project1/alu.v Line: 15
+    Info (12023): Found entity 1: or_4 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_4.v Line: 1
+Info (12128): Elaborating entity "or_4" for hierarchy "or_32:O1|or_16:or1|or_8:or1|or_4:or1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/or_8.v Line: 4
+Info (12128): Elaborating entity "SRA" for hierarchy "SRA:SRA1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/alu.v Line: 14
+Info (12128): Elaborating entity "SLL" for hierarchy "SLL:SLL1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/alu.v Line: 15
 Warning (12125): Using design file mux_alu_selector.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: mux_ALU_selector File: C:/altera_lite/16.0/ECE_550/Project1/mux_alu_selector.v Line: 1
-Info (12128): Elaborating entity "mux_ALU_selector" for hierarchy "mux_ALU_selector:mAs1" File: C:/altera_lite/16.0/ECE_550/Project1/alu.v Line: 16
+    Info (12023): Found entity 1: mux_ALU_selector File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_alu_selector.v Line: 1
+Info (12128): Elaborating entity "mux_ALU_selector" for hierarchy "mux_ALU_selector:mAs1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/alu.v Line: 16
 Warning (12125): Using design file mux_32.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: mux_32 File: C:/altera_lite/16.0/ECE_550/Project1/mux_32.v Line: 1
-Info (12128): Elaborating entity "mux_32" for hierarchy "mux_ALU_selector:mAs1|mux_32:m1" File: C:/altera_lite/16.0/ECE_550/Project1/mux_alu_selector.v Line: 6
+    Info (12023): Found entity 1: mux_32 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_32.v Line: 1
+Info (12128): Elaborating entity "mux_32" for hierarchy "mux_ALU_selector:mAs1|mux_32:m1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_alu_selector.v Line: 6
 Warning (12125): Using design file mux_16.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: mux_16 File: C:/altera_lite/16.0/ECE_550/Project1/mux_16.v Line: 1
-Info (12128): Elaborating entity "mux_16" for hierarchy "mux_ALU_selector:mAs1|mux_32:m1|mux_16:first_top" File: C:/altera_lite/16.0/ECE_550/Project1/mux_32.v Line: 9
+    Info (12023): Found entity 1: mux_16 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_16.v Line: 1
+Info (12128): Elaborating entity "mux_16" for hierarchy "mux_ALU_selector:mAs1|mux_32:m1|mux_16:first_top" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_32.v Line: 9
 Warning (12125): Using design file mux_8.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: mux_8 File: C:/altera_lite/16.0/ECE_550/Project1/mux_8.v Line: 1
-Info (12128): Elaborating entity "mux_8" for hierarchy "mux_ALU_selector:mAs1|mux_32:m1|mux_16:first_top|mux_8:first_top" File: C:/altera_lite/16.0/ECE_550/Project1/mux_16.v Line: 6
+    Info (12023): Found entity 1: mux_8 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_8.v Line: 1
+Info (12128): Elaborating entity "mux_8" for hierarchy "mux_ALU_selector:mAs1|mux_32:m1|mux_16:first_top|mux_8:first_top" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_16.v Line: 6
 Warning (12125): Using design file mux_4.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: mux_4 File: C:/altera_lite/16.0/ECE_550/Project1/mux_4.v Line: 1
-Info (12128): Elaborating entity "mux_4" for hierarchy "mux_ALU_selector:mAs1|mux_32:m1|mux_16:first_top|mux_8:first_top|mux_4:first_top" File: C:/altera_lite/16.0/ECE_550/Project1/mux_8.v Line: 6
+    Info (12023): Found entity 1: mux_4 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_4.v Line: 1
+Info (12128): Elaborating entity "mux_4" for hierarchy "mux_ALU_selector:mAs1|mux_32:m1|mux_16:first_top|mux_8:first_top|mux_4:first_top" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_8.v Line: 6
 Warning (12125): Using design file mux_2.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: mux_2 File: C:/altera_lite/16.0/ECE_550/Project1/mux_2.v Line: 1
-Info (12128): Elaborating entity "mux_2" for hierarchy "mux_ALU_selector:mAs1|mux_32:m1|mux_16:first_top|mux_8:first_top|mux_4:first_top|mux_2:first_top" File: C:/altera_lite/16.0/ECE_550/Project1/mux_4.v Line: 6
-Info (12128): Elaborating entity "isequal_5" for hierarchy "isequal_5:ie1" File: C:/altera_lite/16.0/ECE_550/Project1/alu.v Line: 19
-Info (12128): Elaborating entity "xnor_5" for hierarchy "isequal_5:ie1|xnor_5:xn" File: C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v Line: 5
-Info (12128): Elaborating entity "and_1_5" for hierarchy "isequal_5:ie1|and_1_5:a2" File: C:/altera_lite/16.0/ECE_550/Project1/isequal_5.v Line: 6
+    Info (12023): Found entity 1: mux_2 File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_2.v Line: 1
+Info (12128): Elaborating entity "mux_2" for hierarchy "mux_ALU_selector:mAs1|mux_32:m1|mux_16:first_top|mux_8:first_top|mux_4:first_top|mux_2:first_top" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/mux_4.v Line: 6
+Info (12128): Elaborating entity "isequal_5" for hierarchy "isequal_5:ie1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/alu.v Line: 19
+Info (12128): Elaborating entity "xnor_5" for hierarchy "isequal_5:ie1|xnor_5:xn" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/isequal_5.v Line: 5
+Info (12128): Elaborating entity "and_1_5" for hierarchy "isequal_5:ie1|and_1_5:a2" File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/isequal_5.v Line: 6
 Warning (12241): 3 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (286030): Timing-Driven Synthesis is running
-Info (144001): Generated suppressed messages file C:/altera_lite/16.0/ECE_550/Project1/output_files/alu.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/hb/Desktop/ece550/ECE_550/Project1/output_files/alu.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 677 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 74 input pins
     Info (21059): Implemented 35 output pins
     Info (21061): Implemented 568 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 23 warnings
-    Info: Peak virtual memory: 5011 megabytes
-    Info: Processing ended: Mon Sep 13 19:22:04 2021
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:26
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 39 warnings
+    Info: Peak virtual memory: 4964 megabytes
+    Info: Processing ended: Tue Sep 14 18:41:50 2021
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:27
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/altera_lite/16.0/ECE_550/Project1/output_files/alu.map.smsg.
+The suppressed messages can be found in C:/Users/hb/Desktop/ece550/ECE_550/Project1/output_files/alu.map.smsg.
 
 

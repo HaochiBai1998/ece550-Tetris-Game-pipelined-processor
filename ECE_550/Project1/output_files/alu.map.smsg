@@ -1,2 +1,1 @@
-Info (10281): Verilog HDL Declaration information at alu_buf.v(13): object "O1" differs only in case from object "o1" in the same scope File: C:/altera_lite/16.0/ECE_550/Project1/alu_buf.v Line: 13
-Info (10281): Verilog HDL Declaration information at alu.v(13): object "O1" differs only in case from object "o1" in the same scope File: C:/altera_lite/16.0/ECE_550/Project1/alu.v Line: 13
+Info (10281): Verilog HDL Declaration information at alu.v(13): object "O1" differs only in case from object "o1" in the same scope File: C:/Users/hb/Desktop/ece550/ECE_550/Project1/alu.v Line: 13
