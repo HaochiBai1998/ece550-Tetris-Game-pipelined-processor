@@ -1,0 +1,118 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hb/Desktop/ece550/ECE_550/Lab_3/simulation/modelsim
+vAnd_combination_5
+Z1 !s110 1631687439
+!i10b 1
+!s100 e`SQdW5TMWAE;ZANoHYc[0
+IK9fR^J4lMb@;h_jB`emId1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1631178885
+8C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/and_combination_5.v
+FC:/Users/hb/Desktop/ece550/ECE_550/Lab_3/and_combination_5.v
+L0 1
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1631687439.000000
+!s107 C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/and_combination_5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_3|C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/and_combination_5.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_3
+n@and_combination_5
+vfull_adder
+R1
+!i10b 1
+!s100 =ElUP6d4C9dnRG:`]F1mX1
+IdnN43=MaCfdgaF5o;NVDN1
+R2
+R0
+w1631172623
+8C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/full_adder.v
+FC:/Users/hb/Desktop/ece550/ECE_550/Lab_3/full_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_3|C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/full_adder.v|
+!i113 1
+R5
+R6
+vhalf_adder
+R1
+!i10b 1
+!s100 ;?QF3k]lB7^WN0UW^0>f@0
+I4ajd>`h25nF:5@0mh9`D31
+R2
+R0
+w1631174697
+8C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/half_adder.v
+FC:/Users/hb/Desktop/ece550/ECE_550/Lab_3/half_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/half_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_3|C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/half_adder.v|
+!i113 1
+R5
+R6
+vWallace_tree_multiplier_5
+R1
+!i10b 1
+!s100 <nQT=Iz1`]mY7j^MDF4aO2
+I<J`RYM8eFb8YN6R1=YkGO0
+R2
+R0
+w1631624923
+8C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/Wallace_tree_multiplier_5.v
+FC:/Users/hb/Desktop/ece550/ECE_550/Lab_3/Wallace_tree_multiplier_5.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/Wallace_tree_multiplier_5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_3|C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/Wallace_tree_multiplier_5.v|
+!i113 1
+R5
+R6
+n@wallace_tree_multiplier_5
+vWallace_tree_multiplier_5_tb
+R1
+!i10b 1
+!s100 e2_DngAaL5_MKhjdzmA@41
+IXNlfRSJ;zYHX2BUAESOCo0
+R2
+R0
+w1631687426
+8C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/Wallace_tree_multiplier_5_tb.v
+FC:/Users/hb/Desktop/ece550/ECE_550/Lab_3/Wallace_tree_multiplier_5_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/Wallace_tree_multiplier_5_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_3|C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/Wallace_tree_multiplier_5_tb.v|
+!i113 1
+R5
+R6
+n@wallace_tree_multiplier_5_tb

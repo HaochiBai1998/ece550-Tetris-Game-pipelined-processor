@@ -1,0 +1,5 @@
+module Wallace_tree_multiplier_5_tb();
+	reg[4:0] x,y;
+	reg[9:0] out;
+	Wallace_tree_multiplier_5 Wallace_tree_multiplier_5_1(x,y,out);
+endmodule
