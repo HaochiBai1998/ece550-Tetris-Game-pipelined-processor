@@ -9,13 +9,13 @@ z2
 cModel Technology
 dC:/altera_lite/16.0/ECE_550/Project1/simulation/qsim
 valu
-Z0 !s110 1631618500
+Z0 !s110 1631623476
 !i10b 1
 !s100 Fb_I6XJJBWH7F5CO<]f^i0
 IDGkUE4ahEC<;:mH363CZc1
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Users/hb/Desktop/ece550/ECE_550/Project1/simulation/qsim
-w1631618491
+w1631623473
 8alu.vo
 Falu.vo
 L0 32
@@ -23,19 +23,19 @@ Z3 OV;L;10.4d;61
 r1
 !s85 0
 31
-Z4 !s108 1631618500.000000
+!s108 1631623475.000000
 !s107 alu.vo|
 !s90 -work|work|alu.vo|
 !i113 1
-Z5 o-work work
+Z4 o-work work
 valu_vlg_vec_tst
 R0
 !i10b 1
-!s100 3g7FbzSHkW=Lk>@9NAJ3:2
-IEnC9Lng2I<HjQ`V2f`Y4T1
+!s100 Yo]mdP[9WQ0je3TUVD57H1
+ILLFh0TKT__@gNVAS>jGBO2
 R1
 R2
-w1631618490
+w1631623471
 8Waveform3.vwf.vt
 FWaveform3.vwf.vt
 L0 30
@@ -43,8 +43,8 @@ R3
 r1
 !s85 0
 31
-R4
+!s108 1631623476.000000
 !s107 Waveform3.vwf.vt|
 !s90 -work|work|Waveform3.vwf.vt|
 !i113 1
-R5
+R4

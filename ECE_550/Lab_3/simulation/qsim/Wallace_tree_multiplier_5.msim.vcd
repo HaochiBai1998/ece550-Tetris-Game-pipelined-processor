@@ -3,7 +3,7 @@ $comment
 		vcd file Wallace_tree_multiplier_5.msim.vcd -direction
 $end
 $date
-	Fri Sep 10 12:47:00 2021
+	Wed Sep 15 14:28:17 2021
 $end
 $version
 	ModelSim Version 10.4d

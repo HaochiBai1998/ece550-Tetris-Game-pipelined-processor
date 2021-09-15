@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Wallace_tree_multiplier_5
-Fri Sep 10 12:46:25 2021
+Wed Sep 15 14:26:31 2021
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Sep 10 12:46:25 2021       ;
+; Analysis & Synthesis Status        ; Successful - Wed Sep 15 14:26:31 2021       ;
 ; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                      ; Wallace_tree_multiplier_5                   ;
 ; Top-level Entity Name              ; Wallace_tree_multiplier_5                   ;
@@ -147,32 +147,27 @@ agreement for further details.
 +----------------------------------------------------------------------------+---------------------------+---------------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 12          ;
-; Maximum allowed            ; 12          ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 12     ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                      ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                  ; Library ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------+---------+
-; Wallace_tree_multiplier_5.v      ; yes             ; User Verilog HDL File        ; C:/altera_lite/16.0/ECE_550/Lab_3/Wallace_tree_multiplier_5.v ;         ;
-; and_combination_5.v              ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Lab_3/and_combination_5.v         ;         ;
-; half_adder.v                     ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Lab_3/half_adder.v                ;         ;
-; full_adder.v                     ; yes             ; Auto-Found Verilog HDL File  ; C:/altera_lite/16.0/ECE_550/Lab_3/full_adder.v                ;         ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                             ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                         ; Library ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------+---------+
+; Wallace_tree_multiplier_5.v      ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/Wallace_tree_multiplier_5.v ;         ;
+; and_combination_5.v              ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/and_combination_5.v         ;         ;
+; half_adder.v                     ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/half_adder.v                ;         ;
+; full_adder.v                     ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/full_adder.v                ;         ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------+---------+
 
 
 +----------------------------------------------------------+
@@ -274,7 +269,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -284,22 +279,23 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Fri Sep 10 12:45:57 2021
+    Info: Processing started: Wed Sep 15 14:26:21 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Wallace_tree_multiplier_5 -c Wallace_tree_multiplier_5
-Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file wallace_tree_multiplier_5.v
-    Info (12023): Found entity 1: Wallace_tree_multiplier_5 File: C:/altera_lite/16.0/ECE_550/Lab_3/Wallace_tree_multiplier_5.v Line: 1
+    Info (12023): Found entity 1: Wallace_tree_multiplier_5 File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/Wallace_tree_multiplier_5.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file wallace_tree_multiplier_5_tb.v
+    Info (12023): Found entity 1: Wallace_tree_multiplier_5_tb File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/Wallace_tree_multiplier_5_tb.v Line: 1
 Info (12127): Elaborating entity "Wallace_tree_multiplier_5" for the top level hierarchy
 Warning (12125): Using design file and_combination_5.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: And_combination_5 File: C:/altera_lite/16.0/ECE_550/Lab_3/and_combination_5.v Line: 1
-Info (12128): Elaborating entity "And_combination_5" for hierarchy "And_combination_5:And_combination_5_1" File: C:/altera_lite/16.0/ECE_550/Lab_3/Wallace_tree_multiplier_5.v Line: 18
+    Info (12023): Found entity 1: And_combination_5 File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/and_combination_5.v Line: 1
+Info (12128): Elaborating entity "And_combination_5" for hierarchy "And_combination_5:And_combination_5_1" File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/Wallace_tree_multiplier_5.v Line: 18
 Warning (12125): Using design file half_adder.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: half_adder File: C:/altera_lite/16.0/ECE_550/Lab_3/half_adder.v Line: 1
-Info (12128): Elaborating entity "half_adder" for hierarchy "half_adder:half_adder1" File: C:/altera_lite/16.0/ECE_550/Lab_3/Wallace_tree_multiplier_5.v Line: 19
+    Info (12023): Found entity 1: half_adder File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/half_adder.v Line: 1
+Info (12128): Elaborating entity "half_adder" for hierarchy "half_adder:half_adder1" File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/Wallace_tree_multiplier_5.v Line: 19
 Warning (12125): Using design file full_adder.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: full_adder File: C:/altera_lite/16.0/ECE_550/Lab_3/full_adder.v Line: 1
-Info (12128): Elaborating entity "full_adder" for hierarchy "full_adder:full_adder1" File: C:/altera_lite/16.0/ECE_550/Lab_3/Wallace_tree_multiplier_5.v Line: 22
+    Info (12023): Found entity 1: full_adder File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/full_adder.v Line: 1
+Info (12128): Elaborating entity "full_adder" for hierarchy "full_adder:full_adder1" File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/Wallace_tree_multiplier_5.v Line: 22
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -308,9 +304,9 @@ Info (21057): Implemented 72 device resources after synthesis - the final resour
     Info (21059): Implemented 10 output pins
     Info (21061): Implemented 52 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4995 megabytes
-    Info: Processing ended: Fri Sep 10 12:46:25 2021
-    Info: Elapsed time: 00:00:28
-    Info: Total CPU time (on all processors): 00:00:34
+    Info: Peak virtual memory: 4951 megabytes
+    Info: Processing ended: Wed Sep 15 14:26:31 2021
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:20
 
 

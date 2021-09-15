@@ -9,16 +9,16 @@ y[1] => y[1].IN1
 y[2] => y[2].IN1
 y[3] => y[3].IN1
 y[4] => y[4].IN1
-out[0] <= And_combination_5:And_combination_5_1.port14
-out[1] <= half_adder:half_adder5.port3
-out[2] <= full_adder:full_adder9.port4
-out[3] <= full_adder:full_adder10.port4
-out[4] <= full_adder:full_adder11.port4
-out[5] <= full_adder:full_adder12.port4
-out[6] <= full_adder:full_adder13.port4
-out[7] <= full_adder:full_adder14.port4
-out[8] <= full_adder:full_adder15.port4
-out[9] <= full_adder:full_adder15.port3
+out[0] << And_combination_5:And_combination_5_1.port14
+out[1] << half_adder:half_adder5.port3
+out[2] << full_adder:full_adder9.port4
+out[3] << full_adder:full_adder10.port4
+out[4] << full_adder:full_adder11.port4
+out[5] << full_adder:full_adder12.port4
+out[6] << full_adder:full_adder13.port4
+out[7] << full_adder:full_adder14.port4
+out[8] << full_adder:full_adder15.port4
+out[9] << full_adder:full_adder15.port3
 
 
 |Wallace_tree_multiplier_5|And_combination_5:And_combination_5_1

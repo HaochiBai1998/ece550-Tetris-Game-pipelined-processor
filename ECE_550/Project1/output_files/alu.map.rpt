@@ -1,5 +1,5 @@
 Analysis & Synthesis report for alu
-Tue Sep 14 18:41:50 2021
+Tue Sep 14 20:44:07 2021
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -64,7 +64,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Sep 14 18:41:50 2021       ;
+; Analysis & Synthesis Status        ; Successful - Tue Sep 14 20:44:07 2021       ;
 ; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                      ; alu                                         ;
 ; Top-level Entity Name              ; alu                                         ;
@@ -653,7 +653,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:04     ;
 +----------------+--------------+
 
 
@@ -663,7 +663,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Tue Sep 14 18:41:36 2021
+    Info: Processing started: Tue Sep 14 20:43:39 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off alu -c alu
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file rca_2.v
@@ -832,10 +832,10 @@ Info (21057): Implemented 677 device resources after synthesis - the final resou
     Info (21059): Implemented 35 output pins
     Info (21061): Implemented 568 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 39 warnings
-    Info: Peak virtual memory: 4964 megabytes
-    Info: Processing ended: Tue Sep 14 18:41:50 2021
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:27
+    Info: Peak virtual memory: 4963 megabytes
+    Info: Processing ended: Tue Sep 14 20:44:07 2021
+    Info: Elapsed time: 00:00:28
+    Info: Total CPU time (on all processors): 00:00:56
 
 
 +------------------------------------------+

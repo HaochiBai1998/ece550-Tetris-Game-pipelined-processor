@@ -7,15 +7,15 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/altera_lite/16.0/ECE_550/Lab_3/simulation/qsim
+dC:/altera_lite/16.0/ECE_550/Lab_3/simulation/qsim
 vWallace_tree_multiplier_5
-Z1 !s110 1631249219
+Z0 !s110 1631687297
 !i10b 1
 !s100 VBRQ@_Onf8ZGI`Jc3O;K70
 IMDE<LkEn4^D7WZOSc^;gJ1
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-R0
-w1631249217
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/hb/Desktop/ece550/ECE_550/Lab_3/simulation/qsim
+w1631687296
 8Wallace_tree_multiplier_5.vo
 FWallace_tree_multiplier_5.vo
 L0 32
@@ -23,20 +23,20 @@ Z3 OV;L;10.4d;61
 r1
 !s85 0
 31
-Z4 !s108 1631249219.000000
+Z4 !s108 1631687297.000000
 !s107 Wallace_tree_multiplier_5.vo|
 !s90 -work|work|Wallace_tree_multiplier_5.vo|
 !i113 1
 Z5 o-work work
 n@wallace_tree_multiplier_5
 vWallace_tree_multiplier_5_vlg_vec_tst
-R1
+R0
 !i10b 1
 !s100 >CnI`JfIh0bVY2U7Scl1G2
 IBZ41SZOT4a?ik`>OV2JTh2
+R1
 R2
-R0
-w1631249216
+w1631687295
 8Wallace_tree_multiplier_5_Waveform.vwf.vt
 FWallace_tree_multiplier_5_Waveform.vwf.vt
 L0 30

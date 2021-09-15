@@ -19,7 +19,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "09/14/2021 19:21:30"
+// Generated on "09/14/2021 20:44:31"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          alu
 // 
@@ -264,167 +264,167 @@ end
 // data_operandA[ 0 ]
 initial
 begin
-	data_operandA[0] = 1'b1;
+	data_operandA[0] = 1'b0;
 end 
 // data_operandB[ 31 ]
 initial
 begin
-	data_operandB[31] = 1'b0;
+	data_operandB[31] = 1'b1;
 end 
 // data_operandB[ 30 ]
 initial
 begin
-	data_operandB[30] = 1'b1;
+	data_operandB[30] = 1'b0;
 end 
 // data_operandB[ 29 ]
 initial
 begin
-	data_operandB[29] = 1'b1;
+	data_operandB[29] = 1'b0;
 end 
 // data_operandB[ 28 ]
 initial
 begin
-	data_operandB[28] = 1'b1;
+	data_operandB[28] = 1'b0;
 end 
 // data_operandB[ 27 ]
 initial
 begin
-	data_operandB[27] = 1'b1;
+	data_operandB[27] = 1'b0;
 end 
 // data_operandB[ 26 ]
 initial
 begin
-	data_operandB[26] = 1'b1;
+	data_operandB[26] = 1'b0;
 end 
 // data_operandB[ 25 ]
 initial
 begin
-	data_operandB[25] = 1'b1;
+	data_operandB[25] = 1'b0;
 end 
 // data_operandB[ 24 ]
 initial
 begin
-	data_operandB[24] = 1'b1;
+	data_operandB[24] = 1'b0;
 end 
 // data_operandB[ 23 ]
 initial
 begin
-	data_operandB[23] = 1'b1;
+	data_operandB[23] = 1'b0;
 end 
 // data_operandB[ 22 ]
 initial
 begin
-	data_operandB[22] = 1'b1;
+	data_operandB[22] = 1'b0;
 end 
 // data_operandB[ 21 ]
 initial
 begin
-	data_operandB[21] = 1'b1;
+	data_operandB[21] = 1'b0;
 end 
 // data_operandB[ 20 ]
 initial
 begin
-	data_operandB[20] = 1'b1;
+	data_operandB[20] = 1'b0;
 end 
 // data_operandB[ 19 ]
 initial
 begin
-	data_operandB[19] = 1'b1;
+	data_operandB[19] = 1'b0;
 end 
 // data_operandB[ 18 ]
 initial
 begin
-	data_operandB[18] = 1'b1;
+	data_operandB[18] = 1'b0;
 end 
 // data_operandB[ 17 ]
 initial
 begin
-	data_operandB[17] = 1'b1;
+	data_operandB[17] = 1'b0;
 end 
 // data_operandB[ 16 ]
 initial
 begin
-	data_operandB[16] = 1'b1;
+	data_operandB[16] = 1'b0;
 end 
 // data_operandB[ 15 ]
 initial
 begin
-	data_operandB[15] = 1'b1;
+	data_operandB[15] = 1'b0;
 end 
 // data_operandB[ 14 ]
 initial
 begin
-	data_operandB[14] = 1'b1;
+	data_operandB[14] = 1'b0;
 end 
 // data_operandB[ 13 ]
 initial
 begin
-	data_operandB[13] = 1'b1;
+	data_operandB[13] = 1'b0;
 end 
 // data_operandB[ 12 ]
 initial
 begin
-	data_operandB[12] = 1'b1;
+	data_operandB[12] = 1'b0;
 end 
 // data_operandB[ 11 ]
 initial
 begin
-	data_operandB[11] = 1'b1;
+	data_operandB[11] = 1'b0;
 end 
 // data_operandB[ 10 ]
 initial
 begin
-	data_operandB[10] = 1'b1;
+	data_operandB[10] = 1'b0;
 end 
 // data_operandB[ 9 ]
 initial
 begin
-	data_operandB[9] = 1'b1;
+	data_operandB[9] = 1'b0;
 end 
 // data_operandB[ 8 ]
 initial
 begin
-	data_operandB[8] = 1'b1;
+	data_operandB[8] = 1'b0;
 end 
 // data_operandB[ 7 ]
 initial
 begin
-	data_operandB[7] = 1'b1;
+	data_operandB[7] = 1'b0;
 end 
 // data_operandB[ 6 ]
 initial
 begin
-	data_operandB[6] = 1'b1;
+	data_operandB[6] = 1'b0;
 end 
 // data_operandB[ 5 ]
 initial
 begin
-	data_operandB[5] = 1'b1;
+	data_operandB[5] = 1'b0;
 end 
 // data_operandB[ 4 ]
 initial
 begin
-	data_operandB[4] = 1'b1;
+	data_operandB[4] = 1'b0;
 end 
 // data_operandB[ 3 ]
 initial
 begin
-	data_operandB[3] = 1'b1;
+	data_operandB[3] = 1'b0;
 end 
 // data_operandB[ 2 ]
 initial
 begin
-	data_operandB[2] = 1'b1;
+	data_operandB[2] = 1'b0;
 end 
 // data_operandB[ 1 ]
 initial
 begin
-	data_operandB[1] = 1'b1;
+	data_operandB[1] = 1'b0;
 end 
 // data_operandB[ 0 ]
 initial
 begin
-	data_operandB[0] = 1'b1;
+	data_operandB[0] = 1'b0;
 end 
 endmodule
 

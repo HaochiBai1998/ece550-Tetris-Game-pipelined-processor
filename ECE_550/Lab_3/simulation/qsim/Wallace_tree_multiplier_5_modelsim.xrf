@@ -1,9 +1,10 @@
 vendor_name = ModelSim
-source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_3/Wallace_tree_multiplier_5.v
-source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_3/Wallace_tree_multiplier_5_Waveform.vwf
-source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_3/and_combination_5.v
-source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_3/half_adder.v
-source_file = 1, C:/altera_lite/16.0/ECE_550/Lab_3/full_adder.v
+source_file = 1, C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/Wallace_tree_multiplier_5.v
+source_file = 1, C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/Wallace_tree_multiplier_5_Waveform.vwf
+source_file = 1, C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/Wallace_tree_multiplier_5_tb.v
+source_file = 1, C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/and_combination_5.v
+source_file = 1, C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/half_adder.v
+source_file = 1, C:/Users/hb/Desktop/ece550/ECE_550/Lab_3/full_adder.v
 design_name = Wallace_tree_multiplier_5
 instance = comp, \out[0]~output , out[0]~output, Wallace_tree_multiplier_5, 1
 instance = comp, \out[1]~output , out[1]~output, Wallace_tree_multiplier_5, 1

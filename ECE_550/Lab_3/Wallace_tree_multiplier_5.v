@@ -10,7 +10,7 @@ wire x0y4,x0y3,x0y2,x0y1,x0y0,
 	x2y4,x2y3,x2y2,x2y1,x2y0,
 	x3y4,x3y3,x3y2,x3y1,x3y0,
 	x4y4,x4y3,x4y2,x4y1,x4y0;
-And_combination_5 And_combination_5_1(x[0],x[1],x[2],x[3],x[4],y[0],y[1],y[2],y[3],y[4],
+	And_combination_5 And_combination_5_1(x[0],x[1],x[2],x[3],x[4],y[0],y[1],y[2],y[3],y[4],
 	x0y4,x0y3,x0y2,x0y1,x0y0,
 	x1y4,x1y3,x1y2,x1y1,x1y0,
 	x2y4,x2y3,x2y2,x2y1,x2y0,
