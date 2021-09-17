@@ -1,0 +1,30 @@
+module f(in,state_C,state_N);
+	input in;
+	input[2:0] state_C;
+	wire[2:0] S1,S2,S3,S4;
+	output[2:0] state_N;
+	assign S1=3'b001;
+	assign S2=3'b010;
+	assign S3=3'b101;
+	assign S4=3'b110;
+	if (state_C==S1 && in==1)
+	begin 
+		state_N=S3;
+	end 
+	else if (state_C==S1 && in==0)
+	begin 
+		state_N=S2;
+	end if (state_C==S2 && in==0)
+	begin 
+		state_N=S1;
+	end if (state_C==S2 && in==1)
+	begin 
+		state_N=S4;
+	end if (state_C==S3)
+	begin 
+		state_N=S2;
+	end if (state_C==S4)
+	begin 
+		state_N=S1;
+	end 
+endmodule 

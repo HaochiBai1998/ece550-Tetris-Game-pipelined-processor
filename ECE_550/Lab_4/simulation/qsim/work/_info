@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hb/Desktop/ece550/ECE_550/Lab_4/simulation/qsim
+vFSM
+Z1 !s110 1631896023
+!i10b 1
+!s100 1:da:_=czcODYWcW?S@fA2
+IC3fi<=QIJ`:i1:43IKbjO0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1631896022
+8FSM.vo
+FFSM.vo
+L0 32
+Z4 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z5 !s108 1631896023.000000
+!s107 FSM.vo|
+!s90 -work|work|FSM.vo|
+!i113 1
+Z6 o-work work
+n@f@s@m
+vFSM_vlg_vec_tst
+R1
+!i10b 1
+!s100 gzQcOG=ZQ_`jHklTX;ncH0
+I:F@8BzAWb30aiSKD18GAa2
+R2
+R0
+R3
+8state_f.vwf.vt
+Fstate_f.vwf.vt
+L0 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 state_f.vwf.vt|
+!s90 -work|work|state_f.vwf.vt|
+!i113 1
+R6
+n@f@s@m_vlg_vec_tst

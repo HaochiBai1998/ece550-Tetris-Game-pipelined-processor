@@ -1,0 +1,42 @@
+|FSM
+clock => clock.IN1
+init_state[0] => state_C[0].IN1
+init_state[1] => state_C[1].IN1
+init_state[2] => state_C[2].IN1
+out[0] <= f_state_out:f1.port3
+out[1] <= f_state_out:f1.port3
+out[2] <= f_state_out:f1.port3
+out[3] <= f_state_out:f1.port3
+out[4] <= f_state_out:f1.port3
+state[0] <= f_state_out:f1.port2
+state[1] <= f_state_out:f1.port2
+state[2] <= f_state_out:f1.port2
+
+
+|FSM|f_state_out:f1
+in => always0.IN1
+in => always0.IN1
+in => always0.IN1
+in => always0.IN1
+state_C[0] => Equal0.IN2
+state_C[0] => Equal1.IN1
+state_C[0] => Equal2.IN2
+state_C[0] => Equal3.IN0
+state_C[1] => Equal0.IN1
+state_C[1] => Equal1.IN2
+state_C[1] => Equal2.IN0
+state_C[1] => Equal3.IN2
+state_C[2] => Equal0.IN0
+state_C[2] => Equal1.IN0
+state_C[2] => Equal2.IN1
+state_C[2] => Equal3.IN1
+state_N[0] <= s[0].DB_MAX_OUTPUT_PORT_TYPE
+state_N[1] <= s[1].DB_MAX_OUTPUT_PORT_TYPE
+state_N[2] <= s[2].DB_MAX_OUTPUT_PORT_TYPE
+out[0] <= o[0].DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= o[1].DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= o[2].DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= o[3].DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= o[4].DB_MAX_OUTPUT_PORT_TYPE
+
+
