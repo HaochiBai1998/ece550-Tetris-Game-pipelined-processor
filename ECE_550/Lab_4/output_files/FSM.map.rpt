@@ -1,5 +1,5 @@
 Analysis & Synthesis report for FSM
-Sat Sep 18 00:38:17 2021
+Sun Sep 19 22:40:03 2021
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -13,12 +13,16 @@ Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. User-Specified and Inferred Latches
-  9. General Register Statistics
- 10. Multiplexer Restructuring Statistics (Restructuring Performed)
- 11. Post-Synthesis Netlist Statistics for Top Partition
- 12. Elapsed Time Per Partition
- 13. Analysis & Synthesis Messages
+  8. State Machine - |FSM|state_C
+  9. State Machine - |FSM|state_N
+ 10. Registers Removed During Synthesis
+ 11. General Register Statistics
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Parameter Settings for User Entity Instance: Top-level Entity: |FSM
+ 14. Post-Synthesis Netlist Statistics for Top Partition
+ 15. Elapsed Time Per Partition
+ 16. Analysis & Synthesis Messages
+ 17. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -45,16 +49,16 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Sep 18 00:38:17 2021       ;
+; Analysis & Synthesis Status        ; Successful - Sun Sep 19 22:40:03 2021       ;
 ; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                      ; FSM                                         ;
 ; Top-level Entity Name              ; FSM                                         ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 11                                          ;
-;     Total combinational functions  ; 11                                          ;
-;     Dedicated logic registers      ; 0                                           ;
-; Total registers                    ; 0                                           ;
-; Total pins                         ; 12                                          ;
+; Total logic elements               ; 6                                           ;
+;     Total combinational functions  ; 6                                           ;
+;     Dedicated logic registers      ; 6                                           ;
+; Total registers                    ; 6                                           ;
+; Total pins                         ; 2                                           ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -160,46 +164,45 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                               ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                           ; Library ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------+---------+
-; FSM.v                            ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v         ;         ;
-; f_state_out.v                    ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v ;         ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                 ;
++----------------------------------+-----------------+------------------------+------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                   ; Library ;
++----------------------------------+-----------------+------------------------+------------------------------------------------+---------+
+; FSM.v                            ; yes             ; User Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v ;         ;
++----------------------------------+-----------------+------------------------+------------------------------------------------+---------+
 
 
-+-------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                       ;
-+---------------------------------------------+---------------------+
-; Resource                                    ; Usage               ;
-+---------------------------------------------+---------------------+
-; Estimated Total logic elements              ; 11                  ;
-;                                             ;                     ;
-; Total combinational functions               ; 11                  ;
-; Logic element usage by number of LUT inputs ;                     ;
-;     -- 4 input functions                    ; 5                   ;
-;     -- 3 input functions                    ; 5                   ;
-;     -- <=2 input functions                  ; 1                   ;
-;                                             ;                     ;
-; Logic elements by mode                      ;                     ;
-;     -- normal mode                          ; 11                  ;
-;     -- arithmetic mode                      ; 0                   ;
-;                                             ;                     ;
-; Total registers                             ; 0                   ;
-;     -- Dedicated logic registers            ; 0                   ;
-;     -- I/O registers                        ; 0                   ;
-;                                             ;                     ;
-; I/O pins                                    ; 12                  ;
-;                                             ;                     ;
-; Embedded Multiplier 9-bit elements          ; 0                   ;
-;                                             ;                     ;
-; Maximum fan-out node                        ; init_state[0]~input ;
-; Maximum fan-out                             ; 6                   ;
-; Total fan-out                               ; 57                  ;
-; Average fan-out                             ; 1.63                ;
-+---------------------------------------------+---------------------+
++-----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary               ;
++---------------------------------------------+-------------+
+; Resource                                    ; Usage       ;
++---------------------------------------------+-------------+
+; Estimated Total logic elements              ; 6           ;
+;                                             ;             ;
+; Total combinational functions               ; 6           ;
+; Logic element usage by number of LUT inputs ;             ;
+;     -- 4 input functions                    ; 1           ;
+;     -- 3 input functions                    ; 1           ;
+;     -- <=2 input functions                  ; 4           ;
+;                                             ;             ;
+; Logic elements by mode                      ;             ;
+;     -- normal mode                          ; 6           ;
+;     -- arithmetic mode                      ; 0           ;
+;                                             ;             ;
+; Total registers                             ; 6           ;
+;     -- Dedicated logic registers            ; 6           ;
+;     -- I/O registers                        ; 0           ;
+;                                             ;             ;
+; I/O pins                                    ; 2           ;
+;                                             ;             ;
+; Embedded Multiplier 9-bit elements          ; 0           ;
+;                                             ;             ;
+; Maximum fan-out node                        ; clock~input ;
+; Maximum fan-out                             ; 6           ;
+; Total fan-out                               ; 29          ;
+; Average fan-out                             ; 1.81        ;
++---------------------------------------------+-------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -207,28 +210,55 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
-; |FSM                       ; 11 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 12   ; 0            ; |FSM                ; FSM         ; work         ;
-;    |f_state_out:f1|        ; 11 (11)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FSM|f_state_out:f1 ; f_state_out ; work         ;
+; |FSM                       ; 6 (6)             ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 2    ; 0            ; |FSM                ; FSM         ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+---------------------------------------------------------------------------------------------------+
-; User-Specified and Inferred Latches                                                               ;
-+----------------------------------------------------+---------------------+------------------------+
-; Latch Name                                         ; Latch Enable Signal ; Free of Timing Hazards ;
-+----------------------------------------------------+---------------------+------------------------+
-; f_state_out:f1|o[0]                                ; f_state_out:f1|s[2] ; yes                    ;
-; f_state_out:f1|o[1]                                ; f_state_out:f1|s[2] ; yes                    ;
-; f_state_out:f1|o[2]                                ; f_state_out:f1|s[2] ; yes                    ;
-; f_state_out:f1|o[3]                                ; f_state_out:f1|s[2] ; yes                    ;
-; f_state_out:f1|o[4]                                ; f_state_out:f1|s[2] ; yes                    ;
-; f_state_out:f1|s[0]                                ; f_state_out:f1|s[2] ; yes                    ;
-; f_state_out:f1|s[1]                                ; f_state_out:f1|s[2] ; yes                    ;
-; f_state_out:f1|s[2]                                ; f_state_out:f1|s[2] ; yes                    ;
-; Number of user-specified and inferred latches = 8  ;                     ;                        ;
-+----------------------------------------------------+---------------------+------------------------+
-Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+Encoding Type:  One-Hot
++-----------------------------------------------------------------------------+
+; State Machine - |FSM|state_C                                                ;
++------------+------------+------------+------------+------------+------------+
+; Name       ; state_C.S3 ; state_C.S2 ; state_C.S0 ; state_C.S1 ; state_C.S4 ;
++------------+------------+------------+------------+------------+------------+
+; state_C.S1 ; 0          ; 0          ; 0          ; 0          ; 0          ;
+; state_C.S0 ; 0          ; 0          ; 1          ; 1          ; 0          ;
+; state_C.S2 ; 0          ; 1          ; 0          ; 1          ; 0          ;
+; state_C.S3 ; 1          ; 0          ; 0          ; 1          ; 0          ;
+; state_C.S4 ; 0          ; 0          ; 0          ; 1          ; 1          ;
++------------+------------+------------+------------+------------+------------+
+
+
+Encoding Type:  One-Hot
++-----------------------------------------------------------------------------+
+; State Machine - |FSM|state_N                                                ;
++------------+------------+------------+------------+------------+------------+
+; Name       ; state_N.S3 ; state_N.S2 ; state_N.S0 ; state_N.S1 ; state_N.S4 ;
++------------+------------+------------+------------+------------+------------+
+; state_N.S1 ; 0          ; 0          ; 0          ; 0          ; 0          ;
+; state_N.S0 ; 0          ; 0          ; 1          ; 1          ; 0          ;
+; state_N.S2 ; 0          ; 1          ; 0          ; 1          ; 0          ;
+; state_N.S3 ; 1          ; 0          ; 0          ; 1          ; 0          ;
+; state_N.S4 ; 0          ; 0          ; 0          ; 1          ; 1          ;
++------------+------------+------------+------------+------------+------------+
+
+
++------------------------------------------------------------+
+; Registers Removed During Synthesis                         ;
++---------------------------------------+--------------------+
+; Register name                         ; Reason for Removal ;
++---------------------------------------+--------------------+
+; state_N.S1                            ; Lost fanout        ;
+; state_N.S0                            ; Lost fanout        ;
+; state_N.S2                            ; Lost fanout        ;
+; state_N.S3                            ; Lost fanout        ;
+; state_N.S4                            ; Lost fanout        ;
+; state_C~2                             ; Lost fanout        ;
+; state_C~3                             ; Lost fanout        ;
+; state_N~12                            ; Lost fanout        ;
+; state_N~13                            ; Lost fanout        ;
+; Total Number of Removed Registers = 9 ;                    ;
++---------------------------------------+--------------------+
 
 
 +------------------------------------------------------+
@@ -236,7 +266,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 6     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -251,8 +281,24 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; 10:1               ; 2 bits    ; 12 LEs        ; 10 LEs               ; 2 LEs                  ; No         ; |FSM|f_state_out:f1|o[3]   ;
+; 6:1                ; 5 bits    ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |FSM|state_N               ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+
+
++---------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |FSM ;
++----------------+-------+--------------------------------------------+
+; Parameter Name ; Value ; Type                                       ;
++----------------+-------+--------------------------------------------+
+; S0             ; 000   ; Unsigned Binary                            ;
+; S1             ; 001   ; Unsigned Binary                            ;
+; S2             ; 010   ; Unsigned Binary                            ;
+; S3             ; 011   ; Unsigned Binary                            ;
+; S4             ; 100   ; Unsigned Binary                            ;
+; light_ON       ; 1     ; Unsigned Binary                            ;
+; light_OFF      ; 0     ; Unsigned Binary                            ;
++----------------+-------+--------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +-----------------------------------------------------+
@@ -260,15 +306,18 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 12                          ;
-; cycloneiii_lcell_comb ; 11                          ;
-;     normal            ; 11                          ;
-;         2 data inputs ; 1                           ;
-;         3 data inputs ; 5                           ;
-;         4 data inputs ; 5                           ;
+; boundary_port         ; 2                           ;
+; cycloneiii_ff         ; 6                           ;
+;     plain             ; 6                           ;
+; cycloneiii_lcell_comb ; 6                           ;
+;     normal            ; 6                           ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 3                           ;
+;         3 data inputs ; 1                           ;
+;         4 data inputs ; 1                           ;
 ;                       ;                             ;
 ; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 1.75                        ;
+; Average LUT depth     ; 1.38                        ;
 +-----------------------+-----------------------------+
 
 
@@ -287,7 +336,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Sat Sep 18 00:38:07 2021
+    Info: Processing started: Sun Sep 19 22:39:52 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FSM -c FSM
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file fsm.v
@@ -296,51 +345,37 @@ Info (12021): Found 1 design units, including 1 entities, in source file sr_latc
     Info (12023): Found entity 1: SR_Latch File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/SR_Latch.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file d_latch.v
     Info (12023): Found entity 1: D_Latch File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/D_Latch.v Line: 1
-Warning (12018): Entity "DFF" will be ignored because it conflicts with Quartus Prime primitive name File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/DFF.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file dff.v
-Info (12021): Found 0 design units, including 0 entities, in source file buffer.v
+Warning (12019): Can't analyze file -- file DFF.v is missing
+Info (12021): Found 1 design units, including 1 entities, in source file buffer.v
+    Info (12023): Found entity 1: FSM_counter File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/buffer.v Line: 1
 Warning (12019): Can't analyze file -- file state_f.v is missing
+Info (12021): Found 1 design units, including 1 entities, in source file dff_3.v
+    Info (12023): Found entity 1: DFF_3 File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/DFF_3.v Line: 1
+Info (12021): Found 0 design units, including 0 entities, in source file f_state_out.v
+Info (12021): Found 1 design units, including 1 entities, in source file fsm_traffic_light.v
+    Info (12023): Found entity 1: FSM_traffic_light File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_traffic_light.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file fsm_tb.v
+    Info (12023): Found entity 1: FSM_tb File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v Line: 1
 Info (12127): Elaborating entity "FSM" for the top level hierarchy
-Warning (12125): Using design file f_state_out.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: f_state_out File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 1
-Info (12128): Elaborating entity "f_state_out" for hierarchy "f_state_out:f1" File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v Line: 10
-Warning (10240): Verilog HDL Always Construct warning at f_state_out.v(20): inferring latch(es) for variable "s", which holds its previous value in one or more paths through the always construct File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 20
-Warning (10240): Verilog HDL Always Construct warning at f_state_out.v(20): inferring latch(es) for variable "o", which holds its previous value in one or more paths through the always construct File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 20
-Warning (10230): Verilog HDL assignment warning at f_state_out.v(45): truncated value with size 32 to match size of target (3) File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 45
-Warning (10230): Verilog HDL assignment warning at f_state_out.v(46): truncated value with size 32 to match size of target (5) File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 46
-Info (10041): Inferred latch for "o[0]" at f_state_out.v(24) File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 24
-Info (10041): Inferred latch for "o[1]" at f_state_out.v(24) File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 24
-Info (10041): Inferred latch for "o[2]" at f_state_out.v(24) File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 24
-Info (10041): Inferred latch for "o[3]" at f_state_out.v(24) File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 24
-Info (10041): Inferred latch for "o[4]" at f_state_out.v(24) File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 24
-Info (10041): Inferred latch for "s[0]" at f_state_out.v(24) File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 24
-Info (10041): Inferred latch for "s[1]" at f_state_out.v(24) File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 24
-Info (10041): Inferred latch for "s[2]" at f_state_out.v(24) File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 24
-Info (13025): Duplicate LATCH primitives merged into single LATCH primitive
-    Info (13026): Duplicate LATCH primitive "f_state_out:f1|o[3]" merged with LATCH primitive "f_state_out:f1|o[0]" File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 24
-    Info (13026): Duplicate LATCH primitive "f_state_out:f1|o[2]" merged with LATCH primitive "f_state_out:f1|o[1]" File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 24
-    Info (13026): Duplicate LATCH primitive "f_state_out:f1|s[2]" merged with LATCH primitive "f_state_out:f1|o[4]" File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 24
-Warning (13012): Latch f_state_out:f1|o[0] has unsafe behavior File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 24
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal init_state[0] File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v Line: 3
-Warning (13012): Latch f_state_out:f1|o[1] has unsafe behavior File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 24
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal init_state[0] File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v Line: 3
-Warning (13012): Latch f_state_out:f1|o[4] has unsafe behavior File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 24
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal init_state[0] File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v Line: 3
-Warning (13012): Latch f_state_out:f1|s[0] has unsafe behavior File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 24
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal init_state[0] File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v Line: 3
-Warning (13012): Latch f_state_out:f1|s[1] has unsafe behavior File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/f_state_out.v Line: 24
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal init_state[0] File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v Line: 3
 Info (286030): Timing-Driven Synthesis is running
+Info (17049): 9 registers lost all their fanouts during netlist optimizations.
+Info (144001): Generated suppressed messages file C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/output_files/FSM.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 23 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 4 input pins
-    Info (21059): Implemented 8 output pins
-    Info (21061): Implemented 11 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 18 warnings
-    Info: Peak virtual memory: 4950 megabytes
-    Info: Processing ended: Sat Sep 18 00:38:17 2021
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:19
+Info (21057): Implemented 9 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 1 input pins
+    Info (21059): Implemented 1 output pins
+    Info (21061): Implemented 7 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4951 megabytes
+    Info: Processing ended: Sun Sep 19 22:40:03 2021
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:23
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/output_files/FSM.map.smsg.
 
 

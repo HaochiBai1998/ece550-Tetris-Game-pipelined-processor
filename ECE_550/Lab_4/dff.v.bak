@@ -1,4 +1,4 @@
-module DFF(D,Clock,Q,Q_bar);
+module dff(D,Clock,Q,Q_bar);
 	input D,Clock;
 	output Q,Q_bar;
 	wire w1,w2,Clock_bar,D_bar;

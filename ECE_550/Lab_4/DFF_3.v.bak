@@ -1,0 +1,8 @@
+module DFF_3(D,Clock,out);
+	input[2:0] D;
+	input clock;
+	output[2:0] out;
+	wire w1;
+	DFF DFF1(D[0],Clock,out[0],w1);
+	DFF DFF2(D[1],Clock,out[1],w1);
+	DFF DFF3(D[2],Clock,out[2],w1);

@@ -8,45 +8,87 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/hb/Desktop/ece550/ECE_550/Lab_4/simulation/qsim
-vFSM
-Z1 !s110 1631896023
+vDFF_3
+Z1 !s110 1631950306
 !i10b 1
-!s100 1:da:_=czcODYWcW?S@fA2
-IC3fi<=QIJ`:i1:43IKbjO0
+!s100 2iIQMJ33>:YQ6=FT>@CK<0
+I^`aABn`1oO4WU]4_5GIaJ0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1631896022
-8FSM.vo
-FFSM.vo
-L0 32
-Z4 OV;L;10.4d;61
+w1631950305
+Z3 8FSM.vo
+Z4 FFSM.vo
+Z5 L0 32
+Z6 OV;L;10.4d;61
 r1
 !s85 0
 31
-Z5 !s108 1631896023.000000
-!s107 FSM.vo|
-!s90 -work|work|FSM.vo|
+!s108 1631950305.000000
+Z7 !s107 FSM.vo|
+Z8 !s90 -work|work|FSM.vo|
 !i113 1
-Z6 o-work work
-n@f@s@m
-vFSM_vlg_vec_tst
+Z9 o-work work
+n@d@f@f_3
+vDFF_3_vlg_vec_tst
 R1
 !i10b 1
-!s100 gzQcOG=ZQ_`jHklTX;ncH0
-I:F@8BzAWb30aiSKD18GAa2
+!s100 fL7YF<8>GZgiGW?IlROD>3
+I6?gl_V30Z@L;DllTT:UL;1
 R2
 R0
-R3
-8state_f.vwf.vt
-Fstate_f.vwf.vt
-L0 30
-R4
+w1631950304
+8DFF_3.vwf.vt
+FDFF_3.vwf.vt
+Z10 L0 30
+R6
 r1
 !s85 0
 31
-R5
-!s107 state_f.vwf.vt|
-!s90 -work|work|state_f.vwf.vt|
+!s108 1631950306.000000
+!s107 DFF_3.vwf.vt|
+!s90 -work|work|DFF_3.vwf.vt|
 !i113 1
+R9
+n@d@f@f_3_vlg_vec_tst
+vFSM
+Z11 !s110 1632061200
+!i10b 1
+!s100 GNH5_?]g9A2OWIklnce7W0
+I?k;7N8H4ORKlQf;92EN<J0
+R2
+R0
+Z12 w1632061199
+R3
+R4
+R5
 R6
+r1
+!s85 0
+31
+Z13 !s108 1632061200.000000
+R7
+R8
+!i113 1
+R9
+n@f@s@m
+vFSM_vlg_vec_tst
+R11
+!i10b 1
+!s100 [F^Nd4]R?ARYDWa1`P9dR3
+I5?E9^Y@eXjb5oIF;VSfB21
+R2
+R0
+R12
+8FSM_counter.vwf.vt
+FFSM_counter.vwf.vt
+R10
+R6
+r1
+!s85 0
+31
+R13
+!s107 FSM_counter.vwf.vt|
+!s90 -work|work|FSM_counter.vwf.vt|
+!i113 1
+R9
 n@f@s@m_vlg_vec_tst

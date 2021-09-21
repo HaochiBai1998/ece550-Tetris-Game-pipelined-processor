@@ -19,7 +19,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "09/17/2021 19:03:39"
+// Generated on "09/18/2021 14:46:00"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          FSM
 // 
@@ -52,14 +52,19 @@ end
 // Clock
 initial
 begin
-	repeat(16)
-	begin
-		Clock = 1'b0;
-		Clock = #30000 1'b1;
-		# 30000;
-	end
 	Clock = 1'b0;
-	Clock = #30000 1'b1;
+	Clock = #20000 1'b1;
+	Clock = #30000 1'b0;
+	Clock = #60000 1'b1;
+	Clock = #10000 1'b0;
+	Clock = #110000 1'b1;
+	Clock = #10000 1'b0;
+	Clock = #100000 1'b1;
+	Clock = #10000 1'b0;
+	Clock = #110000 1'b1;
+	Clock = #10000 1'b0;
+	Clock = #100000 1'b1;
+	Clock = #10000 1'b0;
 end 
 
 // D

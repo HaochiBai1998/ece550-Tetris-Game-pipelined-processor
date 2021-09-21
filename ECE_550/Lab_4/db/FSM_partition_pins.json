@@ -4,51 +4,11 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "out[0]",
-					"strict" : false
-				},
-				{
-					"name" : "out[1]",
-					"strict" : false
-				},
-				{
-					"name" : "out[2]",
-					"strict" : false
-				},
-				{
-					"name" : "out[3]",
-					"strict" : false
-				},
-				{
-					"name" : "out[4]",
-					"strict" : false
-				},
-				{
-					"name" : "state[0]",
-					"strict" : false
-				},
-				{
-					"name" : "state[1]",
-					"strict" : false
-				},
-				{
-					"name" : "state[2]",
-					"strict" : false
-				},
-				{
-					"name" : "init_state[0]",
-					"strict" : false
-				},
-				{
-					"name" : "init_state[2]",
+					"name" : "Light",
 					"strict" : false
 				},
 				{
 					"name" : "clock",
-					"strict" : false
-				},
-				{
-					"name" : "init_state[1]",
 					"strict" : false
 				}
 			]

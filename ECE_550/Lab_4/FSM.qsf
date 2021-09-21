@@ -52,9 +52,6 @@ set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name VERILOG_FILE FSM.v
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name VECTOR_WAVEFORM_FILE SR_Latch.vwf
 set_global_assignment -name VERILOG_FILE SR_Latch.v
 set_global_assignment -name VECTOR_WAVEFORM_FILE D_Latch.vwf
@@ -64,4 +61,22 @@ set_global_assignment -name VERILOG_FILE DFF.v
 set_global_assignment -name VERILOG_FILE buffer.v
 set_global_assignment -name VERILOG_FILE state_f.v
 set_global_assignment -name VECTOR_WAVEFORM_FILE state_f.vwf
+set_global_assignment -name VERILOG_FILE DFF_3.v
+set_global_assignment -name VECTOR_WAVEFORM_FILE DFF_3.vwf
+set_global_assignment -name VERILOG_FILE f_state_out.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE FSM_Light.vwf
+set_global_assignment -name VERILOG_FILE FSM_traffic_light.v
+set_global_assignment -name VECTOR_WAVEFORM_FILE FSM_counter.vwf
+set_global_assignment -name VERILOG_FILE FSM_tb.v
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH FSM_tb -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME FSM_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id FSM_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME FSM_tb -section_id FSM_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE FSM_tb.v -section_id FSM_tb
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

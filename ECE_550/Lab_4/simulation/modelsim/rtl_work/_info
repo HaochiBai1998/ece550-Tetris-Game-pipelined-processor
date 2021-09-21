@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hb/Desktop/ece550/ECE_550/Lab_4/simulation/modelsim
+vFSM
+Z1 !s110 1632062408
+!i10b 1
+!s100 g;NaXbk7MDk>OzAO9L9;^1
+I13QI@9@X93bgC@=3cAd7a1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1632060254
+8C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v
+FC:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v
+L0 1
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1632062408.000000
+!s107 C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_4|C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_4
+n@f@s@m
+vFSM_tb
+R1
+!i10b 1
+!s100 PR5J8E^hAT827?4AdJeEB0
+I2ANAKkPQU3cH0Eaa]X?1M2
+R2
+R0
+w1632062392
+8C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v
+FC:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_4|C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v|
+!i113 1
+R5
+R6
+n@f@s@m_tb

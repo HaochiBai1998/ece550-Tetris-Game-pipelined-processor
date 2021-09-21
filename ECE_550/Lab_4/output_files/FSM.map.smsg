@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at FSM.v(21): always construct contains both blocking and non-blocking assignments File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v Line: 21
+Warning (10268): Verilog HDL information at buffer.v(21): always construct contains both blocking and non-blocking assignments File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/buffer.v Line: 21
