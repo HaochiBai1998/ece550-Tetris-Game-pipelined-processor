@@ -1397,3 +1397,5 @@ do Regfile_run_msim_rtl_verilog.do
 # ** Note: $stop    : C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v(53)
 #    Time: 2620 ns  Iteration: 1  Instance: /regfile_tb
 # Break in Module regfile_tb at C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v line 53
+# End time: 12:14:36 on Sep 22,2021, Elapsed time: 14:28:44
+# Errors: 380, Warnings: 0
