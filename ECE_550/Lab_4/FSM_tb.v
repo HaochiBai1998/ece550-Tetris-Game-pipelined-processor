@@ -19,7 +19,7 @@ module FSM_tb();
 		end
 		always@(negedge Light) begin
 				if($time%100!=10)	begin
-					$display("expected Light on but not when time:",$time,"\n");
+					$display("expected Light off but not when time:",$time,"\n");
 					num_errors=num_errors+1;
 				end
 		end	
@@ -32,6 +32,7 @@ module FSM_tb();
 			#100;
 			if ($time >= 1000)  $finish ;
 		end
+		
 		always begin 
 		#900;
 			if (num_errors==0)	begin

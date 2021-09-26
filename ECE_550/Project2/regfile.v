@@ -22,10 +22,11 @@ module regfile (
    /* YOUR CODE HERE */
 	//components
 	//1.dec5to32(out,in);
-	//2.reg32(D,E,clock,Q,Q_bar);
-	//3.tristate32(out,in,selector);
-	//4. register(D,Q,en,clk,clr);
-	//5. register0(D,Q,en,clk,clr);
+	//2.tristate32(out,in,selector);
+	//3. register(D,Q,en,clk,clr);
+	//4. register0(D,Q,en,clk,clr);
+	
+	
 	//write port
 	dec5to32 d1(out_WDec,ctrl_writeReg);
 	generate

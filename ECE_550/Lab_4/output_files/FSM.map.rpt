@@ -1,5 +1,5 @@
 Analysis & Synthesis report for FSM
-Sun Sep 19 22:40:03 2021
+Sat Sep 25 17:30:24 2021
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -13,16 +13,17 @@ Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. State Machine - |FSM|state_C
-  9. State Machine - |FSM|state_N
+  8. State Machine - |FSM_traffic_light|state_C
+  9. State Machine - |FSM_traffic_light|state_N
  10. Registers Removed During Synthesis
  11. General Register Statistics
- 12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Parameter Settings for User Entity Instance: Top-level Entity: |FSM
- 14. Post-Synthesis Netlist Statistics for Top Partition
- 15. Elapsed Time Per Partition
- 16. Analysis & Synthesis Messages
- 17. Analysis & Synthesis Suppressed Messages
+ 12. Inverted Register Statistics
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Parameter Settings for User Entity Instance: Top-level Entity: |FSM_traffic_light
+ 15. Post-Synthesis Netlist Statistics for Top Partition
+ 16. Elapsed Time Per Partition
+ 17. Analysis & Synthesis Messages
+ 18. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -49,16 +50,16 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Sep 19 22:40:03 2021       ;
+; Analysis & Synthesis Status        ; Successful - Sat Sep 25 17:30:24 2021       ;
 ; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                      ; FSM                                         ;
-; Top-level Entity Name              ; FSM                                         ;
+; Top-level Entity Name              ; FSM_traffic_light                           ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 6                                           ;
-;     Total combinational functions  ; 6                                           ;
-;     Dedicated logic registers      ; 6                                           ;
-; Total registers                    ; 6                                           ;
-; Total pins                         ; 2                                           ;
+; Total logic elements               ; 11                                          ;
+;     Total combinational functions  ; 10                                          ;
+;     Dedicated logic registers      ; 7                                           ;
+; Total registers                    ; 7                                           ;
+; Total pins                         ; 4                                           ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -72,7 +73,7 @@ agreement for further details.
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                     ; EP4CE115F29C7      ;                    ;
-; Top-level entity name                                                      ; FSM                ; FSM                ;
+; Top-level entity name                                                      ; FSM_traffic_light  ; FSM                ;
 ; Family name                                                                ; Cyclone IV E       ; Cyclone V          ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
@@ -164,13 +165,13 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                 ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                   ; Library ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------+---------+
-; FSM.v                            ; yes             ; User Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v ;         ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                               ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                 ; Library ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------+---------+
+; FSM_traffic_light.v              ; yes             ; User Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_traffic_light.v ;         ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -178,87 +179,84 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 6           ;
+; Estimated Total logic elements              ; 11          ;
 ;                                             ;             ;
-; Total combinational functions               ; 6           ;
+; Total combinational functions               ; 10          ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 1           ;
-;     -- 3 input functions                    ; 1           ;
-;     -- <=2 input functions                  ; 4           ;
+;     -- 4 input functions                    ; 5           ;
+;     -- 3 input functions                    ; 2           ;
+;     -- <=2 input functions                  ; 3           ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 6           ;
+;     -- normal mode                          ; 10          ;
 ;     -- arithmetic mode                      ; 0           ;
 ;                                             ;             ;
-; Total registers                             ; 6           ;
-;     -- Dedicated logic registers            ; 6           ;
+; Total registers                             ; 7           ;
+;     -- Dedicated logic registers            ; 7           ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
-; I/O pins                                    ; 2           ;
+; I/O pins                                    ; 4           ;
 ;                                             ;             ;
 ; Embedded Multiplier 9-bit elements          ; 0           ;
 ;                                             ;             ;
 ; Maximum fan-out node                        ; clock~input ;
-; Maximum fan-out                             ; 6           ;
-; Total fan-out                               ; 29          ;
-; Average fan-out                             ; 1.81        ;
+; Maximum fan-out                             ; 7           ;
+; Total fan-out                               ; 58          ;
+; Average fan-out                             ; 2.32        ;
 +---------------------------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                       ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
-; |FSM                       ; 6 (6)             ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 2    ; 0            ; |FSM                ; FSM         ; work         ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                             ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name       ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------------+--------------+
+; |FSM_traffic_light         ; 10 (10)           ; 7 (7)        ; 0           ; 0            ; 0       ; 0         ; 4    ; 0            ; |FSM_traffic_light  ; FSM_traffic_light ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
 Encoding Type:  One-Hot
-+-----------------------------------------------------------------------------+
-; State Machine - |FSM|state_C                                                ;
-+------------+------------+------------+------------+------------+------------+
-; Name       ; state_C.S3 ; state_C.S2 ; state_C.S0 ; state_C.S1 ; state_C.S4 ;
-+------------+------------+------------+------------+------------+------------+
-; state_C.S1 ; 0          ; 0          ; 0          ; 0          ; 0          ;
-; state_C.S0 ; 0          ; 0          ; 1          ; 1          ; 0          ;
-; state_C.S2 ; 0          ; 1          ; 0          ; 1          ; 0          ;
-; state_C.S3 ; 1          ; 0          ; 0          ; 1          ; 0          ;
-; state_C.S4 ; 0          ; 0          ; 0          ; 1          ; 1          ;
-+------------+------------+------------+------------+------------+------------+
++----------------------------------------------------------------+
+; State Machine - |FSM_traffic_light|state_C                     ;
++------------+------------+------------+------------+------------+
+; Name       ; state_C.S3 ; state_C.S4 ; state_C.S1 ; state_C.S2 ;
++------------+------------+------------+------------+------------+
+; state_C.S2 ; 0          ; 0          ; 0          ; 0          ;
+; state_C.S1 ; 0          ; 0          ; 1          ; 1          ;
+; state_C.S4 ; 0          ; 1          ; 0          ; 1          ;
+; state_C.S3 ; 1          ; 0          ; 0          ; 1          ;
++------------+------------+------------+------------+------------+
 
 
 Encoding Type:  One-Hot
-+-----------------------------------------------------------------------------+
-; State Machine - |FSM|state_N                                                ;
-+------------+------------+------------+------------+------------+------------+
-; Name       ; state_N.S3 ; state_N.S2 ; state_N.S0 ; state_N.S1 ; state_N.S4 ;
-+------------+------------+------------+------------+------------+------------+
-; state_N.S1 ; 0          ; 0          ; 0          ; 0          ; 0          ;
-; state_N.S0 ; 0          ; 0          ; 1          ; 1          ; 0          ;
-; state_N.S2 ; 0          ; 1          ; 0          ; 1          ; 0          ;
-; state_N.S3 ; 1          ; 0          ; 0          ; 1          ; 0          ;
-; state_N.S4 ; 0          ; 0          ; 0          ; 1          ; 1          ;
-+------------+------------+------------+------------+------------+------------+
++----------------------------------------------------------------+
+; State Machine - |FSM_traffic_light|state_N                     ;
++------------+------------+------------+------------+------------+
+; Name       ; state_N.S3 ; state_N.S4 ; state_N.S1 ; state_N.S2 ;
++------------+------------+------------+------------+------------+
+; state_N.S2 ; 0          ; 0          ; 0          ; 0          ;
+; state_N.S1 ; 0          ; 0          ; 1          ; 1          ;
+; state_N.S4 ; 0          ; 1          ; 0          ; 1          ;
+; state_N.S3 ; 1          ; 0          ; 0          ; 1          ;
++------------+------------+------------+------------+------------+
 
 
-+------------------------------------------------------------+
-; Registers Removed During Synthesis                         ;
-+---------------------------------------+--------------------+
-; Register name                         ; Reason for Removal ;
-+---------------------------------------+--------------------+
-; state_N.S1                            ; Lost fanout        ;
-; state_N.S0                            ; Lost fanout        ;
-; state_N.S2                            ; Lost fanout        ;
-; state_N.S3                            ; Lost fanout        ;
-; state_N.S4                            ; Lost fanout        ;
-; state_C~2                             ; Lost fanout        ;
-; state_C~3                             ; Lost fanout        ;
-; state_N~12                            ; Lost fanout        ;
-; state_N~13                            ; Lost fanout        ;
-; Total Number of Removed Registers = 9 ;                    ;
-+---------------------------------------+--------------------+
++----------------------------------------------------------------+
+; Registers Removed During Synthesis                             ;
++---------------------------------------+------------------------+
+; Register name                         ; Reason for Removal     ;
++---------------------------------------+------------------------+
+; state_C~2                             ; Lost fanout            ;
+; state_C~3                             ; Lost fanout            ;
+; state_N~8                             ; Lost fanout            ;
+; state_N~9                             ; Lost fanout            ;
+; state_N.S4                            ; Merged with state_C.S4 ;
+; state_N.S3                            ; Merged with state_C.S3 ;
+; state_N.S2                            ; Merged with state_C.S2 ;
+; state_N.S1                            ; Merged with state_C.S1 ;
+; Total Number of Removed Registers = 8 ;                        ;
++---------------------------------------+------------------------+
 
 
 +------------------------------------------------------+
@@ -266,14 +264,24 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 6     ;
+; Total registers                              ; 7     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Clear ; 1     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Clock Enable       ; 6     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++--------------------------------------------------+
+; Inverted Register Statistics                     ;
++----------------------------------------+---------+
+; Inverted Register                      ; Fan out ;
++----------------------------------------+---------+
+; in                                     ; 6       ;
+; Total number of inverted registers = 1 ;         ;
++----------------------------------------+---------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------+
@@ -281,23 +289,26 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; 6:1                ; 5 bits    ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |FSM|state_N               ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |FSM_traffic_light|state_N ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |FSM_traffic_light|state_N ;
+; 5:1                ; 3 bits    ; 9 LEs         ; 9 LEs                ; 0 LEs                  ; No         ; |FSM_traffic_light|state_N ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 
 
-+---------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Top-level Entity: |FSM ;
-+----------------+-------+--------------------------------------------+
-; Parameter Name ; Value ; Type                                       ;
-+----------------+-------+--------------------------------------------+
-; S0             ; 000   ; Unsigned Binary                            ;
-; S1             ; 001   ; Unsigned Binary                            ;
-; S2             ; 010   ; Unsigned Binary                            ;
-; S3             ; 011   ; Unsigned Binary                            ;
-; S4             ; 100   ; Unsigned Binary                            ;
-; light_ON       ; 1     ; Unsigned Binary                            ;
-; light_OFF      ; 0     ; Unsigned Binary                            ;
-+----------------+-------+--------------------------------------------+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |FSM_traffic_light ;
++----------------+-------+----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                     ;
++----------------+-------+----------------------------------------------------------+
+; S1             ; 01    ; Unsigned Binary                                          ;
+; out1           ; 01    ; Unsigned Binary                                          ;
+; S2             ; 00    ; Unsigned Binary                                          ;
+; out2           ; 10    ; Unsigned Binary                                          ;
+; S3             ; 11    ; Unsigned Binary                                          ;
+; out3           ; 00    ; Unsigned Binary                                          ;
+; S4             ; 10    ; Unsigned Binary                                          ;
+; out4           ; 00    ; Unsigned Binary                                          ;
++----------------+-------+----------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -306,18 +317,18 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 2                           ;
-; cycloneiii_ff         ; 6                           ;
-;     plain             ; 6                           ;
-; cycloneiii_lcell_comb ; 6                           ;
-;     normal            ; 6                           ;
-;         1 data inputs ; 1                           ;
+; boundary_port         ; 4                           ;
+; cycloneiii_ff         ; 7                           ;
+;     CLR               ; 1                           ;
+;     ENA               ; 6                           ;
+; cycloneiii_lcell_comb ; 10                          ;
+;     normal            ; 10                          ;
 ;         2 data inputs ; 3                           ;
-;         3 data inputs ; 1                           ;
-;         4 data inputs ; 1                           ;
+;         3 data inputs ; 2                           ;
+;         4 data inputs ; 5                           ;
 ;                       ;                             ;
 ; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 1.38                        ;
+; Average LUT depth     ; 1.63                        ;
 +-----------------------+-----------------------------+
 
 
@@ -336,7 +347,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Sun Sep 19 22:39:52 2021
+    Info: Processing started: Sat Sep 25 17:30:13 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FSM -c FSM
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file fsm.v
@@ -356,21 +367,23 @@ Info (12021): Found 1 design units, including 1 entities, in source file fsm_tra
     Info (12023): Found entity 1: FSM_traffic_light File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_traffic_light.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file fsm_tb.v
     Info (12023): Found entity 1: FSM_tb File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v Line: 1
-Info (12127): Elaborating entity "FSM" for the top level hierarchy
+Info (12127): Elaborating entity "FSM_traffic_light" for the top level hierarchy
+Info (13000): Registers with preset signals will power-up high File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_traffic_light.v Line: 6
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 9 registers lost all their fanouts during netlist optimizations.
+Info (17049): 4 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/output_files/FSM.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 9 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 1 input pins
-    Info (21059): Implemented 1 output pins
-    Info (21061): Implemented 7 logic cells
+Info (21057): Implemented 15 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 2 input pins
+    Info (21059): Implemented 2 output pins
+    Info (21061): Implemented 11 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 4951 megabytes
-    Info: Processing ended: Sun Sep 19 22:40:03 2021
+    Info: Peak virtual memory: 4949 megabytes
+    Info: Processing ended: Sat Sep 25 17:30:24 2021
     Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:23
+    Info: Total CPU time (on all processors): 00:00:24
 
 
 +------------------------------------------+

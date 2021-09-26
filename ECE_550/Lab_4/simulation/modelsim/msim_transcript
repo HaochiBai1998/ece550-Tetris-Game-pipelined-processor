@@ -12,187 +12,35 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_4 {C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v}
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 22:32:28 on Sep 19,2021
+# Start time: 15:51:39 on Sep 23,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_4" C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v 
 # -- Compiling module FSM
 # 
 # Top level modules:
 # 	FSM
-# End time: 22:32:28 on Sep 19,2021, Elapsed time: 0:00:00
+# End time: 15:51:39 on Sep 23,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_4 {C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v}
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 22:32:28 on Sep 19,2021
+# Start time: 15:51:39 on Sep 23,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_4" C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v 
 # -- Compiling module FSM_tb
 # 
 # Top level modules:
 # 	FSM_tb
-# End time: 22:32:28 on Sep 19,2021, Elapsed time: 0:00:00
+# End time: 15:51:39 on Sep 23,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  FSM_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" FSM_tb 
-# Start time: 22:32:28 on Sep 19,2021
+# Start time: 15:51:39 on Sep 23,2021
 # Loading work.FSM_tb
 # Loading work.FSM
-# 
-# add wave *
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run -all
-# failed           x
-# ** Note: $finish    : C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v(29)
-#    Time: 1 ns  Iteration: 0  Instance: /FSM_tb
-# 1
-# Break in Module FSM_tb at C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v line 29
-# UVM Details: design does not contain any  UVM components, UVM debugging is disabled, or an  unknown questa_uvm_pkg has been loaded.
-do FSM_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# Error 31: Unable to unlink file "C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/simulation/modelsim/rtl_work/_lib.qdb".
-# Error 133: Unable to remove directory "C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/simulation/modelsim/rtl_work".
-# vlib rtl_work
-# ** Error: (vlib-35) Failed to create directory "rtl_work".
-# 
-# File exists. (errno = EEXIST)
-# vmap work rtl_work
-# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
-# vmap work rtl_work 
-# Modifying modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_4 {C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v}
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 22:37:28 on Sep 19,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_4" C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v 
-# -- Compiling module FSM
-# 
-# Top level modules:
-# 	FSM
-# End time: 22:37:28 on Sep 19,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_4 {C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v}
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 22:37:28 on Sep 19,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_4" C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v 
-# -- Compiling module FSM_tb
-# 
-# Top level modules:
-# 	FSM_tb
-# End time: 22:37:28 on Sep 19,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  FSM_tb
-# End time: 22:38:04 on Sep 19,2021, Elapsed time: 0:05:36
-# Errors: 1, Warnings: 0
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" FSM_tb 
-# Start time: 22:38:04 on Sep 19,2021
-# Loading work.FSM_tb
-# Loading work.FSM
-# 
-# add wave *
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run -all
-# simulation starts
-# 
-# expected Light on but not when time:                  10
-# 
-# expected Light on but not when time:                  90
-# 
-# expected Light on but not when time:                 110
-# 
-# expected Light on but not when time:                 190
-# 
-# expected Light on but not when time:                 210
-# 
-# expected Light on but not when time:                 290
-# 
-# expected Light on but not when time:                 310
-# 
-# expected Light on but not when time:                 390
-# 
-# expected Light on but not when time:                 410
-# 
-# expected Light on but not when time:                 490
-# 
-# expected Light on but not when time:                 510
-# 
-# expected Light on but not when time:                 590
-# 
-# expected Light on but not when time:                 610
-# 
-# expected Light on but not when time:                 690
-# 
-# expected Light on but not when time:                 710
-# 
-# expected Light on but not when time:                 790
-# 
-# expected Light on but not when time:                 810
-# 
-# expected Light on but not when time:                 890
-# 
-# failed          18
-# expected Light on but not when time:                 910
-# 
-# expected Light on but not when time:                 990
-# 
-# ** Note: $finish    : C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v(33)
-#    Time: 1 ns  Iteration: 0  Instance: /FSM_tb
-# 1
-# Break in Module FSM_tb at C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v line 33
-do FSM_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# Error 31: Unable to unlink file "C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/simulation/modelsim/rtl_work/_lib1_0.qpg".
-# Error 31: Unable to unlink file "C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/simulation/modelsim/rtl_work/_lib1_0.qtl".
-# Error 133: Unable to remove directory "C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/simulation/modelsim/rtl_work".
-# vlib rtl_work
-# ** Error: (vlib-35) Failed to create directory "rtl_work".
-# 
-# File exists. (errno = EEXIST)
-# vmap work rtl_work
-# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
-# vmap work rtl_work 
-# Modifying modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_4 {C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v}
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 22:40:08 on Sep 19,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_4" C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v 
-# -- Compiling module FSM
-# 
-# Top level modules:
-# 	FSM
-# End time: 22:40:08 on Sep 19,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_4 {C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v}
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 22:40:08 on Sep 19,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Lab_4" C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v 
-# -- Compiling module FSM_tb
-# 
-# Top level modules:
-# 	FSM_tb
-# End time: 22:40:08 on Sep 19,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  FSM_tb
-# End time: 22:40:12 on Sep 19,2021, Elapsed time: 0:02:08
-# Errors: 0, Warnings: 0
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" FSM_tb 
-# Start time: 22:40:12 on Sep 19,2021
-# Loading work.FSM_tb
-# Loading work.FSM
+# ** Warning: (vsim-3017) C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v(8): [TFMPC] - Too few port connections. Expected 4, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /FSM_tb/F1 File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v
+# ** Warning: (vsim-3722) C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v(8): [TFMPC] - Missing connection for port 'LED'.
+# ** Warning: (vsim-3722) C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v(8): [TFMPC] - Missing connection for port 'Segment_7'.
 # 
 # add wave *
 # view structure
@@ -205,7 +53,5 @@ do FSM_run_msim_rtl_verilog.do
 # succeeded
 # ** Note: $finish    : C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v(33)
 #    Time: 1 ns  Iteration: 0  Instance: /FSM_tb
-# 1
-# Break in Module FSM_tb at C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_tb.v line 33
-# End time: 22:40:28 on Sep 19,2021, Elapsed time: 0:00:16
-# Errors: 0, Warnings: 0
+# End time: 15:54:43 on Sep 23,2021, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 3

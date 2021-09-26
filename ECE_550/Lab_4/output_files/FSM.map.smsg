@@ -1,2 +1,3 @@
-Warning (10268): Verilog HDL information at FSM.v(21): always construct contains both blocking and non-blocking assignments File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v Line: 21
+Warning (10268): Verilog HDL information at FSM.v(27): always construct contains both blocking and non-blocking assignments File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM.v Line: 27
 Warning (10268): Verilog HDL information at buffer.v(21): always construct contains both blocking and non-blocking assignments File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/buffer.v Line: 21
+Warning (10268): Verilog HDL information at FSM_traffic_light.v(23): always construct contains both blocking and non-blocking assignments File: C:/Users/hb/Desktop/ece550/ECE_550/Lab_4/FSM_traffic_light.v Line: 23

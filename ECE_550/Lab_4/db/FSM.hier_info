@@ -1,7 +1,21 @@
-|FSM
-clock => out.CLK
+|FSM_traffic_light
+walk => in.PRESET
+walk => state_C.S3.OUTPUTSELECT
+walk => state_C.S4.OUTPUTSELECT
+walk => state_C.S1.OUTPUTSELECT
+walk => state_C.S2.OUTPUTSELECT
+walk => state_N.S3.OUTPUTSELECT
+walk => state_N.S4.OUTPUTSELECT
+walk => state_N.S1.OUTPUTSELECT
+walk => state_N.S2.OUTPUTSELECT
+walk => out[0].ENA
+walk => out[1].ENA
+clock => out[0].CLK
+clock => out[1].CLK
+clock => in.CLK
 clock => state_C~1.DATAIN
-clock => state_N~11.DATAIN
-Light << out.DB_MAX_OUTPUT_PORT_TYPE
+clock => state_N~7.DATAIN
+light[0] <= out[0].DB_MAX_OUTPUT_PORT_TYPE
+light[1] <= out[1].DB_MAX_OUTPUT_PORT_TYPE
 
 

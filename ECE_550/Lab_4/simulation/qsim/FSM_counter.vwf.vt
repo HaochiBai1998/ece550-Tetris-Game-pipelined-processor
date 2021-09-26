@@ -19,7 +19,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "09/19/2021 22:19:58"
+// Generated on "09/23/2021 15:52:59"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          FSM
 // 
@@ -31,14 +31,18 @@ module FSM_vlg_vec_tst();
 // constants                                           
 // general purpose registers
 reg clock;
+reg clr;
 // wires                                               
-wire Light;
+wire LED;
+wire [6:0] Segment_7;
 
 // assign statements (if any)                          
 FSM i1 (
 // port map - connection between master ports and signals/registers   
-	.Light(Light),
-	.clock(clock)
+	.LED(LED),
+	.Segment_7(Segment_7),
+	.clock(clock),
+	.clr(clr)
 );
 initial 
 begin 
@@ -51,6 +55,16 @@ begin
 	clock = 1'b0;
 	clock = #20000 1'b1;
 	#20000;
+end 
+
+// clr
+initial
+begin
+	clr = 1'b0;
+	clr = #210000 1'b1;
+	clr = #20000 1'b0;
+	clr = #100000 1'b1;
+	clr = #10000 1'b0;
 end 
 endmodule
 

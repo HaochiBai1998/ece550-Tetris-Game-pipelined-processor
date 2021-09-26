@@ -1,16 +1,14 @@
 
-State Machine - |FSM|state_C
-Name state_C.S3 state_C.S2 state_C.S0 state_C.S1 state_C.S4 
-state_C.S1 0 0 0 0 0 
-state_C.S0 0 0 1 1 0 
-state_C.S2 0 1 0 1 0 
-state_C.S3 1 0 0 1 0 
-state_C.S4 0 0 0 1 1 
+State Machine - |FSM_traffic_light|state_C
+Name state_C.S3 state_C.S4 state_C.S1 state_C.S2 
+state_C.S2 0 0 0 0 
+state_C.S1 0 0 1 1 
+state_C.S4 0 1 0 1 
+state_C.S3 1 0 0 1 
 
-State Machine - |FSM|state_N
-Name state_N.S3 state_N.S2 state_N.S0 state_N.S1 state_N.S4 
-state_N.S1 0 0 0 0 0 
-state_N.S0 0 0 1 1 0 
-state_N.S2 0 1 0 1 0 
-state_N.S3 1 0 0 1 0 
-state_N.S4 0 0 0 1 1 
+State Machine - |FSM_traffic_light|state_N
+Name state_N.S3 state_N.S4 state_N.S1 state_N.S2 
+state_N.S2 0 0 0 0 
+state_N.S1 0 0 1 1 
+state_N.S4 0 1 0 1 
+state_N.S3 1 0 0 1 

@@ -2,33 +2,33 @@
 # ** Warning: (vlib-34) Library already exists at "work".
 # 
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 22:20:00 on Sep 19,2021
+# Start time: 17:33:13 on Sep 25,2021
 # vlog -work work FSM.vo 
-# -- Compiling module FSM
+# -- Compiling module FSM_traffic_light
 # 
 # Top level modules:
-# 	FSM
-# End time: 22:20:00 on Sep 19,2021, Elapsed time: 0:00:00
+# 	FSM_traffic_light
+# End time: 17:33:13 on Sep 25,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 22:20:00 on Sep 19,2021
-# vlog -work work FSM_counter.vwf.vt 
-# -- Compiling module FSM_vlg_vec_tst
+# Start time: 17:33:13 on Sep 25,2021
+# vlog -work work FSM_traffic_light.vwf.vt 
+# -- Compiling module FSM_traffic_light_vlg_vec_tst
 # 
 # Top level modules:
-# 	FSM_vlg_vec_tst
-# End time: 22:20:00 on Sep 19,2021, Elapsed time: 0:00:00
+# 	FSM_traffic_light_vlg_vec_tst
+# End time: 17:33:13 on Sep 25,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.FSM_vlg_vec_tst -voptargs=""+acc"" 
-# Start time: 22:20:00 on Sep 19,2021
-# Loading work.FSM_vlg_vec_tst
-# Loading work.FSM
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.FSM_traffic_light_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 17:33:13 on Sep 25,2021
+# Loading work.FSM_traffic_light_vlg_vec_tst
+# Loading work.FSM_traffic_light
 # Loading cycloneive_ver.cycloneive_io_obuf
 # Loading cycloneive_ver.cycloneive_io_ibuf
-# Loading cycloneive_ver.cycloneive_lcell_comb
 # Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
 # Loading altera_ver.PRIM_GDFF_LOW
-# ** Note: $finish    : FSM_counter.vwf.vt(45)
-#    Time: 1 us  Iteration: 0  Instance: /FSM_vlg_vec_tst
-# End time: 22:20:01 on Sep 19,2021, Elapsed time: 0:00:01
+# ** Note: $finish    : FSM_traffic_light.vwf.vt(47)
+#    Time: 1 us  Iteration: 0  Instance: /FSM_traffic_light_vlg_vec_tst
+# End time: 17:33:14 on Sep 25,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0

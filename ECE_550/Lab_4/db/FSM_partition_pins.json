@@ -4,11 +4,19 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "Light",
+					"name" : "light[0]",
+					"strict" : false
+				},
+				{
+					"name" : "light[1]",
 					"strict" : false
 				},
 				{
 					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "walk",
 					"strict" : false
 				}
 			]

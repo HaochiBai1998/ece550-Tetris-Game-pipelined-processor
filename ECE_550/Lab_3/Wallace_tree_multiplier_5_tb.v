@@ -6,6 +6,7 @@ module Wallace_tree_multiplier_5_tb();
 	integer num_errors;
 	Wallace_tree_multiplier_5 Wallace_tree_multiplier_5_1(x,y,out);
 	integer a;
+	
 		initial begin
 		$display($time,"simulation start");
 		clock=1'b0;
