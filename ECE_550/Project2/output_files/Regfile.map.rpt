@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Regfile
-Wed Sep 22 13:06:04 2021
+Sun Sep 26 13:33:57 2021
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -13,10 +13,11 @@ Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Post-Synthesis Netlist Statistics for Top Partition
- 10. Elapsed Time Per Partition
- 11. Analysis & Synthesis Messages
+  8. Registers Removed During Synthesis
+  9. General Register Statistics
+ 10. Post-Synthesis Netlist Statistics for Top Partition
+ 11. Elapsed Time Per Partition
+ 12. Analysis & Synthesis Messages
 
 
 
@@ -43,16 +44,16 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Sep 22 13:06:04 2021       ;
+; Analysis & Synthesis Status        ; Successful - Sun Sep 26 13:33:57 2021       ;
 ; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                      ; Regfile                                     ;
-; Top-level Entity Name              ; dec5to32                                    ;
+; Top-level Entity Name              ; regfile                                     ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 37                                          ;
-;     Total combinational functions  ; 37                                          ;
-;     Dedicated logic registers      ; 0                                           ;
-; Total registers                    ; 0                                           ;
-; Total pins                         ; 37                                          ;
+; Total logic elements               ; 2,502                                       ;
+;     Total combinational functions  ; 1,510                                       ;
+;     Dedicated logic registers      ; 992                                         ;
+; Total registers                    ; 992                                         ;
+; Total pins                         ; 114                                         ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -66,7 +67,7 @@ agreement for further details.
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                     ; EP4CE115F29C7      ;                    ;
-; Top-level entity name                                                      ; dec5to32           ; Regfile            ;
+; Top-level entity name                                                      ; regfile            ; Regfile            ;
 ; Family name                                                                ; Cyclone IV E       ; Cyclone V          ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
@@ -158,15 +159,19 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                               ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                           ; Library ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------+---------+
-; dec5to32.v                       ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5to32.v ;         ;
-; dec3to8.v                        ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3to8.v  ;         ;
-; dec2to4.v                        ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2to4.v  ;         ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                 ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                             ; Library ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------+---------+
+; dec5to32.v                       ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5to32.v   ;         ;
+; dec3to8.v                        ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3to8.v    ;         ;
+; tristate32.v                     ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v ;         ;
+; regfile.v                        ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v    ;         ;
+; register.v                       ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project2/register.v   ;         ;
+; register0.v                      ; yes             ; User Verilog HDL File        ; C:/Users/hb/Desktop/ece550/ECE_550/Project2/register0.v  ;         ;
+; dec2to4.v                        ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2to4.v    ;         ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -174,42 +179,90 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 37          ;
+; Estimated Total logic elements              ; 2,502       ;
 ;                                             ;             ;
-; Total combinational functions               ; 37          ;
+; Total combinational functions               ; 1510        ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 32          ;
-;     -- 3 input functions                    ; 0           ;
-;     -- <=2 input functions                  ; 5           ;
+;     -- 4 input functions                    ; 1490        ;
+;     -- 3 input functions                    ; 10          ;
+;     -- <=2 input functions                  ; 10          ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 37          ;
+;     -- normal mode                          ; 1510        ;
 ;     -- arithmetic mode                      ; 0           ;
 ;                                             ;             ;
-; Total registers                             ; 0           ;
-;     -- Dedicated logic registers            ; 0           ;
+; Total registers                             ; 992         ;
+;     -- Dedicated logic registers            ; 992         ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
-; I/O pins                                    ; 37          ;
+; I/O pins                                    ; 114         ;
 ;                                             ;             ;
 ; Embedded Multiplier 9-bit elements          ; 0           ;
 ;                                             ;             ;
-; Maximum fan-out node                        ; in[2]~input ;
-; Maximum fan-out                             ; 32          ;
-; Total fan-out                               ; 207         ;
-; Average fan-out                             ; 1.86        ;
+; Maximum fan-out node                        ; clock~input ;
+; Maximum fan-out                             ; 992         ;
+; Total fan-out                               ; 10156       ;
+; Average fan-out                             ; 3.72        ;
 +---------------------------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                        ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------+-------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name  ; Entity Name ; Library Name ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------+-------------+--------------+
-; |dec5to32                  ; 37 (33)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 37   ; 0            ; |dec5to32            ; dec5to32    ; work         ;
-;    |dec2to4:d1|            ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |dec5to32|dec2to4:d1 ; dec2to4     ; work         ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------+-------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                ;
++-----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------+-------------+--------------+
+; Compilation Hierarchy Node        ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                   ; Entity Name ; Library Name ;
++-----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------+-------------+--------------+
+; |regfile                          ; 1510 (36)         ; 992 (0)      ; 0           ; 0            ; 0       ; 0         ; 114  ; 0            ; |regfile                              ; regfile     ; work         ;
+;    |dec5to32:d2|                  ; 33 (29)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|dec5to32:d2                  ; dec5to32    ; work         ;
+;       |dec2to4:d1|                ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|dec5to32:d2|dec2to4:d1       ; dec2to4     ; work         ;
+;    |dec5to32:d3|                  ; 33 (29)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|dec5to32:d3                  ; dec5to32    ; work         ;
+;       |dec2to4:d1|                ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|dec5to32:d3|dec2to4:d1       ; dec2to4     ; work         ;
+;    |register:wtoReg[10].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[10].r_n      ; register    ; work         ;
+;    |register:wtoReg[11].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[11].r_n      ; register    ; work         ;
+;    |register:wtoReg[12].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[12].r_n      ; register    ; work         ;
+;    |register:wtoReg[13].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[13].r_n      ; register    ; work         ;
+;    |register:wtoReg[14].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[14].r_n      ; register    ; work         ;
+;    |register:wtoReg[15].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[15].r_n      ; register    ; work         ;
+;    |register:wtoReg[16].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[16].r_n      ; register    ; work         ;
+;    |register:wtoReg[17].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[17].r_n      ; register    ; work         ;
+;    |register:wtoReg[18].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[18].r_n      ; register    ; work         ;
+;    |register:wtoReg[19].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[19].r_n      ; register    ; work         ;
+;    |register:wtoReg[1].r_n|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[1].r_n       ; register    ; work         ;
+;    |register:wtoReg[20].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[20].r_n      ; register    ; work         ;
+;    |register:wtoReg[21].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[21].r_n      ; register    ; work         ;
+;    |register:wtoReg[22].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[22].r_n      ; register    ; work         ;
+;    |register:wtoReg[23].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[23].r_n      ; register    ; work         ;
+;    |register:wtoReg[24].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[24].r_n      ; register    ; work         ;
+;    |register:wtoReg[25].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[25].r_n      ; register    ; work         ;
+;    |register:wtoReg[26].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[26].r_n      ; register    ; work         ;
+;    |register:wtoReg[27].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[27].r_n      ; register    ; work         ;
+;    |register:wtoReg[28].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[28].r_n      ; register    ; work         ;
+;    |register:wtoReg[29].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[29].r_n      ; register    ; work         ;
+;    |register:wtoReg[2].r_n|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[2].r_n       ; register    ; work         ;
+;    |register:wtoReg[30].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[30].r_n      ; register    ; work         ;
+;    |register:wtoReg[31].r_n|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[31].r_n      ; register    ; work         ;
+;    |register:wtoReg[3].r_n|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[3].r_n       ; register    ; work         ;
+;    |register:wtoReg[4].r_n|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[4].r_n       ; register    ; work         ;
+;    |register:wtoReg[5].r_n|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[5].r_n       ; register    ; work         ;
+;    |register:wtoReg[6].r_n|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[6].r_n       ; register    ; work         ;
+;    |register:wtoReg[7].r_n|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[7].r_n       ; register    ; work         ;
+;    |register:wtoReg[8].r_n|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[8].r_n       ; register    ; work         ;
+;    |register:wtoReg[9].r_n|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|register:wtoReg[9].r_n       ; register    ; work         ;
+;    |tristate32:Readport1[0].t_n|  ; 672 (672)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|tristate32:Readport1[0].t_n  ; tristate32  ; work         ;
+;    |tristate32:Readport1[27].t_n| ; 32 (32)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|tristate32:Readport1[27].t_n ; tristate32  ; work         ;
+;    |tristate32:Readport2[0].t_n|  ; 672 (672)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|tristate32:Readport2[0].t_n  ; tristate32  ; work         ;
+;    |tristate32:Readport2[27].t_n| ; 32 (32)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile|tristate32:Readport2[27].t_n ; tristate32  ; work         ;
++-----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++---------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                              ;
++----------------------------------------+----------------------------------------+
+; Register name                          ; Reason for Removal                     ;
++----------------------------------------+----------------------------------------+
+; register0:r0|Q[0..31]                  ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 32 ;                                        ;
++----------------------------------------+----------------------------------------+
 
 
 +------------------------------------------------------+
@@ -217,12 +270,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 992   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Clear ; 992   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Clock Enable       ; 992   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -232,15 +285,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 37                          ;
-; cycloneiii_lcell_comb ; 38                          ;
-;     normal            ; 38                          ;
-;         1 data inputs ; 1                           ;
-;         2 data inputs ; 5                           ;
-;         4 data inputs ; 32                          ;
+; boundary_port         ; 114                         ;
+; cycloneiii_ff         ; 992                         ;
+;     ENA CLR           ; 992                         ;
+; cycloneiii_io_obuf    ; 64                          ;
+; cycloneiii_lcell_comb ; 1510                        ;
+;     normal            ; 1510                        ;
+;         2 data inputs ; 10                          ;
+;         3 data inputs ; 10                          ;
+;         4 data inputs ; 1490                        ;
 ;                       ;                             ;
-; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 2.12                        ;
+; Max LUT depth         ; 6.00                        ;
+; Average LUT depth     ; 4.11                        ;
 +-----------------------+-----------------------------+
 
 
@@ -249,7 +305,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -259,7 +315,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Wed Sep 22 13:05:54 2021
+    Info: Processing started: Sun Sep 26 13:33:43 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Regfile -c Regfile
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file dec5to32.v
@@ -279,22 +335,91 @@ Info (12021): Found 1 design units, including 1 entities, in source file registe
     Info (12023): Found entity 1: register File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/register.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file register0.v
     Info (12023): Found entity 1: register0 File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/register0.v Line: 1
-Info (12127): Elaborating entity "dec5to32" for the top level hierarchy
+Info (12127): Elaborating entity "regfile" for the top level hierarchy
+Info (12128): Elaborating entity "dec5to32" for hierarchy "dec5to32:d1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v Line: 31
 Warning (12125): Using design file dec2to4.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: dec2to4 File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2to4.v Line: 1
-Info (12128): Elaborating entity "dec2to4" for hierarchy "dec2to4:d1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5to32.v Line: 6
-Info (12128): Elaborating entity "dec3to8" for hierarchy "dec3to8:d2" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5to32.v Line: 7
+Info (12128): Elaborating entity "dec2to4" for hierarchy "dec5to32:d1|dec2to4:d1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5to32.v Line: 6
+Info (12128): Elaborating entity "dec3to8" for hierarchy "dec5to32:d1|dec3to8:d2" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5to32.v Line: 7
+Info (12128): Elaborating entity "register0" for hierarchy "register0:r0" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v Line: 40
+Info (12128): Elaborating entity "register" for hierarchy "register:wtoReg[1].r_n" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v Line: 43
+Info (12128): Elaborating entity "tristate32" for hierarchy "tristate32:Readport1[0].t_n" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v Line: 50
+Warning (13009): TRI or OPNDRN buffers permanently enabled
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[0]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[1]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[2]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[3]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[4]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[5]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[6]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[7]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[8]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[9]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[10]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[11]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[12]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[13]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[14]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[15]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[16]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[17]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[18]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[19]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[20]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[21]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[22]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[23]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[24]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[25]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[26]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[27]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[28]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[29]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[30]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport1[0].t_n|out[31]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[0]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[1]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[2]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[3]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[4]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[5]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[6]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[7]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[8]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[9]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[10]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[11]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[12]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[13]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[14]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[15]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[16]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[17]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[18]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[19]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[20]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[21]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[22]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[23]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[24]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[25]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[26]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[27]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[28]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[29]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[30]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
+    Warning (13010): Node "tristate32:Readport2[0].t_n|out[31]~synth" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v Line: 3
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 74 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 5 input pins
-    Info (21059): Implemented 32 output pins
-    Info (21061): Implemented 37 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4948 megabytes
-    Info: Processing ended: Wed Sep 22 13:06:04 2021
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:21
+Info (21057): Implemented 2616 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 50 input pins
+    Info (21059): Implemented 64 output pins
+    Info (21061): Implemented 2502 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 67 warnings
+    Info: Peak virtual memory: 4971 megabytes
+    Info: Processing ended: Sun Sep 26 13:33:57 2021
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:28
 
 

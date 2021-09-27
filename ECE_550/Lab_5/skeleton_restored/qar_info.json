@@ -1,0 +1,7 @@
+{
+	"common_dir" : "C:/altera_lite/16.0/ECE350_Lab7/",
+	"acds_version" : "Version 16.0.0",
+	"platform" : "windows",
+	"os" : "Windows 8",
+	"qpf" : "skeleton.qpf"
+}

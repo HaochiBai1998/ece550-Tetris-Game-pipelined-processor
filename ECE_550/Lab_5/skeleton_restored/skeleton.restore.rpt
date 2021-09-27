@@ -1,0 +1,114 @@
+Restore Archived Project report for skeleton
+Sun Sep 26 13:54:12 2021
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Sun Sep 26 13:54:12 2021 ;
+; Revision Name                   ; skeleton                              ;
+; Top-level Entity Name           ; skeleton                              ;
+; Family                          ; Cyclone IV E                          ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/hb/Desktop/ece550/ECE_550/Lab_5/skeleton.qar' into the 'C:/Users/hb/Desktop/ece550/ECE_550/Lab_5/skeleton_restored/' directory
+Info: Generated report 'skeleton.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/altera_lite/16.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4708 megabytes
+    Info: Processing ended: Sun Sep 26 13:54:12 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++----------------------------------+
+; Files Restored                   ;
++----------------------------------+
+; File Name                        ;
++----------------------------------+
+; qar_info.json                    ;
+; Altera_UP_PS2_Command_Out.v      ;
+; Altera_UP_PS2_Data_In.v          ;
+; Hexadecimal_To_Seven_Segment.v   ;
+; PS2_Controller.v                 ;
+; PS2_Interface.v                  ;
+; Reset_Delay.v                    ;
+; VGA_Audio_PLL.v                  ;
+; assignment_defaults.qdf          ;
+; dmem.cmp                         ;
+; dmem.mif                         ;
+; dmem.qip                         ;
+; dmem.v                           ;
+; dmem_inst.v                      ;
+; imem.cmp                         ;
+; imem.mif                         ;
+; imem.qip                         ;
+; imem.v                           ;
+; imem_inst.v                      ;
+; img_bars.mif                     ;
+; img_data.v                       ;
+; img_data_logo.mif                ;
+; img_index.v                      ;
+; index.mif                        ;
+; index_logo.mif                   ;
+; lab7_img_data.mif                ;
+; lab7_img_index.mif               ;
+; lcd.sv                           ;
+; pll.bsf                          ;
+; pll.cmp                          ;
+; pll.ppf                          ;
+; pll.qip                          ;
+; pll.v                            ;
+; processor.v                      ;
+; skeleton.qpf                     ;
+; skeleton.qsf                     ;
+; skeleton.v                       ;
+; skeleton_assignment_defaults.qdf ;
+; vga_controller.v                 ;
+; video_sync_generator.v           ;
++----------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

@@ -1,5 +1,5 @@
 Flow report for Regfile
-Wed Sep 22 13:06:04 2021
+Sun Sep 26 13:33:57 2021
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -41,18 +41,18 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Sep 22 13:06:04 2021       ;
+; Flow Status                        ; Successful - Sun Sep 26 13:33:57 2021       ;
 ; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                      ; Regfile                                     ;
-; Top-level Entity Name              ; dec5to32                                    ;
+; Top-level Entity Name              ; regfile                                     ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 37                                          ;
-;     Total combinational functions  ; 37                                          ;
-;     Dedicated logic registers      ; 0                                           ;
-; Total registers                    ; 0                                           ;
-; Total pins                         ; 37                                          ;
+; Total logic elements               ; 2,502                                       ;
+;     Total combinational functions  ; 1,510                                       ;
+;     Dedicated logic registers      ; 992                                         ;
+; Total registers                    ; 992                                         ;
+; Total pins                         ; 114                                         ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -65,7 +65,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/22/2021 13:05:54 ;
+; Start date & time ; 09/26/2021 13:33:44 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Regfile             ;
 +-------------------+---------------------+
@@ -76,26 +76,25 @@ agreement for further details.
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 140944885866396.163228715414724       ; --            ; --          ; --             ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; regfile_tb.v   ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; regfile_tb.v                          ; --            ; --          ; eda_simulation ;
+; COMPILER_SIGNATURE_ID                ; 140944885866396.163263442309028       ; --            ; --          ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; regfile_tb     ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; regfile_tb                            ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                           ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)             ; <None>        ; --          ; --             ;
 ; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                       ; --            ; --          ; eda_simulation ;
-; EDA_TEST_BENCH_FILE                  ; regfile_tb.v                          ; --            ; --          ; regfile_tb.v   ;
-; EDA_TEST_BENCH_MODULE_NAME           ; regfile_tb.v                          ; --            ; --          ; regfile_tb.v   ;
-; EDA_TEST_BENCH_NAME                  ; regfile_tb.v                          ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; regfile_tb.v                          ; --            ; --          ; regfile_tb     ;
+; EDA_TEST_BENCH_MODULE_NAME           ; regfile_tb                            ; --            ; --          ; regfile_tb     ;
+; EDA_TEST_BENCH_NAME                  ; regfile_tb                            ; --            ; --          ; eda_simulation ;
 ; EDA_TIME_SCALE                       ; 1 ps                                  ; --            ; --          ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                    ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                     ; --            ; --          ; --             ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                                  ; --            ; --          ; --             ;
-; PARTITION_COLOR                      ; 16764057                              ; --            ; dec5to32    ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING                 ; --            ; dec5to32    ; Top            ;
-; PARTITION_NETLIST_TYPE               ; SOURCE                                ; --            ; dec5to32    ; Top            ;
+; PARTITION_COLOR                      ; 16764057                              ; --            ; regfile     ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING                 ; --            ; regfile     ; Top            ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                                ; --            ; regfile     ; Top            ;
 ; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                   ; --            ; --          ; --             ;
 ; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --             ;
 ; PROJECT_OUTPUT_DIRECTORY             ; output_files                          ; --            ; --          ; --             ;
-; TOP_LEVEL_ENTITY                     ; dec5to32                              ; Regfile       ; --          ; --             ;
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
 
 
@@ -104,8 +103,8 @@ agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 4926 MB             ; 00:00:21                           ;
-; Total                ; 00:00:09     ; --                      ; --                  ; 00:00:21                           ;
+; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 4948 MB             ; 00:00:28                           ;
+; Total                ; 00:00:14     ; --                      ; --                  ; 00:00:28                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
