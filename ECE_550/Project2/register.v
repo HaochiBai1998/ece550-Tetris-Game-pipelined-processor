@@ -1,0 +1,17 @@
+module register(D,Q,en,clk,clr);
+	input[31:0] D;
+	output reg[31:0] Q;
+	input en,clk,clr;
+	
+	initial begin 
+		Q = 32'h00000000;
+	end
+	
+	always @(posedge clk or posedge clr) begin
+		if (clr)
+			Q=32'h00000000;
+		else if (en)
+			Q=D;
+	end
+endmodule
+			
