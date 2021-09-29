@@ -1,5 +1,5 @@
 Assembler report for skeleton
-Sun Sep 26 13:55:58 2021
+Tue Sep 28 21:15:27 2021
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -38,7 +38,7 @@ agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sun Sep 26 13:55:58 2021 ;
+; Assembler Status      ; Successful - Tue Sep 28 21:15:27 2021 ;
 ; Revision Name         ; skeleton                              ;
 ; Top-level Entity Name ; skeleton                              ;
 ; Family                ; Cyclone IV E                          ;
@@ -79,13 +79,13 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Sun Sep 26 13:55:54 2021
+    Info: Processing started: Tue Sep 28 21:15:23 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off skeleton -c skeleton
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4909 megabytes
-    Info: Processing ended: Sun Sep 26 13:55:58 2021
+    Info: Peak virtual memory: 4910 megabytes
+    Info: Processing ended: Tue Sep 28 21:15:27 2021
     Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:04
 

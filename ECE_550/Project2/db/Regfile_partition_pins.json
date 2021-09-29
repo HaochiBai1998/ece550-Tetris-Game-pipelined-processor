@@ -272,11 +272,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "ctrl_readRegA[1]",
+					"name" : "ctrl_readRegA[0]",
 					"strict" : false
 				},
 				{
-					"name" : "ctrl_readRegA[0]",
+					"name" : "ctrl_readRegA[1]",
 					"strict" : false
 				},
 				{
@@ -292,11 +292,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "ctrl_readRegB[1]",
+					"name" : "ctrl_readRegB[0]",
 					"strict" : false
 				},
 				{
-					"name" : "ctrl_readRegB[0]",
+					"name" : "ctrl_readRegB[1]",
 					"strict" : false
 				},
 				{
@@ -312,11 +312,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "ctrl_writeReg[1]",
+					"name" : "ctrl_writeEnable",
 					"strict" : false
 				},
 				{
-					"name" : "ctrl_writeEnable",
+					"name" : "ctrl_writeReg[1]",
 					"strict" : false
 				},
 				{
@@ -324,7 +324,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "ctrl_writeReg[3]",
+					"name" : "ctrl_writeReg[2]",
 					"strict" : false
 				},
 				{
@@ -332,7 +332,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "ctrl_writeReg[2]",
+					"name" : "ctrl_writeReg[3]",
 					"strict" : false
 				},
 				{

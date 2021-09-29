@@ -17,7 +17,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition"
 
-// DATE "09/26/2021 13:56:06"
+// DATE "09/28/2021 21:15:35"
 
 // 
 // Device: Altera EP4CE115F29C7 Package FBGA780
@@ -60,8 +60,8 @@ module skeleton (
 	VGA_B,
 	CLOCK_50);
 input 	resetn;
-inout 	ps2_clock;
-inout 	ps2_data;
+output 	ps2_clock;
+output 	ps2_data;
 output 	[31:0] debug_data_in;
 output 	[11:0] debug_addr;
 output 	[7:0] leds;

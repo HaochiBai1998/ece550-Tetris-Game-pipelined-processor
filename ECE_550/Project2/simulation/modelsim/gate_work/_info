@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hb/Desktop/ece550/ECE_550/Project2/simulation/modelsim
+vregfile
+Z1 !s110 1632899996
+!i10b 1
+!s100 UoEV7^dmLVAo@?hHF]h4^3
+I6ni6if0R=CbVDZ>e@o7`O1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1632899956
+8regfile_7_1200mv_85c_slow.vo
+Fregfile_7_1200mv_85c_slow.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1632899995.000000
+!s107 regfile_7_1200mv_85c_slow.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|regfile_7_1200mv_85c_slow.vo|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+vregfile_tb
+R1
+!i10b 1
+!s100 m1^mDHP4HO?HzMMmAjj`B1
+IJfG6;oIINFRIDoMIRNnl:3
+R2
+R0
+w1632899334
+8C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v
+FC:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1632899996.000000
+!s107 C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2|C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2

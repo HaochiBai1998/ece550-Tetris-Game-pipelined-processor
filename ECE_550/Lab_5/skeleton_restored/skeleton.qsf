@@ -197,3 +197,4 @@ set_global_assignment -name VERILOG_FILE img_data.v
 set_global_assignment -name MIF_FILE lab7_img_data.mif
 set_global_assignment -name MIF_FILE lab7_img_index.mif
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE skeleton.vwf

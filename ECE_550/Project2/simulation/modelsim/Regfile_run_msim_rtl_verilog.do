@@ -5,13 +5,12 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5to32.v}
-vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3to8.v}
-vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v}
-vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v}
-vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/register.v}
 vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/register0.v}
-vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2to4.v}
+vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/register.v}
+vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v}
+vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5_32.v}
+vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v}
+vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v}
 
 vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v}
 

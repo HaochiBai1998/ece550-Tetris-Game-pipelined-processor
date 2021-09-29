@@ -8,77 +8,77 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/hb/Desktop/ece550/ECE_550/Project2/simulation/modelsim
-vdec2to4
-Z1 !s110 1632634444
+vdec2_4
+Z1 !s110 1632900887
 !i10b 1
-!s100 6ADf_;bWJ7P5aP2MXQdS?1
-IIl]48aZi=<=32bjka@3JF1
+!s100 Sm7W^ARl:7QemL6TU``GK2
+I6>haMRb@:e6XJCmk39OQC1
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1632225470
-8C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2to4.v
-FC:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2to4.v
+w1632898310
+8C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v
+FC:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v
 L0 1
 Z3 OV;L;10.4d;61
 r1
 !s85 0
 31
-Z4 !s108 1632634444.000000
-!s107 C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2to4.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2|C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2to4.v|
+Z4 !s108 1632900887.000000
+!s107 C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2|C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v|
 !i113 1
 Z5 o-vlog01compat -work work
 Z6 !s92 -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2
-vdec3to8
-Z7 !s110 1632634443
+vdec3_8
+R1
 !i10b 1
-!s100 aOlQ^Q514;S2AjRHdHB^k1
-ICJC8eKR@IO^8I[QVRhnc33
+!s100 E>N?kOPCEA_`bDV<678^_1
+I@8Pn]`icO<gLJoSoR`LN_3
 R2
 R0
-w1632214487
-8C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3to8.v
-FC:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3to8.v
+w1632899524
+8C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v
+FC:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v
 L0 1
 R3
 r1
 !s85 0
 31
-Z8 !s108 1632634443.000000
-!s107 C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3to8.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2|C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3to8.v|
+R4
+!s107 C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2|C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v|
 !i113 1
 R5
 R6
-vdec5to32
-R7
+vdec5_32
+R1
 !i10b 1
-!s100 ^1YAbbaV1R7JiFVUMhRiT1
-If;N2XSR?zJj`NioM<[6:^1
+!s100 ngzh34koFhAG2mgjT6VnR1
+IRKaDQ<mD^BzN1Q8`4SQ>@2
 R2
 R0
-w1632232808
-8C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5to32.v
-FC:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5to32.v
+w1632899035
+8C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5_32.v
+FC:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5_32.v
 L0 1
 R3
 r1
 !s85 0
 31
-R8
-!s107 C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5to32.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2|C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5to32.v|
+R4
+!s107 C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2|C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5_32.v|
 !i113 1
 R5
 R6
 vregfile
 R1
 !i10b 1
-!s100 F>MgY98cT2LihN;5Jef3F1
-Iad2Ya=<edzSjITF1X7kVE3
+!s100 CnSKMVWQ56HdL0R>@H2ij2
+IW5G@W_5KiPblGomZW^CgC2
 R2
 R0
-w1632284984
+w1632900822
 8C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v
 FC:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v
 L0 1
@@ -99,7 +99,7 @@ R1
 IJfG6;oIINFRIDoMIRNnl:3
 R2
 R0
-w1632634423
+w1632899334
 8C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v
 FC:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v
 L0 3
@@ -141,7 +141,7 @@ R1
 IkeZ4iGY0c[`TPKJ5^fQmC0
 R2
 R0
-w1632231657
+w1632899804
 8C:/Users/hb/Desktop/ece550/ECE_550/Project2/register0.v
 FC:/Users/hb/Desktop/ece550/ECE_550/Project2/register0.v
 L0 1
@@ -149,30 +149,9 @@ R3
 r1
 !s85 0
 31
-R4
+!s108 1632900886.000000
 !s107 C:/Users/hb/Desktop/ece550/ECE_550/Project2/register0.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2|C:/Users/hb/Desktop/ece550/ECE_550/Project2/register0.v|
-!i113 1
-R5
-R6
-vtristate32
-R1
-!i10b 1
-!s100 VT;iWVhN9A[KBlKMEd_8K3
-IT_CHd6LdWG@`3FH9Gkj^a1
-R2
-R0
-w1632229296
-8C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v
-FC:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v
-L0 1
-R3
-r1
-!s85 0
-31
-R4
-!s107 C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2|C:/Users/hb/Desktop/ece550/ECE_550/Project2/tristate32.v|
 !i113 1
 R5
 R6

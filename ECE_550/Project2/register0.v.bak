@@ -6,5 +6,12 @@ module register0(D,Q,en,clk,clr);
 	initial begin 
 		Q = 32'h00000000;
 	end
+	
+	/*always @(posedge clk or posedge clr) begin
+		if (clr)
+			Q=32'h00000000;
+		else if (en)
+			Q=32'h00000000;
+	end*/
 endmodule
 			

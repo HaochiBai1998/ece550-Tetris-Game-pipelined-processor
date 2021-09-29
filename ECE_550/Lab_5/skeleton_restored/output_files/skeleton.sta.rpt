@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for skeleton
-Sun Sep 26 13:56:03 2021
+Tue Sep 28 21:15:32 2021
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -2803,7 +2803,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime TimeQuest Timing Analyzer
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Sun Sep 26 13:55:59 2021
+    Info: Processing started: Tue Sep 28 21:15:28 2021
 Info: Command: quartus_sta skeleton -c skeleton
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -2898,9 +2898,9 @@ Info (332146): Worst-case minimum pulse width slack is 9.436
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 5065 megabytes
-    Info: Processing ended: Sun Sep 26 13:56:03 2021
+    Info: Peak virtual memory: 5060 megabytes
+    Info: Processing ended: Tue Sep 28 21:15:32 2021
     Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Total CPU time (on all processors): 00:00:04
 
 
