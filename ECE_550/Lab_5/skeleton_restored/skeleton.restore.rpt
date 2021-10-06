@@ -1,5 +1,5 @@
 Restore Archived Project report for skeleton
-Sun Sep 26 13:54:12 2021
+Thu Sep 30 15:03:46 2021
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ agreement for further details.
 +-------------------------------------------------------------------------+
 ; Restore Archived Project Summary                                        ;
 +---------------------------------+---------------------------------------+
-; Restore Archived Project Status ; Successful - Sun Sep 26 13:54:12 2021 ;
+; Restore Archived Project Status ; Successful - Thu Sep 30 15:03:46 2021 ;
 ; Revision Name                   ; skeleton                              ;
 ; Top-level Entity Name           ; skeleton                              ;
 ; Family                          ; Cyclone IV E                          ;
@@ -50,15 +50,22 @@ agreement for further details.
 Info: Successfully restored 'C:/Users/hb/Desktop/ece550/ECE_550/Lab_5/skeleton.qar' into the 'C:/Users/hb/Desktop/ece550/ECE_550/Lab_5/skeleton_restored/' directory
 Info: Generated report 'skeleton.restore.rpt'
 Info (23030): Evaluation of Tcl script c:/altera_lite/16.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
-Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4708 megabytes
-    Info: Processing ended: Sun Sep 26 13:54:12 2021
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+Info: Quartus Prime Shell was successful. 0 errors, 41 warnings
+    Info: Peak virtual memory: 4716 megabytes
+    Info: Processing ended: Thu Sep 30 15:03:46 2021
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++----------------+
+; Files Restored ;
++----------------+
+; File Name      ;
++----------------+
 
 
 +----------------------------------+
-; Files Restored                   ;
+; Files Not Restored               ;
 +----------------------------------+
 ; File Name                        ;
 +----------------------------------+
@@ -103,12 +110,5 @@ Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
 ; vga_controller.v                 ;
 ; video_sync_generator.v           ;
 +----------------------------------+
-
-
-+--------------------+
-; Files Not Restored ;
-+--------------------+
-; File Name          ;
-+--------------------+
 
 

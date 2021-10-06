@@ -8,14 +8,27 @@ module PS2_Interface(inclock, resetn, ps2_clock, ps2_data, ps2_key_data, ps2_key
 
 	// Internal Registers
 	reg			[7:0]	last_data_received;	
-	
+	//reg 			[7:0] my_ps2_key_data;
+
 	always @(posedge inclock)
 	begin
 		if (resetn == 1'b0)
 			last_data_received <= 8'h00;
-		else if (ps2_key_pressed == 1'b1)
-			last_data_received <= ps2_key_data;
+		else if (ps2_key_pressed == 1'b1) begin
+		if(ps2_key_data==8'h15)
+				last_data_received<=8'h71;
+		else if(ps2_key_data==8'h1D)
+				last_data_received<=8'h77;
+		else if(ps2_key_data==8'h24)
+				last_data_received<=8'h65;
+		else if(ps2_key_data==8'h2D)
+				last_data_received<=8'h72;
+		else
+				last_data_received <= ps2_key_data;
+		end
+
 	end
+	
 	
 	PS2_Controller PS2 (.CLOCK_50 			(inclock),
 						.reset 				(~resetn),

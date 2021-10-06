@@ -44,7 +44,8 @@ module skeleton(resetn,
 	wire 	[31:0] lcd_write_data;
 	wire	[7:0]	 ps2_key_data;
 	wire			 ps2_key_pressed;
-	wire	[7:0]	 ps2_out;	
+	wire	[7:0]	 ps2_out;
+	reg [7:0] my_ps2_out;
 	
 	// clock divider (by 5, i.e., 10 MHz)
 	pll div(CLOCK_50,inclock);
@@ -58,7 +59,6 @@ module skeleton(resetn,
 	
 	// keyboard controller
 	PS2_Interface myps2(clock, resetn, ps2_clock, ps2_data, ps2_key_data, ps2_key_pressed, ps2_out);
-	
 	// lcd controller
 	lcd mylcd(clock, ~resetn, 1'b1, ps2_out, lcd_data, lcd_rw, lcd_en, lcd_rs, lcd_on, lcd_blon);
 	
