@@ -1,125 +1,56 @@
 # Reading C:/altera_lite/16.0/modelsim_ase/tcl/vsim/pref.tcl
-# do regfile_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
+# do regfile_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
 # }
-# vlib rtl_work
-# vmap work rtl_work
+# vlib gate_work
+# vmap work gate_work
 # Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
-# vmap work rtl_work 
+# vmap work gate_work 
 # Copying C:/altera_lite/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/register0.v}
+# vlog -vlog01compat -work work +incdir+. {regfile_min_1200mv_0c_fast.vo}
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:34:46 on Sep 29,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2" C:/Users/hb/Desktop/ece550/ECE_550/Project2/register0.v 
-# -- Compiling module register0
-# 
-# Top level modules:
-# 	register0
-# End time: 15:34:47 on Sep 29,2021, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/register.v}
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:34:47 on Sep 29,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2" C:/Users/hb/Desktop/ece550/ECE_550/Project2/register.v 
-# -- Compiling module register
-# 
-# Top level modules:
-# 	register
-# End time: 15:34:47 on Sep 29,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v}
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:34:47 on Sep 29,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2" C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v 
+# Start time: 15:58:48 on Oct 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." regfile_min_1200mv_0c_fast.vo 
 # -- Compiling module regfile
 # 
 # Top level modules:
 # 	regfile
-# End time: 15:34:47 on Sep 29,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5_32.v}
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:34:47 on Sep 29,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2" C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5_32.v 
-# -- Compiling module dec5_32
-# 
-# Top level modules:
-# 	dec5_32
-# End time: 15:34:47 on Sep 29,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v}
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:34:47 on Sep 29,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2" C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v 
-# -- Compiling module dec3_8
-# 
-# Top level modules:
-# 	dec3_8
-# End time: 15:34:47 on Sep 29,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v}
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:34:47 on Sep 29,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2" C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v 
-# -- Compiling module dec2_4
-# 
-# Top level modules:
-# 	dec2_4
-# End time: 15:34:47 on Sep 29,2021, Elapsed time: 0:00:00
+# End time: 15:58:48 on Oct 06,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v}
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:34:47 on Sep 29,2021
+# Start time: 15:58:49 on Oct 06,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2" C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v 
 # -- Compiling module regfile_tb
 # 
 # Top level modules:
 # 	regfile_tb
-# End time: 15:34:47 on Sep 29,2021, Elapsed time: 0:00:00
+# End time: 15:58:49 on Oct 06,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  regfile_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" regfile_tb 
-# Start time: 15:34:47 on Sep 29,2021
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  regfile_tb
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=""+acc"" regfile_tb 
+# Start time: 15:58:49 on Oct 06,2021
 # Loading work.regfile_tb
 # Loading work.regfile
-# Loading work.dec5_32
-# Loading work.dec2_4
-# Loading work.dec3_8
-# Loading work.register0
-# Loading work.register
-# ** Warning: (vsim-3015) C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v(8): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /regfile_tb/regfile_ut/d1/d2/d File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v
-# ** Warning: (vsim-3015) C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v(8): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /regfile_tb/regfile_ut/d1/d3/d File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v
-# ** Warning: (vsim-3015) C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v(8): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /regfile_tb/regfile_ut/d1/d4/d File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v
-# ** Warning: (vsim-3015) C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v(8): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /regfile_tb/regfile_ut/d1/d5/d File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v
-# ** Warning: (vsim-3015) C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v(33): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5_32.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /regfile_tb/regfile_ut/d2 File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5_32.v
-# ** Warning: (vsim-3015) C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v(8): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /regfile_tb/regfile_ut/d2/d2/d File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v
-# ** Warning: (vsim-3015) C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v(8): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /regfile_tb/regfile_ut/d2/d3/d File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v
-# ** Warning: (vsim-3015) C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v(8): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /regfile_tb/regfile_ut/d2/d4/d File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v
-# ** Warning: (vsim-3015) C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v(8): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /regfile_tb/regfile_ut/d2/d5/d File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v
-# ** Warning: (vsim-3015) C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v(42): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5_32.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /regfile_tb/regfile_ut/d3 File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5_32.v
-# ** Warning: (vsim-3015) C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v(8): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /regfile_tb/regfile_ut/d3/d2/d File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v
-# ** Warning: (vsim-3015) C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v(8): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /regfile_tb/regfile_ut/d3/d3/d File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v
-# ** Warning: (vsim-3015) C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v(8): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /regfile_tb/regfile_ut/d3/d4/d File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v
-# ** Warning: (vsim-3015) C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v(8): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /regfile_tb/regfile_ut/d3/d5/d File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# SDF 10.4d Compiler 2015.12 Dec 30 2015
+# 
+# Loading instances from regfile_min_1200mv_0c_v_fast.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from regfile_min_1200mv_0c_v_fast.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /regfile_tb File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v
 # 
 # add wave *
 # view structure
@@ -130,70 +61,39 @@
 #                    0 << Starting the Simulation >>
 #                   80 << Writing register  0 with 0000dead >>
 #                  160 << Writing register  1 with 0000dead >>
-#                  240 << Writing register  1 with ffffffff >>
-#                  320 << Writing register  2 with 0000dead >>
-#                  400 << Writing register  2 with ffffffff >>
-#                  480 << Writing register  3 with 0000dead >>
-#                  560 << Writing register  3 with ffffffff >>
-#                  640 << Writing register  4 with 0000dead >>
-#                  720 << Writing register  4 with ffffffff >>
-#                  800 << Writing register  5 with 0000dead >>
-#                  880 << Writing register  5 with ffffffff >>
-#                  960 << Writing register  6 with 0000dead >>
-#                 1040 << Writing register  6 with ffffffff >>
-#                 1120 << Writing register  7 with 0000dead >>
-#                 1200 << Writing register  7 with ffffffff >>
-#                 1280 << Writing register  8 with 0000dead >>
-#                 1360 << Writing register  8 with ffffffff >>
-#                 1440 << Writing register  9 with 0000dead >>
-#                 1520 << Writing register  9 with ffffffff >>
-#                 1600 << Writing register 10 with 0000dead >>
-#                 1680 << Writing register 10 with ffffffff >>
-#                 1760 << Writing register 11 with 0000dead >>
-#                 1840 << Writing register 11 with ffffffff >>
-#                 1920 << Writing register 12 with 0000dead >>
-#                 2000 << Writing register 12 with ffffffff >>
-#                 2080 << Writing register 13 with 0000dead >>
-#                 2160 << Writing register 13 with ffffffff >>
-#                 2240 << Writing register 14 with 0000dead >>
-#                 2320 << Writing register 14 with ffffffff >>
-#                 2400 << Writing register 15 with 0000dead >>
-#                 2480 << Writing register 15 with ffffffff >>
-#                 2560 << Writing register 16 with 0000dead >>
-#                 2640 << Writing register 16 with ffffffff >>
-#                 2720 << Writing register 17 with 0000dead >>
-#                 2800 << Writing register 17 with ffffffff >>
-#                 2880 << Writing register 18 with 0000dead >>
-#                 2960 << Writing register 18 with ffffffff >>
-#                 3040 << Writing register 19 with 0000dead >>
-#                 3120 << Writing register 19 with ffffffff >>
-#                 3200 << Writing register 20 with 0000dead >>
-#                 3280 << Writing register 20 with ffffffff >>
-#                 3360 << Writing register 21 with 0000dead >>
-#                 3440 << Writing register 21 with ffffffff >>
-#                 3520 << Writing register 22 with 0000dead >>
-#                 3600 << Writing register 22 with ffffffff >>
-#                 3680 << Writing register 23 with 0000dead >>
-#                 3760 << Writing register 23 with ffffffff >>
-#                 3840 << Writing register 24 with 0000dead >>
-#                 3920 << Writing register 24 with ffffffff >>
-#                 4000 << Writing register 25 with 0000dead >>
-#                 4080 << Writing register 25 with ffffffff >>
-#                 4160 << Writing register 26 with 0000dead >>
-#                 4240 << Writing register 26 with ffffffff >>
-#                 4320 << Writing register 27 with 0000dead >>
-#                 4400 << Writing register 27 with ffffffff >>
-#                 4480 << Writing register 28 with 0000dead >>
-#                 4560 << Writing register 28 with ffffffff >>
-#                 4640 << Writing register 29 with 0000dead >>
-#                 4720 << Writing register 29 with ffffffff >>
-#                 4800 << Writing register 30 with 0000dead >>
-#                 4880 << Writing register 30 with ffffffff >>
-#                 4960 << Writing register 31 with 0000dead >>
-#                 5040 << Writing register 31 with ffffffff >>
+#                  240 << Writing register  2 with 0000dead >>
+#                  320 << Writing register  3 with 0000dead >>
+#                  400 << Writing register  4 with 0000dead >>
+#                  480 << Writing register  5 with 0000dead >>
+#                  560 << Writing register  6 with 0000dead >>
+#                  640 << Writing register  7 with 0000dead >>
+#                  720 << Writing register  8 with 0000dead >>
+#                  800 << Writing register  9 with 0000dead >>
+#                  880 << Writing register 10 with 0000dead >>
+#                  960 << Writing register 11 with 0000dead >>
+#                 1040 << Writing register 12 with 0000dead >>
+#                 1120 << Writing register 13 with 0000dead >>
+#                 1200 << Writing register 14 with 0000dead >>
+#                 1280 << Writing register 15 with 0000dead >>
+#                 1360 << Writing register 16 with 0000dead >>
+#                 1440 << Writing register 17 with 0000dead >>
+#                 1520 << Writing register 18 with 0000dead >>
+#                 1600 << Writing register 19 with 0000dead >>
+#                 1680 << Writing register 20 with 0000dead >>
+#                 1760 << Writing register 21 with 0000dead >>
+#                 1840 << Writing register 22 with 0000dead >>
+#                 1920 << Writing register 23 with 0000dead >>
+#                 2000 << Writing register 24 with 0000dead >>
+#                 2080 << Writing register 25 with 0000dead >>
+#                 2160 << Writing register 26 with 0000dead >>
+#                 2240 << Writing register 27 with 0000dead >>
+#                 2320 << Writing register 28 with 0000dead >>
+#                 2400 << Writing register 29 with 0000dead >>
+#                 2480 << Writing register 30 with 0000dead >>
+#                 2560 << Writing register 31 with 0000dead >>
 # The simulation completed without errors
-# ** Note: $stop    : C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v(55)
-#    Time: 5100 ns  Iteration: 1  Instance: /regfile_tb
-# Break in Module regfile_tb at C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v line 55
-# End time: 15:35:17 on Sep 29,2021, Elapsed time: 0:00:30
-# Errors: 0, Warnings: 14
+# ** Note: $stop    : C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v(53)
+#    Time: 2620 ns  Iteration: 1  Instance: /regfile_tb
+# Break in Module regfile_tb at C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v line 53
+# End time: 15:59:08 on Oct 06,2021, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0

@@ -5,7 +5,7 @@ if {[file exists gate_work]} {
 vlib gate_work
 vmap work gate_work
 
-vlog -vlog01compat -work work +incdir+. {regfile_7_1200mv_85c_slow.vo}
+vlog -vlog01compat -work work +incdir+. {regfile_min_1200mv_0c_fast.vo}
 
 vlog -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2 {C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v}
 

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for regfile
-Wed Sep 29 15:33:54 2021
+Wed Oct 06 15:55:39 2021
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -48,7 +48,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Sep 29 15:33:54 2021       ;
+; Analysis & Synthesis Status        ; Successful - Wed Oct 06 15:55:39 2021       ;
 ; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                      ; regfile                                     ;
 ; Top-level Entity Name              ; regfile                                     ;
@@ -360,7 +360,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Wed Sep 29 15:33:42 2021
+    Info: Processing started: Wed Oct 06 15:55:27 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off regfile -c regfile
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file write_port.v
@@ -391,11 +391,11 @@ Info (12021): Found 1 design units, including 1 entities, in source file d_latch
 Info (12021): Found 1 design units, including 1 entities, in source file d_ff.v
     Info (12023): Found entity 1: d_ff File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/d_ff.v Line: 1
 Info (12127): Elaborating entity "regfile" for the top level hierarchy
-Info (12128): Elaborating entity "dec5_32" for hierarchy "dec5_32:d1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v Line: 24
+Info (12128): Elaborating entity "dec5_32" for hierarchy "dec5_32:d1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v Line: 23
 Info (12128): Elaborating entity "dec2_4" for hierarchy "dec5_32:d1|dec2_4:d1" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5_32.v Line: 6
 Info (12128): Elaborating entity "dec3_8" for hierarchy "dec5_32:d1|dec3_8:d2" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5_32.v Line: 7
-Info (12128): Elaborating entity "register0" for hierarchy "register0:r0" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v Line: 26
-Info (12128): Elaborating entity "register" for hierarchy "register:wtoReg[1].r_n" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v Line: 29
+Info (12128): Elaborating entity "register0" for hierarchy "register0:r0" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v Line: 25
+Info (12128): Elaborating entity "register" for hierarchy "register:wtoReg[1].r_n" File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v Line: 28
 Warning (12020): Port "ordered port 2" on the entity instantiation of "d" is connected to a signal of width 32. The formal width of the signal in the module is 1.  The extra bits will be ignored. File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v Line: 8
 Warning (12020): Port "ordered port 2" on the entity instantiation of "d" is connected to a signal of width 32. The formal width of the signal in the module is 1.  The extra bits will be ignored. File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v Line: 8
 Warning (12020): Port "ordered port 2" on the entity instantiation of "d" is connected to a signal of width 32. The formal width of the signal in the module is 1.  The extra bits will be ignored. File: C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v Line: 8
@@ -483,7 +483,7 @@ Info (21057): Implemented 2618 device resources after synthesis - the final reso
     Info (21061): Implemented 2504 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 78 warnings
     Info: Peak virtual memory: 4967 megabytes
-    Info: Processing ended: Wed Sep 29 15:33:54 2021
+    Info: Processing ended: Wed Oct 06 15:55:39 2021
     Info: Elapsed time: 00:00:12
     Info: Total CPU time (on all processors): 00:00:22
 

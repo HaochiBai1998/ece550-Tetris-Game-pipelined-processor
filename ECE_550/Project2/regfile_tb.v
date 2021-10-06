@@ -40,9 +40,7 @@ module regfile_tb();
 		  checkRegister(0, 32'h00000000);
         for(index = 1; index <= 31; index = index + 1) begin
             writeRegister(index, 32'h0000DEAD);
-            checkRegister(index, 32'h0000DEAD);            
-				writeRegister(index, 32'hFFFFFFFF);
-            checkRegister(index, 32'hFFFFFFFF);
+            checkRegister(index, 32'h0000DEAD);   
         end
 
         if (errors == 0) begin

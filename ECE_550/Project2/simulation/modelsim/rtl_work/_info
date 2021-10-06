@@ -9,26 +9,26 @@ z2
 cModel Technology
 Z0 dC:/Users/hb/Desktop/ece550/ECE_550/Project2/simulation/modelsim
 vdec2_4
-Z1 !s110 1632900887
+Z1 !s110 1633506961
 !i10b 1
 !s100 Sm7W^ARl:7QemL6TU``GK2
 I6>haMRb@:e6XJCmk39OQC1
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1632898310
+Z3 w1633506892
 8C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v
 FC:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v
 L0 1
-Z3 OV;L;10.4d;61
+Z4 OV;L;10.4d;61
 r1
 !s85 0
 31
-Z4 !s108 1632900887.000000
+Z5 !s108 1633506961.000000
 !s107 C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2|C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec2_4.v|
 !i113 1
-Z5 o-vlog01compat -work work
-Z6 !s92 -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2
 vdec3_8
 R1
 !i10b 1
@@ -36,20 +36,20 @@ R1
 I@8Pn]`icO<gLJoSoR`LN_3
 R2
 R0
-w1632899524
+R3
 8C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v
 FC:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v
 L0 1
-R3
+R4
 r1
 !s85 0
 31
-R4
+R5
 !s107 C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2|C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec3_8.v|
 !i113 1
-R5
 R6
+R7
 vdec5_32
 R1
 !i10b 1
@@ -57,101 +57,101 @@ R1
 IRKaDQ<mD^BzN1Q8`4SQ>@2
 R2
 R0
-w1632899035
+R3
 8C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5_32.v
 FC:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5_32.v
 L0 1
-R3
+R4
 r1
 !s85 0
 31
-R4
+R5
 !s107 C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5_32.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2|C:/Users/hb/Desktop/ece550/ECE_550/Project2/dec5_32.v|
 !i113 1
-R5
 R6
+R7
 vregfile
 R1
 !i10b 1
-!s100 CnSKMVWQ56HdL0R>@H2ij2
-IW5G@W_5KiPblGomZW^CgC2
+!s100 Fa;RE8m]B<hL3_5Df>KcU0
+IVYGXiEfB5l1;S]Ok_@<]i3
 R2
 R0
-w1632900822
+R3
 8C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v
 FC:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v
 L0 1
-R3
+R4
 r1
 !s85 0
 31
-R4
+R5
 !s107 C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2|C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile.v|
 !i113 1
-R5
 R6
+R7
 vregfile_tb
 R1
 !i10b 1
-!s100 m1^mDHP4HO?HzMMmAjj`B1
-IJfG6;oIINFRIDoMIRNnl:3
+!s100 3SF[0KDFM9GG8LbajKg3A0
+I`=?[SJkiWI<@G2=5E[nIS0
 R2
 R0
-w1632899334
+w1633506923
 8C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v
 FC:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v
 L0 3
-R3
+R4
 r1
 !s85 0
 31
-R4
+R5
 !s107 C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2|C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v|
 !i113 1
-R5
 R6
+R7
 vregister
-R1
+Z8 !s110 1633506960
 !i10b 1
 !s100 o2?4A1bAVdme`Xz^LXiX_3
 I@BBCN;O6h6Y[LM6C8fboc1
 R2
 R0
-w1632634184
+R3
 8C:/Users/hb/Desktop/ece550/ECE_550/Project2/register.v
 FC:/Users/hb/Desktop/ece550/ECE_550/Project2/register.v
 L0 1
-R3
+R4
 r1
 !s85 0
 31
-R4
+Z9 !s108 1633506960.000000
 !s107 C:/Users/hb/Desktop/ece550/ECE_550/Project2/register.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2|C:/Users/hb/Desktop/ece550/ECE_550/Project2/register.v|
 !i113 1
-R5
 R6
+R7
 vregister0
-R1
+R8
 !i10b 1
 !s100 VECAY_Z@9?71J=B1_2BZh0
 IkeZ4iGY0c[`TPKJ5^fQmC0
 R2
 R0
-w1632899804
+R3
 8C:/Users/hb/Desktop/ece550/ECE_550/Project2/register0.v
 FC:/Users/hb/Desktop/ece550/ECE_550/Project2/register0.v
 L0 1
-R3
+R4
 r1
 !s85 0
 31
-!s108 1632900886.000000
+R9
 !s107 C:/Users/hb/Desktop/ece550/ECE_550/Project2/register0.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2|C:/Users/hb/Desktop/ece550/ECE_550/Project2/register0.v|
 !i113 1
-R5
 R6
+R7

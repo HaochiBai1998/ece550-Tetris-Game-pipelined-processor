@@ -9,44 +9,44 @@ z2
 cModel Technology
 Z0 dC:/Users/hb/Desktop/ece550/ECE_550/Project2/simulation/modelsim
 vregfile
-Z1 !s110 1632899996
+!s110 1633507128
 !i10b 1
-!s100 UoEV7^dmLVAo@?hHF]h4^3
-I6ni6if0R=CbVDZ>e@o7`O1
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s100 iz9LD9fcJhMVK?S<=K;8L0
+IocIbl[Uj4oLRCB2[S_:m;0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1632899956
-8regfile_7_1200mv_85c_slow.vo
-Fregfile_7_1200mv_85c_slow.vo
+w1633506144
+8regfile_min_1200mv_0c_fast.vo
+Fregfile_min_1200mv_0c_fast.vo
 L0 32
-Z3 OV;L;10.4d;61
+Z2 OV;L;10.4d;61
 r1
 !s85 0
 31
-!s108 1632899995.000000
-!s107 regfile_7_1200mv_85c_slow.vo|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|regfile_7_1200mv_85c_slow.vo|
+!s108 1633507128.000000
+!s107 regfile_min_1200mv_0c_fast.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|regfile_min_1200mv_0c_fast.vo|
 !i113 1
-Z4 o-vlog01compat -work work
+Z3 o-vlog01compat -work work
 !s92 -vlog01compat -work work +incdir+.
 vregfile_tb
-R1
+!s110 1633507129
 !i10b 1
-!s100 m1^mDHP4HO?HzMMmAjj`B1
-IJfG6;oIINFRIDoMIRNnl:3
-R2
+!s100 3SF[0KDFM9GG8LbajKg3A0
+I`=?[SJkiWI<@G2=5E[nIS0
+R1
 R0
-w1632899334
+w1633506923
 8C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v
 FC:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v
 L0 3
-R3
+R2
 r1
 !s85 0
 31
-!s108 1632899996.000000
+!s108 1633507129.000000
 !s107 C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2|C:/Users/hb/Desktop/ece550/ECE_550/Project2/regfile_tb.v|
 !i113 1
-R4
+R3
 !s92 -vlog01compat -work work +incdir+C:/Users/hb/Desktop/ece550/ECE_550/Project2
